@@ -1,5 +1,4 @@
 .navigationbar {
-    background-color: green;
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
@@ -15,7 +14,7 @@
 }
 
 img {
-    height: 10px;
+    height: 100px;
 }
 
 nav {
