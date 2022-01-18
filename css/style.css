@@ -1,1 +1,37 @@
+.navigationbar{
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
+.logonavbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+@media (min-width: 768px){}
+
+@media (min-width: 1020px){
+    .wrapper{
+        width: 1020px;
+    }
+}
