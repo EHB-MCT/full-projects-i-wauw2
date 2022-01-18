@@ -11,8 +11,12 @@
     justify-content: space-around;
 }
 
-img {
+.logonavbar img {
     height: 100px;
+}
+
+img {
+    height: 500px;
 }
 
 nav {
