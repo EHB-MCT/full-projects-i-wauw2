@@ -9,8 +9,7 @@
 .logonavbar {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    
 }
 
 img {
@@ -23,6 +22,7 @@ nav {
 }
 
 nav > a {
+    font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: black;
     margin-left: 10px;
@@ -30,7 +30,16 @@ nav > a {
 }
 
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .navigationbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav > a{
+        padding: 20px 30px 20px 30px;
+    }
+}
 
 @media (min-width: 1020px) {
     .wrapper {
