@@ -3,11 +3,10 @@
 .logonavbar {
     display: flex;
     justify-content: space-around;
-    
 }
 
 img {
-    height: 50px;
+    height: 60px;
 }
 
 nav {
@@ -33,10 +32,15 @@ nav > a {
     nav > a{
         padding: 20px 30px 20px 30px;
     }
+
+    .navigationbar{
+        border-bottom: 5px solid rgb(240, 198, 84);
+    }
 }
 
 @media (min-width: 1020px) {
     .wrapper {
         width: 1020px;
+        margin: auto;
     }
 }
