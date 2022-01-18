@@ -8,21 +8,33 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="js/index.js" type="module"></script>
     <title>WAUW - Adults</title>
+    <style>
+        #adults {
+            text-decoration: underline;
+        }
+
+        @media (min-width: 768px) {
+            #adults {
+                text-decoration: none;
+                background-color: brown;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <div class='outerwrapper'>
-            <div id='wrapper'>
+            <div class='wrapper'>
                 <div class='navigationbar'>
                     <div class='logonavbar'>
                         <a href="index.html"><img src='images/logo.svg'></a>
                     </div>
                     <div>
                         <nav>
-                            <a href='index.html'>Home</a>
-                            <a href='adults.html'>Adults</a>
-                            <a href='kids.html'>Kids</a>
+                            <a id='home' href='index.html'>WAUW</a>
+                            <a id='adults' href='adults.html'>Volwassen</a>
+                            <a id='kids' href='kids.html'>Kinderen</a>
                         </nav>
                     </div>
                 </div>
@@ -30,8 +42,10 @@
         </div>
     </header>
     <div class='outerwrapper'>
-        <div class='wrapper'>
+        <div class='Adults'>
+            <p>
 
+            </p>
         </div>
     </div>
     <footer>

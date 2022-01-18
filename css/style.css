@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&family=Source+Sans+Pro:wght@300&display=swap');
+.navigationbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .logonavbar {
     display: flex;
@@ -6,7 +12,7 @@
 }
 
 img {
-    height: 60px;
+    height: 100px;
 }
 
 nav {
