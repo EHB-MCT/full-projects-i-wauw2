@@ -14,12 +14,17 @@ nav {
     justify-content: center;
 }
 
-nav > a {
+nav>a {
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: black;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -29,11 +34,11 @@ nav > a {
         justify-content: space-between;
     }
 
-    nav > a{
+    nav>a {
         padding: 20px 30px 20px 30px;
     }
 
-    .navigationbar{
+    .navigationbar {
         border-bottom: 5px solid rgb(240, 198, 84);
     }
 }
