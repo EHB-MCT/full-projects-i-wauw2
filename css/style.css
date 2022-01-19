@@ -10,14 +10,21 @@ p{
 
 }
 
-.knop{
+.knopblauw{
     font-family: 'Source Sans Pro', 'Sans-serif';
     color: white;
     text-decoration: none;
     padding: 10px;
     background-color: rgb(65,155,190);
-    border-radius: 50px;
+    border-radius: 5px;
     border: white solid;
+    display: inline-block;
+}
+
+.knopblauw:hover{
+    color: rgb(65,155,190);
+    background-color: white;
+    border: rgb(65,155,190) solid;
 }
 
 .navigationbar {
@@ -57,8 +64,9 @@ nav>a {
 
 h1 {
     font-family: 'in the know', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     margin: 0px;
+    font-weight: 500;
 }
 
 section{
