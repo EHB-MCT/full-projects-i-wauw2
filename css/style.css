@@ -5,7 +5,7 @@
     justify-content: space-around;
 }
 
-img {
+.logonavbar img {
     height: 60px;
 }
 
@@ -22,6 +22,38 @@ nav > a {
     margin-right: 10px;
 }
 
+.wauwfoto{
+    height: 100%;
+}
+
+.w1, .a1, .u1, .w2{
+    font-size: 250px;
+    position: absolute;
+}
+
+.w1 {
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.a1 {
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.u1 {
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.w2 {
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
 
 @media (min-width: 768px) {
     .navigationbar {
