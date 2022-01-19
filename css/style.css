@@ -2,16 +2,17 @@
 
 .navigationbar {
     display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.logonavbar {
+.nav1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
 }
 
-.logonavbar img {
+.nav1 img {
     height: 60px;
 }
 
@@ -19,9 +20,10 @@ img {
     height: 500px;
 }
 
-nav {
+.nav2 {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 nav>a {
@@ -32,61 +34,48 @@ nav>a {
     margin-right: 10px;
 }
 
-.wauwfoto{
-    height: 100%;
-}
-
-.w1, .a1, .u1, .w2{
-    font-size: 250px;
-    position: absolute;
-}
-
-.w1 {
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-}
-
-.a1 {
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-}
-
-.u1 {
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-}
-
-.w2 {
-    top: 50%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-}
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
 }
 
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 @media (min-width: 768px) {
     .navigationbar {
-        display: flex;
         justify-content: space-between;
+    }
+
+    .nav1{
+        width: auto;
+    }
+
+    .nav2{
+        width: auto;
     }
 
     nav>a {
         padding: 20px 30px 20px 30px;
     }
-
-    .navigationbar {
-        border-bottom: 5px solid rgb(240, 198, 84);
+    
+    .wauwfoto{
+        width: 66%;
     }
+    
+    .beschrijving{
+        width: 33%;
+        background-color: rgb(238,109,68);
+    }
+
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1200px) {
     .wrapper {
-        width: 1020px;
+        width: 1200px;
         margin: auto;
     }
 }
