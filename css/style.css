@@ -79,16 +79,20 @@ section{
 }
 
 .oranje{
-    background-color: rgb(238,109,68);
+    background-color: rgb(238,109,68);j
+    color: white;
 }
 
 .blauw{
     background-color: rgb(65,155,190);
+    color: white;
 }
 
 .geel{
     background-color: rgb(240,198,84);
+    color: black;
 }
+
 
 @media (min-width: 768px) {
     .navigationbar {
