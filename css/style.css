@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&family=Source+Sans+Pro:wght@300&display=swap');
+.navigationbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .logonavbar {
     display: flex;
@@ -9,12 +15,16 @@
     height: 60px;
 }
 
+img {
+    height: 500px;
+}
+
 nav {
     display: flex;
     justify-content: center;
 }
 
-nav > a {
+nav>a {
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: black;
@@ -54,6 +64,12 @@ nav > a {
     left: 80%;
     transform: translate(-50%, -50%);
 }
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+
 
 @media (min-width: 768px) {
     .navigationbar {
@@ -61,11 +77,11 @@ nav > a {
         justify-content: space-between;
     }
 
-    nav > a{
+    nav>a {
         padding: 20px 30px 20px 30px;
     }
 
-    .navigationbar{
+    .navigationbar {
         border-bottom: 5px solid rgb(240, 198, 84);
     }
 }
