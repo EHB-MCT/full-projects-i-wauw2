@@ -2,23 +2,11 @@
 
 .fotoworkshops {
     margin: 15px 15px 15px 15px;
-    width: 1200px;
+    display: flex;
+    flex: 1;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    flex: 1;
-}
-
-.left {
-    width: 70%;
-}
-
-.right {
-    width: 30%;
-}
-
-.row {
-    display: flex;
-    flex: grow;
 }
 
 .fotoworkshops img {
