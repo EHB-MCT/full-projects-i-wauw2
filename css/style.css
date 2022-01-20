@@ -11,19 +11,19 @@ p {
     line-height: 20px;
 }
 
-.logowrapper{
+.logowrapper {
     width: 100%;
 }
 
-.navwrapper{
+.navwrapper {
     margin: 0px auto;
 }
 
-.logoennav{
+.logoennav {
     padding-top: 20px;
 }
 
-.contact{
+.contact {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -55,16 +55,16 @@ section {
     flex-wrap: wrap;
 }
 
-img{
+img {
     width: 100%;
 }
 
-section{
+section {
     display: flex;
     flex-wrap: nowrap;
 }
 
-#logo{
+#logo {
     width: 100%;
 }
 
@@ -91,21 +91,15 @@ section{
     padding: 0px 10px;
 }
 
-.klein{
+.klein {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 0px 10px;
 }
 
-.fotoshome div{
+.fotoshome div {
     width: 100%;
-}
-
-.fotoworkshops img {
-    height: 200px;
-    width: 200px;
-    margin: 10px 10px 10px 10px;
 }
 
 nav>a {
@@ -147,23 +141,23 @@ section {
         padding: 20px 30px 0px 30px;
     }
 
-    .logowrapper{
+    .logowrapper {
         width: 30%;
     }
 
-    .breed{
+    .breed {
         width: 60%;
     }
 
-    .klein{
+    .klein {
         width: 40%;
     }
 
-    .bovenstuk{
+    .bovenstuk {
         flex-wrap: nowrap;
     }
 
-    section{
+    section {
         flex-wrap: nowrap;
     }
 
@@ -177,25 +171,25 @@ section {
         padding: 10px;
     }
 
-    .fotocontainer{
+    .fotocontainer {
         height: 157px;
     }
 
-    .logoennav{
+    .logoennav {
         margin-top: 20px;
     }
 
-    .contact{
+    .contact {
         margin-top: 20px;
     }
 
-    .lottestephanie{
+    .lottestephanie {
         position: relative;
         right: 20%;
         top: 6%;
     }
 
-    .namen{
+    .namen {
         position: relative;
         bottom: 60%;
         width: 110%;
