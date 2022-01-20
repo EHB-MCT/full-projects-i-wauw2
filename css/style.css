@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
 
-body{
+body {
     margin: 0px;
 }
 
-p{
+p {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     padding: 0px 60px;
@@ -28,12 +28,12 @@ p{
     margin-bottom: 40px;
 }
 
-.knop{
+.knop {
     font-family: 'Source Sans Pro', 'Sans-serif';
     color: black;
     text-decoration: none;
     padding: 0px 10px 5px 10px;
-    background-color: rgb(240,198,84);
+    background-color: rgb(240, 198, 84);
     border-radius: 5px;
     border: #333333 solid;
     display: inline-block;
@@ -42,13 +42,13 @@ p{
     font-size: 40px;
 }
 
-.knop:hover{
-    color: rgb(240,198,84);
+.knop:hover {
+    color: rgb(240, 198, 84);
     background-color: #333333;
-    border-color: rgb(240,198,84);
+    border-color: rgb(240, 198, 84);
 }
 
-.fotoshome{
+section {
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
@@ -67,13 +67,13 @@ section{
     width: 100%;
 }
 
-.kolom{
+.kolom {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.kolom h1{
+.kolom h1 {
     width: 100%;
 }
 
@@ -95,6 +95,12 @@ section{
     width: 100%;
 }
 
+.fotoworkshops img {
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+}
+
 nav>a {
     font-family: 'In the know', sans-serif;
     font-weight: 300;
@@ -113,20 +119,20 @@ h1 {
     line-height: 2px;
 }
 
-section{
+section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
 }
 
-.donkergrijs{
+.donkergrijs {
     background-color: #333333;
     color: white;
 }
 
-.geel{
-    background-color: rgb(240,198,84);
+.geel {
+    background-color: rgb(240, 198, 84);
     color: black;
 }
 
@@ -190,7 +196,7 @@ section{
 }
 
 @media (min-width: 1200px) {
-    .wrapper{
+    .wrapper {
         width: 1200px;
         margin: auto;
     }
