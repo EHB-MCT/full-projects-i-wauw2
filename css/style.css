@@ -6,8 +6,20 @@ body{
 
 p{
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0px 60px;
+}
+
+.logowrapper{
+    width: 100%;
+}
+
+.navwrapper{
+    margin: 0px auto;
+}
+
+.logoennav{
+    padding-top: 20px;
 }
 
 .contact{
@@ -39,11 +51,11 @@ p{
 .fotoshome{
     display: flex;
     justify-content: end;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
-.fotoshome > div{
-    width: 33%;
+img{
+    width: 100%;
 }
 
 section{
@@ -52,7 +64,7 @@ section{
 }
 
 #logo{
-    height: 60px;
+    width: 100%;
 }
 
 .kolom{
@@ -68,17 +80,19 @@ section{
 .breed {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 100%;
+    padding: 0px 10px;
 }
 
 .klein{
-    width: 40%;
     display: flex;
     justify-content: center;
+    width: 100%;
+    padding: 0px 10px;
 }
 
-img {
-    height: 500px;
+.fotoshome div{
+    width: 100%;
 }
 
 nav>a {
@@ -93,9 +107,10 @@ nav>a {
 
 h1 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 60px;
+    font-size: 75px;
     margin: 0px;
     font-weight: 400;
+    line-height: 2px;
 }
 
 section{
@@ -117,12 +132,59 @@ section{
 
 
 @media (min-width: 768px) {
-    .navigationbar {
-        justify-content: space-between;
+    nav>a {
+        padding: 20px 30px 0px 30px;
     }
 
-    nav>a {
-        padding: 20px 30px 20px 30px;
+    .logowrapper{
+        width: 30%;
+    }
+
+    .breed{
+        width: 60%;
+    }
+
+    .klein{
+        width: 40%;
+    }
+
+    .bovenstuk{
+        flex-wrap: nowrap;
+    }
+
+    section{
+        flex-wrap: nowrap;
+    }
+
+    .fotoshome div{
+        width: 30%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .fotocontainer{
+        height: 157px;
+    }
+
+    .logoennav{
+        margin-top: 20px;
+    }
+
+    .contact{
+        margin-top: 20px;
+    }
+
+    .lottestephanie{
+        position: relative;
+        right: 20%;
+        top: 10%;
+    }
+
+    .namen{
+        position: relative;
+        bottom: 60%;
+        width: 110%;
+        height: 110%;
     }
 
 }
