@@ -35,14 +35,23 @@ section{
     height: 60px;
 }
 
+.kolom{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kolom h1{
+    width: 100%;
+}
+
 .breed {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: 60%;
 }
 
 .klein{
-    width: 400px;
+    width: 40%;
 }
 
 img {
