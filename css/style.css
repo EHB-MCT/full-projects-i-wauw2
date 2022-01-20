@@ -10,21 +10,21 @@ p{
 
 }
 
-.knopblauw{
+.knop{
     font-family: 'Source Sans Pro', 'Sans-serif';
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px;
-    background-color: rgb(65,155,190);
+    background-color: rgb(240,198,84);
     border-radius: 5px;
-    border: white solid;
+    border: rgb(25, 25, 25) solid;
     display: inline-block;
 }
 
-.knopblauw:hover{
-    color: rgb(65,155,190);
-    background-color: white;
-    border: rgb(65,155,190) solid;
+.knop:hover{
+    color: rgb(240,198,84);
+    background-color: rgb(25, 25, 25);
+    border-color: rgb(240,198,84);
 }
 
 .navigationbar {
@@ -54,7 +54,7 @@ img {
 }
 
 nav>a {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'In the know', sans-serif;
     font-weight: 300;
     text-decoration: none;
     color: black;
@@ -63,7 +63,7 @@ nav>a {
 }
 
 h1 {
-    font-family: 'in the know', sans-serif;
+    font-family: 'andale mono', sans-serif;
     font-size: 60px;
     margin: 0px;
     font-weight: 500;
@@ -78,13 +78,8 @@ section{
     padding-bottom: 20px;
 }
 
-.oranje{
+.donkergrijs{
     background-color: rgb(238,109,68);
-    color: white;
-}
-
-.blauw{
-    background-color: rgb(65,155,190);
     color: white;
 }
 
@@ -111,21 +106,6 @@ section{
 
     nav>a {
         padding: 20px 30px 20px 30px;
-    }
-
-    .wauwfoto{
-        width: 66%;
-        height: fit-content;
-    }
-    
-    .beschrijving{
-        width: 31%;
-        padding-left: 20px;
-    }
-
-    .kinderenaantafel{
-        width: 100%;
-        height: auto;
     }
 
 }
