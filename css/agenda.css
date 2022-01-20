@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.body {
+    margin: auto;
+}
+
+.head {
+    margin: 50px;
+}
+
+.data1 {
+    display: flex;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+
+
+
+.left {
+    width: 20%;
+}
+
+.center {
+
+    width: 50%;
+}
+
+.right {
+    width: 30%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+.maand {
+    text-align: center;
+    background-color: #fde35f;
+    margin-right: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 10px, 10px, 10px, 10px;
+    border: 1px solid black;
+}
+
+.cijfer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40pt;
+}
+
+.letter {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+}
+
+.work {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13pt;
+}
+
+.inschrijf {
+    background-color: #fde35f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11pt;
+    border: 1px solid black;
+    margin-right: 80px;
+}

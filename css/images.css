@@ -1,3 +1,5 @@
+/* fotos voor workshop page */
+
 .fotoworkshops {
     margin: 15px 15px 15px 15px;
     display: flex;
@@ -12,4 +14,9 @@
     width: 200px;
     margin: 10px 10px 10px 10px;
     object-fit: cover;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
 }
