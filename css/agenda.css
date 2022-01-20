@@ -4,25 +4,88 @@
     margin: auto;
 }
 
-.head {
-    margin: 50px;
+
+.klein {
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.kolom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 13px;
+
+}
+
+.donkergrijs {
+    background-color: #333333;
+    color: white;
+}
+
+.data {
+    position: relative;
+    z-index: 2;
+}
+
+.background4 {
+    width: 500px;
+    position: absolute;
+    top: -30px;
+    right: 100px;
+    z-index: -1;
 }
 
 .data1 {
     display: flex;
-    width: 60%;
-    margin-bottom: 50px;
+    width: 100%;
+    margin-bottom: 120px;
+    margin-right: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.background5 {
+    width: 500px;
+    position: absolute;
+    top: 130px;
+    right: 75px;
+    z-index: -1;
+}
+
+.background6 {
+    width: 500px;
+    position: absolute;
+    top: 130px;
+    right: 75px;
+    z-index: -1;
+}
+
+.background7 {
+    width: 500px;
+    position: absolute;
+    top: 130px;
+    right: 75px;
+    z-index: -1;
 }
 
 
+.breed {
+    display: flex;
+    flex-wrap: wrap;
 
+}
+
+#logo {
+    width: 100%;
+}
 
 .left {
     width: 20%;
 }
 
 .center {
-
     width: 50%;
 }
 
@@ -36,16 +99,28 @@
 .maand {
     text-align: center;
     background-color: #fde35f;
-    margin-right: 90px;
+    margin-right: 50px;
     font-family: 'Poppins', sans-serif;
-    font-size: large;
-    padding: 10px, 10px, 10px, 10px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+
+.maand1 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fde35f;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
     border: 1px solid black;
 }
 
 .cijfer {
     font-family: 'Poppins', sans-serif;
     font-size: 40pt;
+
 }
 
 .letter {
@@ -64,4 +139,15 @@
     font-size: 11pt;
     border: 1px solid black;
     margin-right: 80px;
+}
+
+.form {
+    background-color: white;
+    width: 320px;
+
+}
+
+.form p {
+    text-align: center;
+    color: black
 }

@@ -2,9 +2,7 @@
 
 
 body {
-    margin: auto;
-    margin-top: 20px;
-    width: 1200px;
+    margin: 0px;
 }
 
 
@@ -121,7 +119,7 @@ section {
 .background2 {
     width: 500px;
     position: absolute;
-    top: 60px;
+    top: 120px;
     right: px;
     z-index: -1;
 }
@@ -138,6 +136,7 @@ section {
 .titel {
     position: relative;
     z-index: 1;
+    margin-top: -240px;
 }
 
 nav>a {
