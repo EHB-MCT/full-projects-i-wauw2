@@ -16,13 +16,13 @@ p{
     padding: 10px;
     background-color: rgb(240,198,84);
     border-radius: 5px;
-    border: rgb(25, 25, 25) solid;
+    border: '#333333' solid;
     display: inline-block;
 }
 
 .knop:hover{
     color: rgb(240,198,84);
-    background-color: rgb(25, 25, 25);
+    background-color: #333333;
     border-color: rgb(240,198,84);
 }
 
@@ -45,29 +45,14 @@ section{
     width: 400px;
 }
 
-.nav1 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.nav1 img {
-    height: 60px;
-}
-
 img {
     height: 500px;
-}
-
-.nav2 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
 }
 
 nav>a {
     font-family: 'In the know', sans-serif;
     font-weight: 300;
+    font-size: 50px;
     text-decoration: none;
     color: black;
     margin-left: 10px;
@@ -89,7 +74,7 @@ section{
 }
 
 .donkergrijs{
-    background-color: rgb(25, 25, 25);
+    background-color: #333333;
     color: white;
 }
 
