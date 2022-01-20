@@ -36,6 +36,16 @@ p{
     border-color: rgb(240,198,84);
 }
 
+.fotoshome{
+    display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+}
+
+.fotoshome > div{
+    width: 33%;
+}
+
 section{
     display: flex;
     flex-wrap: nowrap;
@@ -109,16 +119,6 @@ section{
 @media (min-width: 768px) {
     .navigationbar {
         justify-content: space-between;
-    }
-
-    .nav1{
-        width: auto;
-        padding-left: 20px;
-    }
-
-    .nav2{
-        width: auto;
-        padding-top: 20px;
     }
 
     nav>a {
