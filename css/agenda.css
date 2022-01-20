@@ -5,7 +5,7 @@
 }
 
 .head {
-    margin: 50px;
+    margin: 80px;
 }
 
 .titel {
@@ -17,7 +17,7 @@
 
 .data1 {
     display: flex;
-    width: 60%;
+    width: 110%;
     margin-bottom: 50px;
 }
 
@@ -32,10 +32,11 @@
 }
 
 .right {
-    width: 30%;
+    width: 40%;
     justify-content: flex-end;
     align-items: flex-end;
     display: flex;
+    margin-bottom: -20px;
 }
 
 .maand {
@@ -72,19 +73,19 @@
     padding: 10px;
 }
 
-.kolom klein donkergrijs {
-    margin-bottom: 400px;
+
+
+
+.contacteeronsbalk {
+    background-color: #333333;
+    margin-right: 50px;
+    margin-left: 360px;
 }
 
 .tekstagenda-wrapper {
     display: flex;
+    margin-right: 20px;
+    margin-left: 100px;
 }
 
-.head {
-    width: 60%;
-}
-
-.contacteeronsbalk {
-    width: 40%;
-    background-color: #333333;
-}
+.wittebalk {}
