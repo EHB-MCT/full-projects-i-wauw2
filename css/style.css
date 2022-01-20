@@ -6,8 +6,9 @@ body {
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    padding: 0px 60px;
+    font-size: 16px;
+    padding: 0px 15%;
+    line-height: 20px;
 }
 
 .logowrapper{
@@ -32,14 +33,14 @@ p {
     font-family: 'Source Sans Pro', 'Sans-serif';
     color: black;
     text-decoration: none;
-    padding: 0px 10px 5px 10px;
+    padding: 0px 25% 5px 25%;
     background-color: rgb(240, 198, 84);
     border-radius: 5px;
     border: #333333 solid;
     display: inline-block;
     font-family: 'In the know', sans-serif;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .knop:hover {
@@ -77,6 +78,12 @@ section{
     width: 100%;
 }
 
+.waves1{
+    background-image: url(../images/backgrounds/waveshome.png);
+    width: 100%;
+    height: 100%;
+}
+
 .breed {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +111,7 @@ section{
 nav>a {
     font-family: 'In the know', sans-serif;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     color: black;
     margin-left: 10px;
@@ -116,7 +123,6 @@ h1 {
     font-size: 75px;
     margin: 0px;
     font-weight: 400;
-    line-height: 2px;
 }
 
 section {
@@ -135,7 +141,6 @@ section {
     background-color: rgb(240, 198, 84);
     color: black;
 }
-
 
 @media (min-width: 768px) {
     nav>a {
@@ -162,10 +167,14 @@ section {
         flex-wrap: nowrap;
     }
 
+    .fotoshome{
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .fotoshome div{
         width: 30%;
         padding: 10px;
-        margin-bottom: 20px;
     }
 
     .fotocontainer{
@@ -183,7 +192,7 @@ section {
     .lottestephanie{
         position: relative;
         right: 20%;
-        top: 10%;
+        top: 6%;
     }
 
     .namen{
@@ -199,5 +208,7 @@ section {
     .wrapper {
         width: 1200px;
         margin: auto;
+        background-image: url(../images/backgrounds/waveshome.png);
+        background-size: cover;
     }
 }
