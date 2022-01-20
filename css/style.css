@@ -16,13 +16,13 @@ p{
     padding: 10px;
     background-color: rgb(240,198,84);
     border-radius: 5px;
-    border: rgb(25, 25, 25) solid;
+    border: '#333333' solid;
     display: inline-block;
 }
 
 .knop:hover{
     color: rgb(240,198,84);
-    background-color: rgb(25, 25, 25);
+    background-color: #333333;
     border-color: rgb(240,198,84);
 }
 
@@ -74,7 +74,7 @@ section{
 }
 
 .donkergrijs{
-    background-color: rgb(25, 25, 25);
+    background-color: #333333;
     color: white;
 }
 
