@@ -71,6 +71,12 @@ img {
     height: 500px;
 }
 
+.fotoworkshops {
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex: 1;
+}
+
 .fotoworkshops img {
     height: 200px;
     width: 200px;
@@ -92,6 +98,18 @@ h1 {
     font-size: 60px;
     margin: 0px;
     font-weight: 400;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    width: 25%;
+    list-style: none;
 }
 
 section {
