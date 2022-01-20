@@ -1,10 +1,24 @@
+/* fotos voor workshop page */
+
 .fotoworkshops {
     margin: 15px 15px 15px 15px;
-    display: flex;
-    flex: 1;
-    width: 100%;
+    width: 1200px;
     flex-wrap: wrap;
     justify-content: center;
+    flex: 1;
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    width: 30%;
+}
+
+.row {
+    display: flex;
+    flex: grow;
 }
 
 .fotoworkshops img {
