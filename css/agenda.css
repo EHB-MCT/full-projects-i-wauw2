@@ -141,6 +141,11 @@
     margin-right: 80px;
 }
 
+.inschrijf a {
+    text-decoration: none;
+    color: black;
+}
+
 .form {
     background-color: white;
     width: 320px;

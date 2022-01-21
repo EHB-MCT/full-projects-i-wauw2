@@ -137,6 +137,7 @@ section {
     position: relative;
     z-index: 1;
     margin-top: -240px;
+    margin-left: -110px;
 }
 
 nav>a {
