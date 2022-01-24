@@ -17,6 +17,7 @@ p {
     width: 100%;
 }
 
+
 .navwrapper {
     margin: 0px auto;
 }
@@ -35,7 +36,7 @@ p {
     font-family: 'Source Sans Pro', 'Sans-serif';
     color: black;
     text-decoration: none;
-    padding: 0px 25% 5px 25%;
+    padding: 12px 25% 5px 25%;
     background-color: rgb(240, 198, 84);
     border-radius: 5px;
     border: #333333 solid;
@@ -131,7 +132,6 @@ section {
     right: 20px;
     z-index: -1;
 }
-
 
 .titel {
     position: relative;
@@ -238,7 +238,7 @@ section {
 
 @media (min-width: 1200px) {
     .wrapper {
-        width: 1200px;
+        width: 1280px;
         margin: auto;
     }
 }
