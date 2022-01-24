@@ -103,6 +103,21 @@ section {
     z-index: 2;
 }
 
+.grotefotocontainer{
+    position: relative;
+    z-index: 2;
+    width: 50%;
+}
+
+.boven{
+    right: 15%;
+}
+
+.onder{
+    left: 15%;
+    padding-top: 20px;
+}
+
 .lottestephanie {
     position: relative;
     z-index: 2;
@@ -202,7 +217,7 @@ section {
 
     .fotoshome {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
     }
 
 
