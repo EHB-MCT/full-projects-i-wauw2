@@ -110,7 +110,7 @@
 .maand1 {
     display: flex;
     flex-wrap: nowrap;
-    margin-right: 60px;
+    margin-right: 40px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: white;

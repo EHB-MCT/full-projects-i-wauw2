@@ -1,0 +1,79 @@
+.kids {
+    width: 1280px;
+    display: flex;
+    margin: auto;
+}
+
+.carousel {
+    position: relative;
+    height: 580px;
+    width: 50%;
+}
+
+.kids-text {
+    width: 50%;
+}
+
+.carousel_image {
+    width: 100%;
+}
+
+.carousel_track-container {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.carousel_track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel_slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: whitesmoke;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.carousel_button--left {
+    left: 0px;
+}
+
+.carousel_button--right {
+    right: 0px;
+}
+
+.carousel_button img {
+    width: 40px;
+}
+
+.carousel_nav {
+    background-color: violet;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.carousel_indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: black;
+}
