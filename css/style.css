@@ -198,6 +198,8 @@ section {
     padding: 16px 20px;
     border-radius: 10px;
     font-size: 40px;
+    color: white;
+    text-decoration: none;
 }
 
 .facebookcontainer{
@@ -218,6 +220,26 @@ section {
 
 .fa-facebook-f, .fa-instagram, .fa-envelope, .fa-phone{
     margin: auto;
+    text-decoration: none;
+}
+
+.socialmediacontainer{
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.icontekst p{
+    margin: auto;
+    text-align: left;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
+    font-size: 14px;
+}
+
+.iconlink{
+    height: 90px;
 }
 
 @media (min-width: 768px) {
