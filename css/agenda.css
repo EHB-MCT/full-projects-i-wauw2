@@ -110,7 +110,7 @@
 .maand1 {
     display: flex;
     flex-wrap: nowrap;
-    margin-right: 60px;
+    margin-right: 40px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: white;
@@ -168,6 +168,10 @@
     color: black
 }
 
+.icon {
+    height: 14px;
+    width: 14px;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
@@ -214,9 +218,4 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #333333;
     padding: 20px;
-}
-
-.icon {
-    height: 14px;
-    width: 14px;
 }
