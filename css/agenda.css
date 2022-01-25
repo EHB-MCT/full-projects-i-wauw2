@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 .body {
     margin: auto;
@@ -27,6 +28,10 @@
 .data {
     position: relative;
     z-index: 2;
+}
+
+.data h1 {
+    font-size: 55px;
 }
 
 .background4 {
@@ -132,6 +137,7 @@
 .work {
     font-family: 'Poppins', sans-serif;
     font-size: 13pt;
+    font-weight: bold;
 }
 
 .inschrijf {
@@ -167,7 +173,7 @@
 
 form {
     /*formulier zelf*/
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
     box-sizing: border-box;
 }
