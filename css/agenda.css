@@ -82,6 +82,7 @@
 }
 
 .left {
+    margin-left: 50px;
     width: 20%;
 }
 
@@ -101,7 +102,7 @@
     text-align: center;
     color: white;
     font-size: 15px;
-    margin-right: 60px;
+    margin-right: 40px;
     background-color: rgb(84, 74, 255);
     border: 1px solid black;
 }
