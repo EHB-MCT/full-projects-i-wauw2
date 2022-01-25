@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 
 
 body {
@@ -22,6 +24,13 @@ p {
     margin: 0px auto;
 }
 
+.navwrapper a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
 .logoennav {
     padding-top: 20px;
 }
@@ -32,7 +41,8 @@ p {
     margin-bottom: 40px;
 }
 
-.knopzwart, .knopwit {
+.knopzwart,
+.knopwit {
     font-family: 'Source Sans Pro', 'Sans-serif';
     color: white;
     text-decoration: none;
@@ -46,17 +56,18 @@ p {
     font-size: 30px;
 }
 
-.knopzwart:hover, .knopwit:hover {
+.knopzwart:hover,
+.knopwit:hover {
     color: rgb(84, 74, 255);
     background-color: #333333;
     border: 2px rgb(84, 74, 255) solid;
 }
 
-.knopwit{
+.knopwit {
     border: 2px solid white;
 }
 
-.knopwit:hover{
+.knopwit:hover {
     background-color: white;
     border-color: rgb(84, 74, 255);
 }
@@ -238,13 +249,13 @@ section {
     text-decoration: none;
 }
 
-.socialmediacontainer{
+.socialmediacontainer {
     width: 70%;
     display: flex;
     flex-wrap: nowrap;
 }
 
-.icontekst p{
+.icontekst p {
     margin: auto;
     text-align: left;
     margin: 0px;
@@ -253,15 +264,15 @@ section {
     font-size: 14px;
 }
 
-.iconlink{
+.iconlink {
     height: 90px;
 }
 
-.telefoonlink{
+.telefoonlink {
     color: white;
 }
 
-.telefoonlink:hover{
+.telefoonlink:hover {
     color: lightgray;
 }
 
@@ -295,8 +306,6 @@ section {
         justify-content: center;
     }
 
-
-
     .fotocontainer {
         height: 157px;
         width: 30%;
@@ -328,7 +337,7 @@ section {
 
 @media (min-width: 1200px) {
     .wrapper {
-        width: 1280px;
+        width: 1200px;
         margin: auto;
     }
 }

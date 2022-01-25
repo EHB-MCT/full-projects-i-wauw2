@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 .body {
     margin: auto;
@@ -27,6 +28,10 @@
 .data {
     position: relative;
     z-index: 2;
+}
+
+.data h1 {
+    font-size: 55px;
 }
 
 .background4 {
@@ -103,8 +108,8 @@
     color: white;
     font-size: 15px;
     margin-right: 40px;
+    border-radius: 3px;
     background-color: rgb(84, 74, 255);
-    border: 1px solid black;
 }
 
 .maand1 {
@@ -115,8 +120,8 @@
     text-align: center;
     color: white;
     font-size: 15px;
+    border-radius: 3px;
     background-color: rgb(84, 74, 255);
-    border: 1px solid black;
 }
 
 .cijfer {
@@ -132,15 +137,16 @@
 .work {
     font-family: 'Poppins', sans-serif;
     font-size: 13pt;
+    font-weight: bold;
 }
 
 .inschrijf {
     background-color: rgb(84, 74, 255);
     font-family: 'Poppins', sans-serif;
     font-size: 11pt;
-    border: 1px solid black;
     margin-right: 80px;
     padding: 5px;
+    border-radius: 3px;
 }
 
 .inschrijf a {
@@ -150,14 +156,11 @@
 }
 
 .inschrijf:hover {
-    background-color: #333333;
-}
-
-.inschrijf a:hover {
-    color: rgb(84, 74, 255);
+    background-color: rgb(13, 0, 255);
 }
 
 .form {
+    /*div form*/
     background-color: white;
     width: 320px;
 
@@ -168,54 +171,34 @@
     color: black
 }
 
+form {
+    /*formulier zelf*/
+    width: 55%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.form-control {
+    text-align: center;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(84, 74, 255);
+}
+
+.submit-button {
+    color: white;
+    background-color: rgb(84, 74, 255);
+    border-width: 0px;
+    padding: 15px;
+    border-radius: 3px;
+    ;
+}
+
+.submit-button:hover {
+    background-color: rgb(13, 0, 255);
+}
+
 .icon {
     height: 14px;
     width: 14px;
-}
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    /* Full width */
-    padding: 12px;
-    /* Some padding */
-    border: 1px solid #ccc;
-    /* Gray border */
-    border-radius: 4px;
-    /* Rounded borders */
-    box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
-    margin-top: 6px;
-    /* Add a top margin */
-    margin-bottom: 16px;
-    /* Bottom margin */
-    resize: vertical
-        /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: rgb(84, 74, 255);
-    color: #333333;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #333333;
-    color: rgb(84, 74, 255);
-    border: rgb(84, 74, 255);
-    border-radius: 5px;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-    border-radius: 5px;
-    background-color: #333333;
-    padding: 20px;
 }
