@@ -9,20 +9,21 @@
 .klein {
     display: flex;
     justify-content: center;
-    padding: 0px 10px;
 }
 
 .kolom {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 13px;
-
 }
 
 .donkergrijs {
     background-color: #333333;
     color: white;
+}
+
+.head {
+    width: 60%;
 }
 
 .data {
