@@ -97,30 +97,30 @@
 }
 
 .maand {
-    text-align: center;
-    background-color: rgb(84, 74, 255);
-    margin-right: 50px;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
     font-size: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-right: 60px;
+    background-color: rgb(84, 74, 255);
     border: 1px solid black;
 }
 
 .maand1 {
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgb(84, 74, 255);
-    margin-right: 50px;
+    margin-right: 60px;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
     font-size: 15px;
+    background-color: rgb(84, 74, 255);
     border: 1px solid black;
 }
 
 .cijfer {
     font-family: 'Poppins', sans-serif;
     font-size: 40pt;
-
 }
 
 .letter {
@@ -144,7 +144,8 @@
 
 .inschrijf a {
     text-decoration: none;
-    color: black;
+    text-align: center;
+    color: white;
 }
 
 .inschrijf:hover {
