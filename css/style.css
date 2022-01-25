@@ -257,6 +257,14 @@ section {
     height: 90px;
 }
 
+.telefoonlink{
+    color: white;
+}
+
+.telefoonlink:hover{
+    color: lightgray;
+}
+
 @media (min-width: 768px) {
     nav>a {
         padding: 20px 30px 0px 30px;
