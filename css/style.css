@@ -32,7 +32,7 @@ p {
     margin-bottom: 40px;
 }
 
-.knop {
+.knopzwart, .knopwit {
     font-family: 'Source Sans Pro', 'Sans-serif';
     color: white;
     text-decoration: none;
@@ -44,16 +44,25 @@ p {
     background-color: rgb(84, 74, 255);
 >>>>>>> f56a141921558d1d74ae8db3565375ea4de53f5e
     border-radius: 5px;
-    border: #333333 solid;
+    border: 2px #333333 solid;
     display: inline-block;
     font-family: 'In the know', sans-serif;
     font-weight: 300;
     font-size: 30px;
 }
 
-.knop:hover {
+.knopzwart:hover, .knopwit:hover {
     color: rgb(84, 74, 255);
     background-color: #333333;
+    border: 2px rgb(84, 74, 255) solid;
+}
+
+.knopwit{
+    border: 2px solid white;
+}
+
+.knopwit:hover{
+    background-color: white;
     border-color: rgb(84, 74, 255);
 }
 
@@ -206,6 +215,8 @@ section {
     padding: 16px 20px;
     border-radius: 10px;
     font-size: 40px;
+    color: white;
+    text-decoration: none;
 }
 
 .facebookcontainer {
@@ -229,6 +240,26 @@ section {
 .fa-envelope,
 .fa-phone {
     margin: auto;
+    text-decoration: none;
+}
+
+.socialmediacontainer{
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.icontekst p{
+    margin: auto;
+    text-align: left;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
+    font-size: 14px;
+}
+
+.iconlink{
+    height: 90px;
 }
 
 @media (min-width: 768px) {
