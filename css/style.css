@@ -36,13 +36,8 @@ p {
     font-family: 'Source Sans Pro', 'Sans-serif';
     color: white;
     text-decoration: none;
-<<<<<<< HEAD
-    padding: 12px 25% 5px 25%;
-    background-color: rgb(240, 198, 84);
-=======
     padding: 0px 25% 5px 25%;
     background-color: rgb(84, 74, 255);
->>>>>>> f56a141921558d1d74ae8db3565375ea4de53f5e
     border-radius: 5px;
     border: 2px #333333 solid;
     display: inline-block;
