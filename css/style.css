@@ -33,10 +33,10 @@ p {
 
 .knop {
     font-family: 'Source Sans Pro', 'Sans-serif';
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 0px 25% 5px 25%;
-    background-color: rgb(240, 198, 84);
+    background-color: rgb(84, 74, 255);
     border-radius: 5px;
     border: #333333 solid;
     display: inline-block;
@@ -46,9 +46,9 @@ p {
 }
 
 .knop:hover {
-    color: rgb(240, 198, 84);
+    color: rgb(84, 74, 255);
     background-color: #333333;
-    border-color: rgb(240, 198, 83);
+    border-color: rgb(84, 74, 255);
 }
 
 section {
@@ -103,17 +103,17 @@ section {
     z-index: 2;
 }
 
-.grotefotocontainer{
+.grotefotocontainer {
     position: relative;
     z-index: 2;
     width: 50%;
 }
 
-.boven{
+.boven {
     right: 15%;
 }
 
-.onder{
+.onder {
     left: 15%;
     padding-top: 20px;
 }
@@ -185,12 +185,15 @@ section {
     color: white;
 }
 
-.geel {
-    background-color: rgb(240, 198, 84);
-    color: black;
+.blauw {
+    background-color: rgb(84, 74, 255);
+    color: white;
 }
 
-.facebookcontainer, .instagramcontainer, .mailcontainer, .phonecontainer{
+.facebookcontainer,
+.instagramcontainer,
+.mailcontainer,
+.phonecontainer {
     display: flex;
     justify-content: center;
     width: 40px;
@@ -202,23 +205,26 @@ section {
     text-decoration: none;
 }
 
-.facebookcontainer{
-    background-color: rgb(66,103,178);
+.facebookcontainer {
+    background-color: rgb(66, 103, 178);
 }
 
-.instagramcontainer{
+.instagramcontainer {
     background-color: #8a3ab9;
 }
 
-.mailcontainer{
+.mailcontainer {
     background-color: #D0312D;
 }
 
-.phonecontainer{
+.phonecontainer {
     background-color: #FA8128;
 }
 
-.fa-facebook-f, .fa-instagram, .fa-envelope, .fa-phone{
+.fa-facebook-f,
+.fa-instagram,
+.fa-envelope,
+.fa-phone {
     margin: auto;
     text-decoration: none;
 }
