@@ -215,3 +215,8 @@ input[type=submit]:hover {
     background-color: #333333;
     padding: 20px;
 }
+
+.icon {
+    height: 14px;
+    width: 14px;
+}
