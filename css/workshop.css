@@ -24,12 +24,16 @@
     width: 100%;
     position: relative;
     z-index: -1;
+    overflow: hidden;
 }
 
 .carousel_track {
     padding: 0;
     margin: 0;
     list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 280ms ease-in;
 }
 
 .carousel_slide {
@@ -43,8 +47,10 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: whitesmoke;
+    background-color: white;
     border: 0;
+    border-radius: 10%;
+    margin: 10px;
     cursor: pointer;
     z-index: 2;
 }
@@ -62,18 +68,27 @@
 }
 
 .carousel_nav {
-    background-color: violet;
+    background-color: transparent;
     z-index: 2;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-
+    padding: 8px 0;
 }
 
 .carousel_indicator {
     border: 0;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: black;
+    width: 15px;
+    height: 15px;
+    background: rgba(0, 0, 0, .3);
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.carousel_indicator.current-slide {
+    background: rgba(0, 0, 0, .75);
+}
+
+.is-hidden {
+    display: none;
 }
