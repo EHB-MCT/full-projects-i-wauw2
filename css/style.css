@@ -12,12 +12,15 @@
     padding-top: 50px;
 }
 
-.grotewoorden {}
+.grotewoorden {
+    padding-bottom: 1px;
+}
 
 .grotewoorden h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 250px;
     margin-top: 5px;
+    margin-left: 10px;
 }
 
 body {
@@ -38,25 +41,15 @@ p {
 
 .navwrapper {
     margin: 0px auto;
+    display: flex;
 }
 
 .navwrapper a {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: bolder;
     font-size: 25px;
-    margin: -5px;
     text-decoration: none;
     color: black;
-}
-
-.logoennav {
-    padding-top: 20px;
-}
-
-.contact {
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
 }
 
 .knopzwart,
@@ -113,6 +106,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .kolom h1 {
@@ -162,15 +156,15 @@ section {
 .background {
     width: 500px;
     position: absolute;
-    top: 3500px;
-    right: 700px;
+    top: 2200px;
+    right: 900px;
     z-index: 1;
 }
 
 .background2 {
     width: 500px;
     position: absolute;
-    top: 120px;
+    top: 220px;
     right: px;
     z-index: -1;
 }
@@ -178,7 +172,7 @@ section {
 .background3 {
     width: 500px;
     position: absolute;
-    top: 380px;
+    top: 500px;
     right: 20px;
     z-index: -1;
 }
@@ -245,6 +239,7 @@ section {
 .donkergrijs {
     background-color: #333333;
     color: white;
+    border-radius: 20px;
 }
 
 .blauw {
@@ -326,11 +321,13 @@ section {
 
 @media (min-width: 768px) {
     nav>a {
-        padding: 20px 30px 0px 30px;
+        margin: 30px 20px;
+        display: inline-block;
     }
 
     .logowrapper {
         width: 30%;
+        margin-top: 10px;
     }
 
     .breed {
@@ -360,12 +357,8 @@ section {
         padding: 10px;
     }
 
-    .logoennav {
-        margin-top: 20px;
-    }
-
     .contact {
-        margin-top: 20px;
+        margin: auto;
     }
 
     .lottestephanie {
