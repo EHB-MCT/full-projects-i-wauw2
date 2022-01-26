@@ -2,18 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 
+.scrollmenu {
+    width: 100%;
+    background-color: rgb(84, 74, 255);
+    color: white;
+    padding-top: 50px;
+}
+
+.grotewoorden {
+    padding-bottom: 1px;
+}
+
+.grotewoorden h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 250px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 
 body {
     margin: 0px;
 }
 
-
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding: 0px 15%;
+    padding-top: 15px;
     line-height: 20px;
 }
 
@@ -24,23 +42,15 @@ p {
 
 .navwrapper {
     margin: 0px auto;
+    display: flex;
 }
 
 .navwrapper a {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: bolder;
     font-size: 25px;
-    margin: 0 auto;
-}
-
-.logoennav {
-    padding-top: 20px;
-}
-
-.contact {
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    text-decoration: none;
+    color: black;
 }
 
 .knopzwart,
@@ -97,13 +107,12 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .kolom h1 {
     width: 100%;
 }
-
-
 
 .breed {
     display: flex;
@@ -118,8 +127,6 @@ section {
     padding: 0px 10px;
 }
 
-
-
 .fotocontainer {
     position: relative;
     z-index: 2;
@@ -128,16 +135,18 @@ section {
 .grotefotocontainer {
     position: relative;
     z-index: 2;
-    width: 50%;
+    width: 70%;
 }
 
 .boven {
     right: 15%;
+    padding-top: 50px;
 }
 
 .onder {
     left: 15%;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .lottestephanie {
@@ -148,15 +157,15 @@ section {
 .background {
     width: 500px;
     position: absolute;
-    top: 125px;
-    right: 700px;
-    z-index: 1;
+    top: -100px;
+    right: -20px;
+    z-index: -1;
 }
 
 .background2 {
     width: 500px;
     position: absolute;
-    top: 120px;
+    top: 220px;
     right: px;
     z-index: -1;
 }
@@ -164,8 +173,32 @@ section {
 .background3 {
     width: 500px;
     position: absolute;
-    top: 380px;
+    top: 500px;
     right: 20px;
+    z-index: -1;
+}
+
+.contact-background1 {
+    width: 400px;
+    position: absolute;
+    top: 175px;
+    right: 700px;
+    z-index: 1;
+}
+
+.contact-background2 {
+    width: 400px;
+    position: absolute;
+    top: 300px;
+    right: 900px;
+    z-index: -1;
+}
+
+.contact-background3 {
+    width: 400px;
+    position: absolute;
+    top: 550px;
+    right: 800px;
     z-index: -1;
 }
 
@@ -176,22 +209,25 @@ section {
     margin-left: -110px;
 }
 
-nav>a {
-    font-family: 'In the know', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    text-decoration: none;
-    color: black;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 75px;
     font-weight: 400;
     z-index: 2;
 
+}
+
+.titel h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 75px;
+    margin: 0 auto;
+}
+
+.titel h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-bottom: 50px;
 }
 
 section {
@@ -204,6 +240,7 @@ section {
 .donkergrijs {
     background-color: #333333;
     color: white;
+    border-radius: 20px;
 }
 
 .blauw {
@@ -254,6 +291,8 @@ section {
     width: 70%;
     display: flex;
     flex-wrap: nowrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .icontekst p {
@@ -277,13 +316,19 @@ section {
     color: lightgray;
 }
 
+.socialmediawrapper{
+    padding-top: 50px;
+}
+
 @media (min-width: 768px) {
     nav>a {
-        padding: 20px 30px 0px 30px;
+        margin: 30px 20px;
+        display: inline-block;
     }
 
     .logowrapper {
         width: 30%;
+        margin-top: 10px;
     }
 
     .breed {
@@ -313,12 +358,8 @@ section {
         padding: 10px;
     }
 
-    .logoennav {
-        margin-top: 20px;
-    }
-
     .contact {
-        margin-top: 20px;
+        margin: auto;
     }
 
     .lottestephanie {
