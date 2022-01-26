@@ -2,13 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 
+.scrollmenu {
+    width: 100%;
+    background-color: rgb(84, 74, 255);
+    color: white;
+    padding-top: 50px;
+}
+
+.grotewoorden {}
+
+.grotewoorden h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 250px;
+    margin-top: 5px;
+}
 
 body {
     margin: 0px;
 }
-
 
 p {
     font-family: 'Poppins', sans-serif;
@@ -30,7 +44,9 @@ p {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: bolder;
     font-size: 25px;
-    margin: 0 auto;
+    margin: -5px;
+    text-decoration: none;
+    color: black;
 }
 
 .logoennav {
@@ -103,8 +119,6 @@ section {
     width: 100%;
 }
 
-
-
 .breed {
     display: flex;
     flex-wrap: wrap;
@@ -117,8 +131,6 @@ section {
     width: 100%;
     padding: 0px 10px;
 }
-
-
 
 .fotocontainer {
     position: relative;
@@ -148,7 +160,7 @@ section {
 .background {
     width: 500px;
     position: absolute;
-    top: 125px;
+    top: 3500px;
     right: 700px;
     z-index: 1;
 }
@@ -176,22 +188,25 @@ section {
     margin-left: -110px;
 }
 
-nav>a {
-    font-family: 'In the know', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    text-decoration: none;
-    color: black;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 75px;
     font-weight: 400;
     z-index: 2;
 
+}
+
+.titel h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 75px;
+    margin: 0 auto;
+}
+
+.titel h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-bottom: 50px;
 }
 
 section {
