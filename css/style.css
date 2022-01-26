@@ -157,9 +157,9 @@ section {
 .background {
     width: 500px;
     position: absolute;
-    top: 2200px;
-    right: 900px;
-    z-index: 1;
+    top: -100px;
+    right: -20px;
+    z-index: -1;
 }
 
 .background2 {
