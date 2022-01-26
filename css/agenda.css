@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 .body {
     margin: auto;
@@ -8,15 +9,12 @@
 .klein {
     display: flex;
     justify-content: center;
-    padding: 0px 10px;
 }
 
 .kolom {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 13px;
-
 }
 
 .donkergrijs {
@@ -24,9 +22,18 @@
     color: white;
 }
 
+.head {
+    width: 60%;
+}
+
 .data {
     position: relative;
     z-index: 2;
+}
+
+.data h1 {
+    font-size: 55px;
+    text-align: center;
 }
 
 .background4 {
@@ -82,6 +89,7 @@
 }
 
 .left {
+    margin-left: 50px;
     width: 20%;
 }
 
@@ -101,21 +109,21 @@
     text-align: center;
     color: white;
     font-size: 15px;
-    margin-right: 60px;
+    margin-right: 40px;
+    border-radius: 3px;
     background-color: rgb(84, 74, 255);
-    border: 1px solid black;
 }
 
 .maand1 {
     display: flex;
     flex-wrap: nowrap;
-    margin-right: 60px;
+    margin-right: 40px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: white;
     font-size: 15px;
+    border-radius: 3px;
     background-color: rgb(84, 74, 255);
-    border: 1px solid black;
 }
 
 .cijfer {
@@ -131,14 +139,16 @@
 .work {
     font-family: 'Poppins', sans-serif;
     font-size: 13pt;
+    font-weight: bold;
 }
 
 .inschrijf {
     background-color: rgb(84, 74, 255);
     font-family: 'Poppins', sans-serif;
     font-size: 11pt;
-    border: 1px solid black;
-    margin-right: 70px;
+    margin-right: 80px;
+    padding: 5px;
+    border-radius: 3px;
 }
 
 .inschrijf a {
@@ -147,7 +157,12 @@
     color: white;
 }
 
+.inschrijf:hover {
+    background-color: rgb(13, 0, 255);
+}
+
 .form {
+    /*div form*/
     background-color: white;
     width: 320px;
 
@@ -156,6 +171,33 @@
 .form p {
     text-align: center;
     color: black
+}
+
+form {
+    /*formulier zelf*/
+    width: 55%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.form-control {
+    text-align: center;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(84, 74, 255);
+}
+
+.submit-button {
+    color: white;
+    background-color: rgb(84, 74, 255);
+    border-width: 0px;
+    padding: 15px;
+    border-radius: 3px;
+    ;
+}
+
+.submit-button:hover {
+    background-color: rgb(13, 0, 255);
 }
 
 .icon {
