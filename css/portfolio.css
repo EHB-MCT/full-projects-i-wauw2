@@ -1,20 +1,28 @@
-.carousel {
-    position: left;
-    height: 80%;
-    width: 50%;
+.body {
+    margin: auto;
 }
 
-.carousel_image {
-    width: 100%;
+
+.klein {
+    display: flex;
+    justify-content: center;
 }
 
-.carousel_track-container {
-    background: lightgreen;
-    padding: 10px;
+.kolom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.carousel_track {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+.donkergrijs {
+    background-color: #333333;
+    color: white;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
 }
