@@ -22,7 +22,7 @@
 }
 
 .head {
-    width: 60%;
+    width: 70%;
 }
 
 .breed {
@@ -54,4 +54,22 @@
 .tekst {
     font-family: 'rubik';
     text-align: center;
+}
+
+.portfoliofotos {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfoliofotos img {
+    height: 200px;
+    width: auto;
+    margin: auto 15px;
+}
+
+.klein3 {
+    width: 30%;
 }
