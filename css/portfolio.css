@@ -66,8 +66,9 @@
 
 .portfoliofotos img {
     height: 200px;
-    width: auto;
+    width: 200px;
     margin: auto 15px;
+    object-fit: cover;
 }
 
 .klein3 {
