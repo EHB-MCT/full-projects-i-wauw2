@@ -1,0 +1,16 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.kinderen {
+    display: flex;
+}
+
+.container {
+    width: 50%;
+}
+
+.kids-text {
+    width: 50%;
+}
