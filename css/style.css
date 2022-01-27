@@ -411,7 +411,7 @@ form {
     .namen p {
         font-family: 'Rubik';
         font-size: 30px;
-        -webkit-text-stroke: 1px black;
+        -webkit-text-stroke: 0.5px black;
     }
 
     .lotte {
