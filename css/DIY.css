@@ -96,3 +96,14 @@ ul {
 .lijstpt2 ul {
     margin-left: 50px
 }
+
+.stappenplan img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.foto2 {
+    display: inline-block;
+}
