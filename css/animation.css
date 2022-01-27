@@ -1,0 +1,136 @@
+/* https://codepen.io/ViRPo/pen/KKNpbxL?fbclid=IwAR2RhC7F7C8mf-iReT4HPLqHesKjut0vLta7y8xc_QASHk5_0sjgNWcdYPU */
+
+body,
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+}
+
+button {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p {
+    font-family: 'In the know', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.animation {
+    background: rgb(84, 74, 255);
+    border: 2px white solid;
+    padding: 0px 25% 5px 25%;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s, background ease-in 0.2s;
+}
+
+.animation:focus {
+    outline: 0;
+}
+
+.animation.animate {
+    color: rgb(84, 74, 255);
+    background-color: white;
+    border: 2px rgb(84, 74, 255) solid;
+}
+
+.animation.animate p {
+    color: rgb(84, 74, 255);
+}
+
+.animation:before,
+.animation:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+}
+
+.animation:before {
+    display: none;
+    top: -75%;
+    background-image: linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 15%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%);
+    background-size: 20% 50%, 30% 50%, 40% 50%, 36% 50%, 20% 50%, 30% 50%, 20% 50%, 36% 50%;
+}
+
+.animation:after {
+    display: none;
+    bottom: -75%;
+    background-image: linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 15%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%), linear-gradient(90deg, rgb(84, 74, 255) 20%, transparent 20%);
+    background-size: 30% 30%, 40% 40%, 36% 36%, 40% 40%, 30% 30%, 20% 20%, 40% 40%;
+}
+
+.animation.animate:before {
+    display: block;
+    animation: topLines ease-in-out 5s forwards;
+}
+
+.animation.animate:after {
+    display: block;
+    animation: bottomLines ease-in-out 1s forwards;
+}
+
+@keyframes topLines {
+    0% {
+        background-position: 55% 100%, 55% 100%, 55% 100%, 55% 100%, 55% 100%, 55% 100%, 55% 100%, 55% 100%;
+    }
+
+    50% {
+        background-position: 0% 50%, 12% 50%, 25% 50%, 40% 50%, 60% 50%, 75% 50%, 88% 50%, 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 0%, 12% 0%, 25% 0%, 40% 0%, 60% 0%, 75% 0%, 88% 0%, 100% 0%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+
+@keyframes bottomLines {
+    0% {
+        background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+    }
+
+    50% {
+        background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    }
+
+    100% {
+        background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+
+@keyframes thumb {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    20% {
+        transform: rotate(10deg) scale(1);
+    }
+
+    40% {
+        transform: rotate(-10deg) scale(1.2);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
