@@ -75,6 +75,24 @@ li {
     color: rgb(84, 74, 255);
 }
 
-.li {
-    text-decoration: none;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lijstpt1 {
+    display: inline-block;
+}
+
+.lijstpt2 {
+    display: inline-block;
+}
+
+.lijstpt1 ul {
+    margin-left: 250px;
+}
+
+.lijstpt2 ul {
+    margin-left: 50px
 }
