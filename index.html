@@ -19,13 +19,27 @@
     <header>
         <div class='scrollmenu'>
             <div class='grotewoorden'>
-                <h1>Workshops<br>
-                    Architecture<br>
-                    Art<br>
-                    Urbanism<br>
-                    Utopism<br>
-                    Wondering</h1>
+                <div class='header-overlay'>
+                    <h1>Workshops<br>
+                        Architecture<br>
+                        Art<br>
+                        Urbanism<br>
+                        Utopism<br>
+                        Wondering</h1>
+                </div>
             </div>
+            <!--<script>
+                $(window).scroll(function () {
+                    var scrollTop = $(this).scrollTop();
+
+                    $('.header-overlay').css({
+                        opacity: function () {
+                            var elementHeight = $(this).height();                           code for animation
+                            return 0 + (elementHeight - scrollTop) / elementHeight;
+                        }
+                    });
+                });
+            </script>-->
         </div>
         <div class='outerwrapper'>
             <div class='wrapper'>

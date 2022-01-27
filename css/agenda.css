@@ -89,7 +89,7 @@
 }
 
 .maand {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     color: white;
     font-size: 15px;
@@ -101,7 +101,7 @@
     display: flex;
     flex-wrap: nowrap;
     margin-right: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     color: white;
     font-size: 15px;
@@ -109,24 +109,24 @@
 }
 
 .cijfer {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 40pt;
 }
 
 .letter {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 12pt;
 }
 
 .work {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 13pt;
     font-weight: bold;
 }
 
 .inschrijf {
     background-color: rgb(84, 74, 255);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 11pt;
     margin-right: 80px;
     padding: 5px;
