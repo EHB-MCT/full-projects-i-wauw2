@@ -61,7 +61,7 @@ p {
     font-weight: 400;
     color: white;
     text-decoration: none;
-    padding: 0px 25% 5px 25%;
+    padding: 10px;
     background-color: rgb(84, 74, 255);
     border: 2px #333333 solid;
     display: inline-block;
@@ -241,6 +241,35 @@ section {
 .blauw {
     background-color: rgb(84, 74, 255);
     color: white;
+}
+
+.form-control{
+    width: 320px;
+}
+
+.formtext{
+    padding: 0px;
+}
+
+.form-group{
+    width: 100%;
+    margin: 0px;
+}
+
+form{
+    width: 100%;
+}
+
+.form-row{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.col{
+    width: 100%;
 }
 
 .facebookcontainer,
