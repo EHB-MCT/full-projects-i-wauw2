@@ -37,7 +37,7 @@
 }
 
 .background4 {
-    width: 500px;
+    width: 450px;
     position: absolute;
     top: -30px;
     right: 100px;
@@ -54,7 +54,7 @@
 }
 
 .background5 {
-    width: 500px;
+    width: 450px;
     position: absolute;
     top: 130px;
     right: 75px;
@@ -62,7 +62,7 @@
 }
 
 .background6 {
-    width: 500px;
+    width: 450px;
     position: absolute;
     top: 130px;
     right: 76px;
@@ -110,7 +110,6 @@
     color: white;
     font-size: 15px;
     margin-right: 40px;
-    border-radius: 3px;
     background-color: rgb(84, 74, 255);
 }
 
@@ -122,7 +121,6 @@
     text-align: center;
     color: white;
     font-size: 15px;
-    border-radius: 3px;
     background-color: rgb(84, 74, 255);
 }
 
@@ -148,7 +146,6 @@
     font-size: 11pt;
     margin-right: 80px;
     padding: 5px;
-    border-radius: 3px;
 }
 
 .inschrijf a {
@@ -163,14 +160,15 @@
 
 .form {
     /*div form*/
-    background-color: white;
+    background-color: #333333;
     width: 320px;
-
+    margin-top: 40px;
+    border-radius: 10px;
 }
 
 .form p {
     text-align: center;
-    color: black
+    color: white;
 }
 
 form {
@@ -182,17 +180,13 @@ form {
 
 .form-control {
     text-align: center;
-    border-width: 1px;
-    border-radius: 3px;
-    border-color: rgb(84, 74, 255);
 }
 
 .submit-button {
     color: white;
     background-color: rgb(84, 74, 255);
     border-width: 0px;
-    padding: 15px;
-    border-radius: 3px;
+    padding: 10px;
     ;
 }
 

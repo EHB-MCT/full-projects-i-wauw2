@@ -63,7 +63,6 @@ p {
     text-decoration: none;
     padding: 0px 25% 5px 25%;
     background-color: rgb(84, 74, 255);
-    border-radius: 5px;
     border: 2px #333333 solid;
     display: inline-block;
     font-size: 20px;
@@ -107,7 +106,6 @@ section {
 .kolom {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     padding-top: 20px;
 }
 
@@ -155,27 +153,29 @@ section {
     z-index: 2;
 }
 
+.onderstuk {
+    margin-top: 30px;
+}
+
 .background {
-    width: 500px;
+    width: 450px;
     position: absolute;
-    top: -100px;
-    right: -20px;
+    top: 120px;
     z-index: -1;
 }
 
 .background2 {
-    width: 500px;
+    width: 450px;
     position: absolute;
-    top: 220px;
-    right: px;
+    right: 800;
+    top: 330px;
     z-index: -1;
 }
 
 .background3 {
-    width: 500px;
+    width: 450px;
     position: absolute;
-    top: 500px;
-    right: 20px;
+    top: 540px;
     z-index: -1;
 }
 
@@ -188,7 +188,7 @@ section {
 }
 
 .contact-background2 {
-    width: 400px;
+    width: 450px;
     position: absolute;
     top: 300px;
     right: 900px;
@@ -201,13 +201,6 @@ section {
     top: 550px;
     right: 800px;
     z-index: -1;
-}
-
-.titel {
-    position: relative;
-    z-index: 1;
-    margin-top: -240px;
-    margin-left: -110px;
 }
 
 h1 {
@@ -243,7 +236,6 @@ section {
 .donkergrijs {
     background-color: #333333;
     color: white;
-    border-radius: 20px;
 }
 
 .blauw {
@@ -260,7 +252,6 @@ section {
     width: 40px;
     height: 50px;
     padding: 16px 20px;
-    border-radius: 10px;
     font-size: 40px;
     color: white;
     text-decoration: none;
