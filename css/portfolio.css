@@ -1,20 +1,57 @@
-.carousel {
-    position: left;
-    height: 80%;
-    width: 50%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.body {
+    margin: auto;
 }
 
-.carousel_image {
+
+.klein {
+    display: flex;
+    justify-content: center;
+}
+
+.kolom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.donkergrijs {
+    background-color: #333333;
+    color: white;
+}
+
+.head {
+    width: 60%;
+}
+
+.breed {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#logo {
     width: 100%;
 }
 
-.carousel_track-container {
-    background: lightgreen;
-    padding: 10px;
+.left {
+    margin-left: 50px;
+    width: 20%;
 }
 
-.carousel_track {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+.center {
+    width: 50%;
+}
+
+.right {
+    width: 30%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+.tekst {
+    font-family: 'rubik';
+    text-align: center;
 }
