@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+main {
+    margin-top: 50px;
+}
+
 .kids {
     width: 1280px;
     display: flex;
@@ -91,4 +97,13 @@
 
 .is-hidden {
     display: none;
+}
+
+h2 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-weight: 400;
 }
