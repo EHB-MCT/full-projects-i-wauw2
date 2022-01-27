@@ -18,6 +18,9 @@ main {
 
 .kids-text {
     width: 50%;
+    margin-top: 50px;
+    font-family: 'Rubik';
+    font-weight: 400;
 }
 
 .carousel_image {
@@ -202,6 +205,8 @@ h2 {
 
 .adults-text {
     width: 50%;
+    font-family: 'Rubik';
+    font-weight: 400;
 }
 
 .adults {
@@ -216,6 +221,8 @@ h2 {
 
 .part-text {
     width: 50%;
+    font-family: 'Rubik';
+    font-weight: 400;
 }
 
 .part {
