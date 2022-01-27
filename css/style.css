@@ -243,32 +243,32 @@ section {
     color: white;
 }
 
-.form-control{
+.form-control {
     width: 320px;
 }
 
-.formtext{
+.formtext {
     padding: 0px;
 }
 
-.form-group{
+.form-group {
     width: 100%;
     margin: 0px;
 }
 
-form{
+form {
     width: 100%;
 }
 
-.form-row{
+.form-row {
     width: 100%;
 }
 
-.container{
+.container {
     width: 100%;
 }
 
-.col{
+.col {
     width: 100%;
 }
 
@@ -355,10 +355,18 @@ form{
     }
 
     .breed {
-        width: 60%;
+        width: 80%;
     }
 
     .klein {
+        width: 20%;
+    }
+
+    .breed2 {
+        width: 60%;
+    }
+
+    .klein2 {
         width: 40%;
     }
 

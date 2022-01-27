@@ -22,7 +22,7 @@
 }
 
 .head {
-    width: 60%;
+    width: 70%;
 }
 
 .breed {
@@ -68,4 +68,8 @@
     height: 200px;
     width: auto;
     margin: auto 15px;
+}
+
+.klein3 {
+    width: 30%;
 }
