@@ -18,9 +18,14 @@ main {
 
 .kids-text {
     width: 50%;
-    margin-top: 50px;
     font-family: 'Rubik';
     font-weight: 400;
+    background-color: #333333;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .carousel_image {
@@ -207,6 +212,12 @@ h2 {
     width: 50%;
     font-family: 'Rubik';
     font-weight: 400;
+    background-color: #333333;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .adults {
@@ -223,6 +234,12 @@ h2 {
     width: 50%;
     font-family: 'Rubik';
     font-weight: 400;
+    background-color: #333333;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .part {
