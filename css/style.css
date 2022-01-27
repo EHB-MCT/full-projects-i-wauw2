@@ -240,6 +240,35 @@ section {
     color: white;
 }
 
+.form-control{
+    width: 320px;
+}
+
+.formtext{
+    padding: 0px;
+}
+
+.form-group{
+    width: 100%;
+    margin: 0px;
+}
+
+form{
+    width: 100%;
+}
+
+.form-row{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.col{
+    width: 100%;
+}
+
 .facebookcontainer,
 .instagramcontainer,
 .mailcontainer,
