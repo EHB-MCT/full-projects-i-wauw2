@@ -401,10 +401,24 @@ form {
     }
 
     .namen {
-        position: relative;
-        bottom: 60%;
-        width: 110%;
-        height: 110%;
+        position: absolute;
+        color: rgb(84, 74, 255);
+    }
+
+    .namen p{
+        font-family: 'Rubik';
+        font-size: 30px;
+        -webkit-text-stroke: 1px black;
+    }
+
+    .lotte{
+        top: 45%;
+        left: 1%;
+    }
+
+    .stephanie{
+        top: -3%;
+        left: 50%;
     }
 
 }
