@@ -60,7 +60,6 @@ p {
     text-decoration: none;
     padding: 0px 25% 5px 25%;
     background-color: rgb(84, 74, 255);
-    border-radius: 5px;
     border: 2px #333333 solid;
     display: inline-block;
     font-family: 'In the know', sans-serif;
@@ -234,7 +233,6 @@ section {
 .donkergrijs {
     background-color: #333333;
     color: white;
-    border-radius: 20px;
 }
 
 .blauw {
@@ -251,7 +249,6 @@ section {
     width: 40px;
     height: 50px;
     padding: 16px 20px;
-    border-radius: 10px;
     font-size: 40px;
     color: white;
     text-decoration: none;
@@ -310,7 +307,7 @@ section {
     color: lightgray;
 }
 
-.socialmediawrapper{
+.socialmediawrapper {
     padding-top: 50px;
 }
 
