@@ -4,6 +4,31 @@ main {
     margin-top: 50px;
 }
 
+.knopzwartwit {
+    font-family: 'rubik';
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(84, 74, 255);
+    border: 2px #333333 solid;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.knopzwartwit:hover {
+    color: rgb(84, 74, 255);
+    background-color: white;
+    border: 2px rgb(84, 74, 255) solid;
+}
+
+.knopzwartwit {
+    border: #333333 2px solid;
+}
+
 .kids {
     width: 1280px;
     display: flex;
