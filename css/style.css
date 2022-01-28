@@ -59,6 +59,10 @@ p {
     color: black;
 }
 
+.navwrapper a:hover{
+    border-bottom: 5px solid rgb(84, 74, 255);
+}
+
 .knopzwart,
 .knopwit {
     font-family: 'rubik';
@@ -218,14 +222,14 @@ h1 {
 .titel h1 {
     font-family: 'rubik';
     font-weight: 400;
-    font-size: 60px;
+    font-size: 45px;
     margin: 0 auto;
 }
 
 .titel h2 {
     font-family: 'rubik';
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 25px;
     margin-bottom: 50px;
 }
