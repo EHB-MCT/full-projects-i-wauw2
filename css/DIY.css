@@ -66,8 +66,7 @@ li {
     font-weight: lighter;
 }
 
-.grijstext a:link {
-    text-decoration: none;
+.grijstext {
     color: white;
 }
 
