@@ -66,15 +66,6 @@ li {
     font-weight: lighter;
 }
 
-.grijstext a:link {
-    text-decoration: none;
-    color: white;
-}
-
-.grijstext a:hover {
-    color: rgb(84, 74, 255);
-}
-
 ul {
     list-style-type: none;
     margin: 0;
