@@ -298,16 +298,36 @@ form {
     background-color: rgb(66, 103, 178);
 }
 
+.facebookcontainer:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(66, 103, 178);
+}
+
 .instagramcontainer {
     background-color: #8a3ab9;
+}
+
+.instagramcontainer:hover{
+    background-color: white;
+    color: #8a3ab9;
 }
 
 .mailcontainer {
     background-color: #D0312D;
 }
 
+.mailcontainer:hover{
+    background-color: white;
+    color: #D0312D;
+}
+
 .phonecontainer {
     background-color: #FA8128;
+}
+
+.phonecontainer:hover{
+    background-color: white;
+    color: #FA8128;
 }
 
 .fa-facebook-f,
@@ -333,6 +353,7 @@ form {
     padding-left: 15px;
     padding-right: 0px;
     font-size: 14px;
+    padding-top: 0px;
 }
 
 .iconlink {
