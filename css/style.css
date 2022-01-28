@@ -230,6 +230,11 @@ h1 {
     margin-bottom: 50px;
 }
 
+.titel {
+    position: relative;
+    z-index: 2;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -347,6 +352,8 @@ form {
     padding-top: 50px;
     margin-left: 20%;
 }
+
+
 
 @media (min-width: 768px) {
     nav>a {

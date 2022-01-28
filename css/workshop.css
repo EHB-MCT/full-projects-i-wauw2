@@ -33,7 +33,6 @@ main {
 }
 
 .carousel_track-container {
-    background-color: whitesmoke;
     height: 100%;
     width: 100%;
     position: relative;
@@ -58,10 +57,10 @@ main {
 }
 
 .carousel_button {
+    background-color: transparent;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: white;
     border: 0;
     border-radius: 10%;
     margin: 10px;
@@ -134,7 +133,6 @@ h2 {
 }
 
 .carousel_track-container2 {
-    background-color: whitesmoke;
     height: 100%;
     width: 100%;
     position: relative;
@@ -159,10 +157,10 @@ h2 {
 }
 
 .carousel_button2 {
+    background-color: transparent;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: white;
     border: 0;
     border-radius: 10%;
     margin: 10px;
@@ -284,10 +282,10 @@ h2 {
 }
 
 .carousel_button3 {
+    background-color: transparent;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: white;
     border: 0;
     border-radius: 10%;
     margin: 10px;
