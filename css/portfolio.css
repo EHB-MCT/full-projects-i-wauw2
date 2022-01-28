@@ -53,6 +53,22 @@
 .tekst {
     font-family: 'Rubik', sans-serif;
     text-align: center;
+    z-index: auto;
+    padding-top: 340px;
+}
+
+.tekst2 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    z-index: auto;
+    margin-top: 40px;
+}
+
+.tekst3 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    z-index: auto;
+    padding-top: 320px;
 }
 
 .portfoliofotos {
