@@ -24,6 +24,14 @@
     width: 60%;
 }
 
+.background4 {
+    width: 450px;
+    position: absolute;
+    top: -30px;
+    right: 100px;
+    z-index: -1;
+}
+
 .breed {
     display: flex;
     flex-wrap: wrap;

@@ -22,7 +22,7 @@
 }
 
 .head {
-    width: 80%;
+    width: 60%;
 }
 
 .data {
@@ -61,7 +61,7 @@ li {
 .bodytext h2 {
     font-size: 36px;
     font-weight: lighter;
-    margin-top: 80px;
+    margin-top: 55px;
 }
 
 .bodytext h3 {
