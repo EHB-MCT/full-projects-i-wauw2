@@ -49,10 +49,12 @@
 
 .bodytext h2,
 h3,
-p,
 li {
     font-family: 'Rubik', sans-serif;
+}
 
+.bodytext p {
+    padding: 0;
 }
 
 
