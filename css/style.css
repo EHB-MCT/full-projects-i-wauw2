@@ -59,7 +59,7 @@ p {
     color: black;
 }
 
-.navwrapper a:hover{
+.navwrapper a:hover {
     border-bottom: 5px solid rgb(84, 74, 255);
 }
 
@@ -168,22 +168,22 @@ section {
 .background {
     width: 450px;
     position: absolute;
-    top: 120px;
+    top: -20px;
     z-index: -1;
 }
 
 .background2 {
     width: 450px;
     position: absolute;
-    right: 800;
-    top: 330px;
+    right: -10px;
+    top: 180px;
     z-index: -1;
 }
 
 .background3 {
     width: 450px;
     position: absolute;
-    top: 540px;
+    top: 380px;
     z-index: -1;
 }
 
@@ -303,7 +303,7 @@ form {
     background-color: rgb(66, 103, 178);
 }
 
-.facebookcontainer:hover{
+.facebookcontainer:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(66, 103, 178);
 }
@@ -312,7 +312,7 @@ form {
     background-color: #8a3ab9;
 }
 
-.instagramcontainer:hover{
+.instagramcontainer:hover {
     background-color: white;
     color: #8a3ab9;
 }
@@ -321,7 +321,7 @@ form {
     background-color: #D0312D;
 }
 
-.mailcontainer:hover{
+.mailcontainer:hover {
     background-color: white;
     color: #D0312D;
 }
@@ -330,7 +330,7 @@ form {
     background-color: #FA8128;
 }
 
-.phonecontainer:hover{
+.phonecontainer:hover {
     background-color: white;
     color: #FA8128;
 }
