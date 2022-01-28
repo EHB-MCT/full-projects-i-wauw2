@@ -22,7 +22,7 @@
 }
 
 .head {
-    width: 60%;
+    width: 80%;
 }
 
 .data {
@@ -52,7 +52,7 @@ h3,
 p,
 li {
     font-family: 'Rubik', sans-serif;
-    text-align: center;
+
 }
 
 .bodytext h2 {
@@ -88,13 +88,61 @@ ul {
     margin-left: 50px
 }
 
+.stap1 {
+    display: flex;
+}
+
+.stap2 {
+    display: flex;
+}
+
+.foto2 {
+    display: flex;
+}
+
+.stap3 {
+    display: flex;
+}
+
+.stap4 {
+    display: flex;
+}
+
+.stap5 {
+    display: flex;
+}
+
+.stap6 {
+    display: flex;
+}
+
+.stap7 {
+    display: flex;
+}
+
+.stap8 {
+    display: flex;
+}
+
+.stap9 {
+    display: flex;
+}
+
+.stap10 {
+    display: flex;
+}
+
+.stap11 {
+    display: flex;
+}
+
+.stap12 {
+    display: flex;
+}
+
 .stappenplan img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
-}
-
-.foto2 {
-    display: inline-block;
+    width: 20%;
 }
