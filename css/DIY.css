@@ -55,6 +55,7 @@ li {
 
 }
 
+
 .bodytext h2 {
     font-size: 36px;
     font-weight: lighter;
@@ -80,9 +81,6 @@ ul {
     display: inline-block;
 }
 
-.lijstpt1 ul {
-    margin-left: 250px;
-}
 
 .lijstpt2 ul {
     margin-left: 50px
