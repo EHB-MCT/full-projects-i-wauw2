@@ -59,6 +59,10 @@ p {
     color: black;
 }
 
+.navwrapper a:hover{
+    border-bottom: 5px solid rgb(84, 74, 255);
+}
+
 .knopzwart,
 .knopwit {
     font-family: 'rubik';
