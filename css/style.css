@@ -188,26 +188,26 @@ section {
 }
 
 .contact-background1 {
-    width: 400px;
+    width: 450px;
     position: absolute;
-    top: 175px;
-    right: 700px;
-    z-index: 1;
+    top: 140px;
+    right: 870px;
+    z-index: -1;
 }
 
 .contact-background2 {
     width: 450px;
     position: absolute;
-    top: 300px;
-    right: 900px;
+    top: 340px;
+    right: 690px;
     z-index: -1;
 }
 
 .contact-background3 {
-    width: 400px;
+    width: 450px;
     position: absolute;
-    top: 550px;
-    right: 800px;
+    top: 540px;
+    right: 850px;
     z-index: -1;
 }
 
