@@ -11,6 +11,7 @@
     background-color: rgb(84, 74, 255);
     color: white;
     padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 
@@ -56,6 +57,10 @@ p {
     font-size: 20px;
     text-decoration: none;
     color: black;
+}
+
+.navwrapper a:hover{
+    border-bottom: 5px solid rgb(84, 74, 255);
 }
 
 .knopzwart,
@@ -217,16 +222,21 @@ h1 {
 .titel h1 {
     font-family: 'rubik';
     font-weight: 400;
-    font-size: 60px;
+    font-size: 45px;
     margin: 0 auto;
 }
 
 .titel h2 {
     font-family: 'rubik';
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 25px;
     margin-bottom: 50px;
+}
+
+.titel {
+    position: relative;
+    z-index: 2;
 }
 
 section {
@@ -293,16 +303,36 @@ form {
     background-color: rgb(66, 103, 178);
 }
 
+.facebookcontainer:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(66, 103, 178);
+}
+
 .instagramcontainer {
     background-color: #8a3ab9;
+}
+
+.instagramcontainer:hover{
+    background-color: white;
+    color: #8a3ab9;
 }
 
 .mailcontainer {
     background-color: #D0312D;
 }
 
+.mailcontainer:hover{
+    background-color: white;
+    color: #D0312D;
+}
+
 .phonecontainer {
     background-color: #FA8128;
+}
+
+.phonecontainer:hover{
+    background-color: white;
+    color: #FA8128;
 }
 
 .fa-facebook-f,
@@ -328,6 +358,7 @@ form {
     padding-left: 15px;
     padding-right: 0px;
     font-size: 14px;
+    padding-top: 0px;
 }
 
 .iconlink {
@@ -346,6 +377,8 @@ form {
     padding-top: 50px;
     margin-left: 20%;
 }
+
+
 
 @media (min-width: 768px) {
     nav>a {
