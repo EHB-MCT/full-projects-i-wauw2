@@ -130,6 +130,7 @@
     font-size: 11pt;
     margin-right: 80px;
     padding: 5px;
+    border: 2px white solid;
 }
 
 .inschrijf a {
@@ -139,8 +140,14 @@
 }
 
 .inschrijf:hover {
-    background-color: rgb(13, 0, 255);
+    color: rgb(84, 74, 255) !important;
+    background-color: white;
+    border-color: rgb(84, 74, 255);
 }
+
+/*.inschrijf a:hover {
+    color: rgb(84, 74, 255);
+}*/
 
 .form {
     /*div form*/
@@ -163,19 +170,23 @@ form {
 }
 
 .form-control {
+    font-family: 'Rubik', sans-serif;
     text-align: center;
 }
 
 .submit-button {
+    font-family: 'Rubik', sans-serif;
     color: white;
     background-color: rgb(84, 74, 255);
-    border-width: 0px;
+    border-width: 2px;
+    border-color: rgb(84, 74, 255);
     padding: 10px;
     margin-top: 15px;
 }
 
 .submit-button:hover {
-    background-color: rgb(13, 0, 255);
+    color: rgb(84, 74, 255);
+    background-color: white
 }
 
 .icon {
