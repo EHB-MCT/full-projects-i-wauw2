@@ -124,30 +124,24 @@
     font-weight: bold;
 }
 
-.inschrijf {
+.inschrijfknop {
     background-color: rgb(84, 74, 255);
     font-family: 'Rubik', sans-serif;
     font-size: 11pt;
     margin-right: 80px;
     padding: 5px;
     border: 2px white solid;
-}
-
-.inschrijf a {
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
     color: white;
 }
 
-.inschrijf:hover {
+
+.inschrijfknop:hover {
     color: rgb(84, 74, 255) !important;
     background-color: white;
     border-color: rgb(84, 74, 255);
 }
-
-/*.inschrijf a:hover {
-    color: rgb(84, 74, 255);
-}*/
 
 .form {
     /*div form*/
