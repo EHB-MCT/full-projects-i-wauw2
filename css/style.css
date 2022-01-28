@@ -142,16 +142,16 @@ section {
 .grotefotocontainer {
     position: relative;
     z-index: 2;
-    width: 70%;
+    width: 80%;
 }
 
 .boven {
-    right: 15%;
+    left: 20%;
     padding-top: 50px;
 }
 
 .onder {
-    left: 15%;
+    left: 50%;
     padding-top: 20px;
     padding-bottom: 50px;
 }
@@ -190,15 +190,15 @@ section {
 .contact-background1 {
     width: 400px;
     position: absolute;
-    top: 175px;
-    right: 700px;
+    top: 200px;
+    right: 800px;
     z-index: 1;
 }
 
 .contact-background2 {
     width: 450px;
     position: absolute;
-    top: 300px;
+    top: 350px;
     right: 900px;
     z-index: -1;
 }
@@ -344,6 +344,7 @@ form {
     flex-wrap: nowrap;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-decoration: none;
 }
 
 .icontekst p {
@@ -358,6 +359,7 @@ form {
 
 .iconlink {
     height: 90px;
+    text-decoration: none;
 }
 
 .telefoonlink {
