@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
 main {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .knopzwartwit {
     font-family: 'rubik';
     font-weight: 400;
+    font-size: 12px;
     color: white;
     text-decoration: none;
     padding: 10px;
     background-color: rgb(84, 74, 255);
     border: 2px #333333 solid;
     display: inline-block;
-    font-size: 20px;
     margin-top: 30px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .knopzwartwit:hover {
@@ -25,32 +25,46 @@ main {
     border: 2px rgb(84, 74, 255) solid;
 }
 
-.knopzwartwit {
-    border: #333333 2px solid;
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-weight: 400;
 }
 
-.kids {
-    width: 1280px;
-    display: flex;
-    margin: auto;
+p {
+    font-size: 12px;
 }
 
-.carousel {
-    position: relative;
-    height: 580px;
-    width: 50%;
-}
+
+
+
+TEKST KINDEREN {}
 
 .kids-text {
-    width: 50%;
     font-family: 'Rubik';
     font-weight: 400;
     background-color: #333333;
     color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+CAROUSEL KINDEREN {}
+
+.carousel {
+    position: relative;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
 }
 
 .carousel_image {
@@ -87,7 +101,6 @@ main {
     top: 50%;
     transform: translateY(-50%);
     border: 0;
-    border-radius: 10%;
     margin: 10px;
     cursor: pointer;
     z-index: 2;
@@ -102,7 +115,7 @@ main {
 }
 
 .carousel_button img {
-    width: 40px;
+    width: 30px;
 }
 
 .carousel_nav {
@@ -116,10 +129,10 @@ main {
 .carousel_indicator {
     border: 0;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background: rgba(0, 0, 0, .3);
-    margin: 0 10px;
+    margin: 0 5px;
     cursor: pointer;
 }
 
@@ -131,27 +144,38 @@ main {
     display: none;
 }
 
-h2 {
-    font-size: 55px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    font-family: 'Rubik';
-    font-weight: 400;
-}
+
+
+
+TEKST VOLWASSENEN {}
 
 .adults {
-    width: 1280px;
-    display: flex;
-    margin: auto;
+    margin-top: 120px;
 }
+
+.adults-text {
+    font-family: 'Rubik';
+    font-weight: 400;
+    background-color: #333333;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+CAROUSEL VOLWASSENEN {}
 
 .carousel2 {
     position: relative;
-    height: 580px;
-    width: 50%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
 }
-
 
 .carousel_image2 {
     width: 100%;
@@ -202,7 +226,7 @@ h2 {
 }
 
 .carousel_button2 img {
-    width: 40px;
+    width: 30px;
 }
 
 .carousel_nav2 {
@@ -216,10 +240,10 @@ h2 {
 .carousel_indicator2 {
     border: 0;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background: rgba(0, 0, 0, .3);
-    margin: 0 10px;
+    margin: 0 5px;
     cursor: pointer;
 }
 
@@ -231,49 +255,38 @@ h2 {
     display: none;
 }
 
-.adults-text {
-    width: 50%;
-    font-family: 'Rubik';
-    font-weight: 400;
-    background-color: #333333;
-    color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
-.adults {
-    margin-top: 70px;
-}
 
-.part {
-    width: 1280px;
-    display: flex;
-    margin: auto;
-}
 
-.part-text {
-    width: 50%;
-    font-family: 'Rubik';
-    font-weight: 400;
-    background-color: #333333;
-    color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+TEKST PARTICIPATIE {}
 
 .part {
     margin-top: 120px;
     margin-bottom: 100px;
 }
 
+.part-text {
+    font-family: 'Rubik';
+    font-weight: 400;
+    background-color: #333333;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+CAROUSEL PARTICIPATIE {}
+
 .carousel3 {
     position: relative;
-    height: 580px;
-    width: 50%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
 }
 
 
@@ -327,7 +340,7 @@ h2 {
 }
 
 .carousel_button3 img {
-    width: 40px;
+    width: 30px;
 }
 
 .carousel_nav3 {
@@ -341,10 +354,10 @@ h2 {
 .carousel_indicator3 {
     border: 0;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background: rgba(0, 0, 0, .3);
-    margin: 0 10px;
+    margin: 0 5px;
     cursor: pointer;
 }
 
@@ -354,4 +367,118 @@ h2 {
 
 .is-hidden3 {
     display: none;
+}
+
+
+
+
+@media (min-width: 1280px) {
+    h2 {
+        font-size: 55px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        font-family: 'Rubik';
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .kids {
+        width: 1280px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .carousel {
+        width: 50%;
+        height: 580px;
+    }
+
+    .carousel_indicator {
+        width: 15px;
+        height: 15px;
+        margin: 0 10px;
+    }
+
+    .carousel_button img {
+        width: 40px;
+    }
+
+    .kids-text {
+        width: 50%;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    .adults {
+        width: 1280px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .adults-text {
+        width: 50%;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .carousel2 {
+        width: 50%;
+        height: 580px;
+    }
+
+    .carousel_indicator2 {
+        width: 15px;
+        height: 15px;
+        margin: 0 10px;
+    }
+
+    .carousel_button2 img {
+        width: 40px;
+    }
+
+    .part {
+        width: 1280px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .part-text {
+        width: 50%;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .carousel3 {
+        width: 50%;
+        height: 580px;
+    }
+
+    .carousel_indicator3 {
+        width: 15px;
+        height: 15px;
+        margin: 0 10px;
+    }
+
+    .carousel_button3 img {
+        width: 40px;
+    }
+
+    .knopzwartwit {
+        font-size: 20px;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
 }
