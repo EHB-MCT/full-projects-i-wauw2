@@ -43,10 +43,6 @@ p {
 
 TEKST KINDEREN {}
 
-.kids {
-    width: 90%;
-}
-
 .kids-text {
     font-family: 'Rubik';
     font-weight: 400;
@@ -154,7 +150,6 @@ CAROUSEL KINDEREN {}
 TEKST VOLWASSENEN {}
 
 .adults {
-    width: 90%;
     margin-top: 120px;
 }
 
@@ -266,7 +261,6 @@ CAROUSEL VOLWASSENEN {}
 TEKST PARTICIPATIE {}
 
 .part {
-    width: 90%;
     margin-top: 120px;
     margin-bottom: 100px;
 }
