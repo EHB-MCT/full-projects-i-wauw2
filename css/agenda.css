@@ -47,7 +47,8 @@
 .data1 {
     display: flex;
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 75px;
+    margin-top: 55px;
     margin-right: 100px;
     position: relative;
     z-index: 2;
@@ -161,6 +162,7 @@ form {
     width: 55%;
     margin: 0;
     box-sizing: border-box;
+    align-self: center;
 }
 
 .form-control {
@@ -186,4 +188,35 @@ form {
 .icon {
     height: 14px;
     width: 14px;
+}
+
+/*.onderstukgrijs {
+    width: 60%;
+    align-self: center;
+}*/
+
+@media (max-width: 768px) {
+    .background4 {
+        width: 450px;
+        position: absolute;
+        top: -60px;
+        right: 130px;
+        z-index: -1;
+    }
+
+    .onderstukgrijs {
+        background-color: #333333;
+    }
+
+    .head {
+        width: 90%;
+    }
+
+    .inschrijfknop {
+        margin-right: 60px;
+    }
+
+    .data1 {
+        color: white;
+    }
 }
