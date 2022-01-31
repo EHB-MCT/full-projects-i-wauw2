@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
 main {
-    margin-top: 50px;
+    margin-top: 80px;
 }
-
 
 .knopzwartwit {
     font-family: 'rubik';
@@ -26,17 +25,26 @@ main {
     border: 2px rgb(84, 74, 255) solid;
 }
 
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+
+
+TEKST KINDEREN {}
 
 .kids {
     width: 320px;
-}
-
-.carousel {
-    position: relative;
-    height: 300px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 40px;
 }
 
 .kids-text {
@@ -48,6 +56,19 @@ main {
     margin-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+
+
+
+CAROUSEL KINDEREN {}
+
+.carousel {
+    position: relative;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
 }
 
 .carousel_image {
@@ -127,18 +148,10 @@ main {
     display: none;
 }
 
-h2 {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: 'Rubik';
-    font-weight: 400;
-}
 
-p {
-    font-size: 12px;
-}
+
+
+TEKST VOLWASSENEN {}
 
 .adults {
     width: 320px;
@@ -155,6 +168,11 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+
+
+CAROUSEL VOLWASSENEN {}
 
 .carousel2 {
     position: relative;
@@ -244,8 +262,13 @@ p {
 
 
 
+
+TEKST PARTICIPATIE {}
+
 .part {
     width: 320px;
+    margin-top: 120px;
+    margin-bottom: 100px;
 }
 
 .part-text {
@@ -259,10 +282,10 @@ p {
     padding-bottom: 10px;
 }
 
-.part {
-    margin-top: 120px;
-    margin-bottom: 100px;
-}
+
+
+
+CAROUSEL PARTICIPATIE {}
 
 .carousel3 {
     position: relative;
@@ -353,6 +376,8 @@ p {
 }
 
 
+
+
 @media (min-width: 1280px) {
     h2 {
         font-size: 55px;
@@ -362,10 +387,15 @@ p {
         font-weight: 400;
     }
 
+    p {
+        font-size: 16px;
+    }
+
     .kids {
         width: 1280px;
         display: flex;
         margin: auto;
+        margin-bottom: 100px;
     }
 
     .carousel {
@@ -396,6 +426,7 @@ p {
         width: 1280px;
         display: flex;
         margin: auto;
+        margin-bottom: 100px;
     }
 
     .adults-text {
@@ -425,6 +456,7 @@ p {
         width: 1280px;
         display: flex;
         margin: auto;
+        margin-bottom: 100px;
     }
 
     .part-text {
@@ -451,16 +483,7 @@ p {
     }
 
     .knopzwartwit {
-        font-family: 'rubik';
-        font-weight: 400;
-        color: white;
-        text-decoration: none;
-        padding: 10px;
-        background-color: rgb(84, 74, 255);
-        border: 2px #333333 solid;
-        display: inline-block;
         font-size: 20px;
-        margin-top: 30px;
         margin-left: 40%;
         margin-right: 40%;
     }
