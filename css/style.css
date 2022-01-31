@@ -18,14 +18,15 @@
 
 .grotewoorden {
     padding-bottom: 1px;
+    width: 100vw;
 }
 
 .grotewoorden h1 {
     font-family: 'Rubik', 'Sans-serif';
     font-weight: 500;
-    font-size: 250px;
-    margin-top: 5px;
+    font-size: 15vw;
     margin-left: 10px;
+    width: 100%;
 }
 
 body {
@@ -39,6 +40,7 @@ p {
     padding: 0px 15%;
     padding-top: 15px;
     line-height: 20px;
+    text-align: center;
 }
 
 .logowrapper {
@@ -139,23 +141,6 @@ section {
     z-index: 2;
 }
 
-.grotefotocontainer {
-    position: relative;
-    z-index: 2;
-    width: 80%;
-}
-
-.boven {
-    left: 20%;
-    padding-top: 50px;
-}
-
-.onder {
-    left: 50%;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
 .lottestephanie {
     position: relative;
     z-index: 2;
@@ -166,49 +151,27 @@ section {
 }
 
 .background {
-    width: 450px;
-    position: absolute;
-    top: -20px;
-    z-index: -1;
+    display: none;
 }
 
 .background2 {
-    width: 450px;
-    position: absolute;
-    right: -10px;
-    top: 180px;
-    z-index: -1;
+    display: none;
 }
 
 .background3 {
-    width: 450px;
-    position: absolute;
-    top: 380px;
-    z-index: -1;
+    display: none;
 }
 
 .contact-background1 {
-    width: 450px;
-    position: absolute;
-    top: 140px;
-    right: 870px;
-    z-index: -1;
+    display: none;
 }
 
 .contact-background2 {
-    width: 450px;
-    position: absolute;
-    top: 340px;
-    right: 690px;
-    z-index: -1;
+    display: none;
 }
 
 .contact-background3 {
-    width: 450px;
-    position: absolute;
-    top: 540px;
-    right: 870px;
-    z-index: -1;
+    display: none;
 }
 
 h1 {
@@ -224,14 +187,15 @@ h1 {
     font-weight: 400;
     font-size: 45px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .titel h2 {
     font-family: 'rubik';
     font-weight: 400;
     font-size: 20px;
-    margin-left: 25px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .titel {
@@ -376,10 +340,41 @@ form {
 }
 
 .socialmediawrapper {
-    padding-top: 50px;
-    margin-left: 20%;
+    padding: 10px;
 }
 
+.namen p {
+    font-family: 'Rubik';
+    font-size: 30px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.lotte {
+    top: 45%;
+    left: 1%;
+}
+
+.stephanie {
+    top: 2%;
+    left: 50%;
+}
+
+.namen {
+    position: absolute;
+    color: rgb(84, 74, 255);
+}
+
+.kolom p{
+    width: 100%;
+}
+
+.kolom img{
+    padding-top: 30px;
+}
+
+.grotefotocontainer img{
+    width: 100%;
+}
 
 
 @media (min-width: 768px) {
@@ -438,25 +433,98 @@ form {
         top: 6%;
     }
 
-    .namen {
+    .background {
+        display: block;
+        width: 450px;
         position: absolute;
-        color: rgb(84, 74, 255);
+        top: -20px;
+        z-index: -1;
+    }
+    
+    .background2 {
+        display: block;
+        width: 450px;
+        position: absolute;
+        right: -10px;
+        top: 180px;
+        z-index: -1;
+    }
+    
+    .background3 {
+        display: block;
+        width: 450px;
+        position: absolute;
+        top: 380px;
+        z-index: -1;
+    }
+    
+    .contact-background1 {
+        display: block;
+        width: 450px;
+        position: absolute;
+        top: 140px;
+        right: 870px;
+        z-index: -1;
+    }
+    
+    .contact-background2 {
+        display: block;
+        width: 450px;
+        position: absolute;
+        top: 340px;
+        right: 690px;
+        z-index: -1;
+    }
+    
+    .contact-background3 {
+        display: block;
+        width: 450px;
+        position: absolute;
+        top: 540px;
+        right: 870px;
+        z-index: -1;
     }
 
-    .namen p {
-        font-family: 'Rubik';
-        font-size: 30px;
-        -webkit-text-stroke: 0.5px black;
+    .titel h1{
+        text-align: left;
     }
 
-    .lotte {
-        top: 45%;
-        left: 1%;
+    .titel h2{
+        text-align: left;
+        margin-left: 25px;
     }
 
-    .stephanie {
-        top: -3%;
+    .wrapper{
+        margin: 15px 0px;
+    }
+
+    p{
+        text-align: left;
+    }
+
+    .kolom img{
+        padding-top: 0px;
+    }
+
+    .stephanie{
+        top: -5%;
+    }
+
+    .grotefotocontainer {
+        position: relative;
+        z-index: 2;
+        width: 80%;
+    }
+
+    .boven {
+        left: 20%;
+        padding-top: 50px;
+    }
+    
+    .onder {
         left: 50%;
+        padding-top: 20px;
+        padding-bottom: 50px;
     }
 
 }
@@ -466,4 +534,5 @@ form {
         width: 1200px;
         margin: auto;
     }
+
 }
