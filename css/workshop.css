@@ -44,7 +44,7 @@ p {
 TEKST KINDEREN {}
 
 .kids {
-    width: 320px;
+    width: 90%;
 }
 
 .kids-text {
@@ -154,7 +154,7 @@ CAROUSEL KINDEREN {}
 TEKST VOLWASSENEN {}
 
 .adults {
-    width: 320px;
+    width: 90%;
     margin-top: 120px;
 }
 
@@ -266,7 +266,7 @@ CAROUSEL VOLWASSENEN {}
 TEKST PARTICIPATIE {}
 
 .part {
-    width: 320px;
+    width: 90%;
     margin-top: 120px;
     margin-bottom: 100px;
 }
