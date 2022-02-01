@@ -118,7 +118,6 @@ ul {
 }
 
 
-
 .premiumlink {
     display: block;
     margin-top: 15px;
@@ -150,5 +149,9 @@ ul {
 
     .stap p {
         text-align: left;
+    }
+
+    .grijstext {
+        align-content: center;
     }
 }
