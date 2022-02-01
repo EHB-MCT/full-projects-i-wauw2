@@ -145,30 +145,6 @@ section {
     margin-top: 30px;
 }
 
-.background {
-    display: none;
-}
-
-.background2 {
-    display: none;
-}
-
-.background3 {
-    display: none;
-}
-
-.contact-background1 {
-    display: none;
-}
-
-.contact-background2 {
-    display: none;
-}
-
-.contact-background3 {
-    display: none;
-}
-
 h1 {
     font-family: 'rubik';
     font-weight: 400;
@@ -431,58 +407,6 @@ form {
         position: relative;
         right: 20%;
         top: 6%;
-    }
-
-    .background {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: -20px;
-        z-index: -1;
-    }
-
-    .background2 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        right: -10px;
-        top: 180px;
-        z-index: -1;
-    }
-
-    .background3 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: 380px;
-        z-index: -1;
-    }
-
-    .contact-background1 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: 140px;
-        right: 870px;
-        z-index: -1;
-    }
-
-    .contact-background2 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: 340px;
-        right: 690px;
-        z-index: -1;
-    }
-
-    .contact-background3 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: 540px;
-        right: 870px;
-        z-index: -1;
     }
 
     .titel h1 {
