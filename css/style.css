@@ -265,27 +265,6 @@ p {
 }
 
 
-.navwrapper {
-  margin: auto;
-  display: flex;
-}
-
-.navwrapper a {
-  font-family: 'rubik';
-  font-weight: 400;
-  font-size: 16px;
-  text-decoration: none;
-  color: black;
-}
-
-.navwrapper a:hover {
-  border-bottom: 5px solid rgb(84, 74, 255);
-}
-
-nav {
-  align-items: center;
-}
-
 .knopzwart,
 .knopwit {
   font-family: 'rubik';
@@ -995,14 +974,31 @@ h1 {
 
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .wrapper {
     width: 1200px;
     margin: auto;
   }
 
   .navwrapper {
-    display: inline-block;
+    margin: auto;
+    display: flex;
+  }
+
+  .navwrapper a {
+    font-family: 'rubik';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .navwrapper a:hover {
+    border-bottom: 5px solid rgb(84, 74, 255);
+  }
+
+  nav {
+    align-items: center;
   }
 
   .outer-menu {
