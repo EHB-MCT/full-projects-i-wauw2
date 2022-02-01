@@ -131,7 +131,8 @@ h5 {
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 20px;
+    padding-top: 80px;
+    padding-left: 220px;
 }
 
 .modal-img img {
