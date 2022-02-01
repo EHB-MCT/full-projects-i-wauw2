@@ -150,30 +150,6 @@ section {
     margin-top: 30px;
 }
 
-.background {
-    display: none;
-}
-
-.background2 {
-    display: none;
-}
-
-.background3 {
-    display: none;
-}
-
-.contact-background1 {
-    display: none;
-}
-
-.contact-background2 {
-    display: none;
-}
-
-.contact-background3 {
-    display: none;
-}
-
 h1 {
     font-family: 'rubik';
     font-weight: 400;
@@ -369,15 +345,15 @@ form {
     color: rgb(84, 74, 255);
 }
 
-.kolom p{
+.kolom p {
     width: 100%;
 }
 
-.kolom img{
+.kolom img {
     padding-top: 30px;
 }
 
-.grotefotocontainer img{
+.grotefotocontainer img {
     width: 100%;
 }
 
@@ -438,80 +414,28 @@ form {
         top: 6%;
     }
 
-    .background {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: -20px;
-        z-index: -1;
-    }
-    
-    .background2 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        right: -10px;
-        top: 180px;
-        z-index: -1;
-    }
-    
-    .background3 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: 380px;
-        z-index: -1;
-    }
-    
-    .contact-background1 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: 140px;
-        right: 870px;
-        z-index: -1;
-    }
-    
-    .contact-background2 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: 340px;
-        right: 690px;
-        z-index: -1;
-    }
-    
-    .contact-background3 {
-        display: block;
-        width: 450px;
-        position: absolute;
-        top: 540px;
-        right: 870px;
-        z-index: -1;
-    }
-
-    .titel h1{
+    .titel h1 {
         text-align: left;
     }
 
-    .titel h2{
+    .titel h2 {
         text-align: left;
         margin-left: 25px;
     }
 
-    .wrapper{
+    .wrapper {
         margin: 15px 0px;
     }
 
-    p{
+    p {
         text-align: left;
     }
 
-    .kolom img{
+    .kolom img {
         padding-top: 0px;
     }
 
-    .stephanie{
+    .stephanie {
         top: -5%;
     }
 
@@ -525,7 +449,7 @@ form {
         left: 20%;
         padding-top: 50px;
     }
-    
+
     .onder {
         left: 50%;
         padding-top: 20px;
