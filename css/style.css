@@ -2,322 +2,322 @@
 
 
 .scrollmenu {
-    width: 100%;
-    background-color: rgb(84, 74, 255);
-    color: white;
-    padding-top: 50px;
-    margin-bottom: 100px;
+  width: 100%;
+  background-color: rgb(84, 74, 255);
+  color: white;
+  padding-top: 50px;
+  margin-bottom: 100px;
 }
 
 .grotewoorden {
-    padding-bottom: 1px;
-    width: 100vw;
+  padding-bottom: 1px;
+  width: 100vw;
 }
 
 .grotewoorden h1 {
-    font-family: 'Rubik', 'Sans-serif';
-    font-weight: 500;
-    font-size: 15vw;
-    margin-left: 10px;
-    width: 100%;
-    text-align: left;
+  font-family: 'Rubik', 'Sans-serif';
+  font-weight: 500;
+  font-size: 15vw;
+  margin-left: 10px;
+  width: 100%;
+  text-align: left;
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 p {
-    font-family: 'rubik';
-    font-weight: 400;
-    font-size: 16px;
-    padding: 0px 15%;
-    padding-top: 15px;
-    line-height: 20px;
-    text-align: center;
+  font-family: 'rubik';
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0px 15%;
+  padding-top: 15px;
+  line-height: 20px;
+  text-align: center;
 }
 
 
 .navwrapper {
-    margin: auto;
-    display: flex;
+  margin: auto;
+  display: flex;
 }
 
 .navwrapper a {
-    font-family: 'rubik';
-    font-weight: 400;
-    font-size: 14px;
-    text-decoration: none;
-    color: black;
+  font-family: 'rubik';
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
 }
 
 .navwrapper a:hover {
-    border-bottom: 5px solid rgb(84, 74, 255);
+  border-bottom: 5px solid rgb(84, 74, 255);
 }
 
 .knopzwart,
 .knopwit {
-    font-family: 'rubik';
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    background-color: rgb(84, 74, 255);
-    border: 2px #333333 solid;
-    display: inline-block;
+  font-family: 'rubik';
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(84, 74, 255);
+  border: 2px #333333 solid;
+  display: inline-block;
 }
 
 .knopzwart:hover,
 .knopwit:hover {
-    color: rgb(84, 74, 255);
-    background-color: #333333;
-    border: 2px rgb(84, 74, 255) solid;
+  color: rgb(84, 74, 255);
+  background-color: #333333;
+  border: 2px rgb(84, 74, 255) solid;
 }
 
 .knopwit {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 .knopwit:hover {
-    background-color: white;
-    border-color: rgb(84, 74, 255);
+  background-color: white;
+  border-color: rgb(84, 74, 255);
 }
 
 section {
-    display: flex;
-    justify-content: end;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 section {
-    display: flex;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 #logo {
-    width: 100%;
+  width: 100%;
 }
 
 .kolom {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
 }
 
 .kolom h1 {
-    width: 100%;
+  width: 100%;
 }
 
 .breed {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .klein {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 10px;
 }
 
 .fotocontainer {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .lottestephanie {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .onderstuk {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 h1 {
-    font-family: 'rubik';
-    font-weight: 400;
-    font-size: 75px;
-    z-index: 2;
+  font-family: 'rubik', sans-serif;
+  font-weight: 400;
+  font-size: 75px;
+  z-index: 2;
 
 }
 
 .titel h1 {
-    font-family: 'rubik';
-    font-weight: 400;
-    font-size: 45px;
-    margin: 0 auto;
-    text-align: center;
+  font-family: 'rubik', sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .titel h2 {
-    font-family: 'rubik';
-    font-weight: 400;
-    font-size: 20px;
-    margin-bottom: 50px;
-    text-align: center;
+  font-family: 'rubik', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .titel {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
 .donkergrijs {
-    background-color: #333333;
-    color: white;
+  background-color: #333333;
+  color: white;
 }
 
 .blauw {
-    background-color: rgb(84, 74, 255);
-    color: white;
+  background-color: rgb(84, 74, 255);
+  color: white;
 }
 
 .form-control {
-    width: 320px;
+  width: 320px;
 }
 
 .formtext {
-    padding: 0px;
+  padding: 0px;
 }
 
 .form-group {
-    width: 100%;
-    margin: 0px;
+  width: 100%;
+  margin: 0px;
 }
 
 form {
-    width: 100%;
+  width: 100%;
 }
 
 .form-row {
-    width: 100%;
+  width: 100%;
 }
 
 .container {
-    width: 100%;
+  width: 100%;
 }
 
 .col {
-    width: 100%;
+  width: 100%;
 }
 
 .facebookcontainer,
 .instagramcontainer,
 .mailcontainer,
 .phonecontainer {
-    display: flex;
-    justify-content: center;
-    width: 40px;
-    height: 50px;
-    padding: 16px 20px;
-    font-size: 40px;
-    color: white;
-    text-decoration: none;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 50px;
+  padding: 16px 20px;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
 }
 
 .facebookcontainer {
-    background-color: rgb(66, 103, 178);
+  background-color: rgb(66, 103, 178);
 }
 
 .facebookcontainer:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(66, 103, 178);
+  background-color: rgb(255, 255, 255);
+  color: rgb(66, 103, 178);
 }
 
 .instagramcontainer {
-    background-color: #8a3ab9;
+  background-color: #8a3ab9;
 }
 
 .instagramcontainer:hover {
-    background-color: white;
-    color: #8a3ab9;
+  background-color: white;
+  color: #8a3ab9;
 }
 
 .mailcontainer {
-    background-color: #D0312D;
+  background-color: #D0312D;
 }
 
 .mailcontainer:hover {
-    background-color: white;
-    color: #D0312D;
+  background-color: white;
+  color: #D0312D;
 }
 
 .phonecontainer {
-    background-color: #FA8128;
+  background-color: #FA8128;
 }
 
 .phonecontainer:hover {
-    background-color: white;
-    color: #FA8128;
+  background-color: white;
+  color: #FA8128;
 }
 
 .fa-facebook-f,
 .fa-instagram,
 .fa-envelope,
 .fa-phone {
-    margin: auto;
-    text-decoration: none;
+  margin: auto;
+  text-decoration: none;
 }
 
 .socialmediacontainer {
-    width: 70%;
-    display: flex;
-    flex-wrap: nowrap;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-decoration: none;
+  width: 70%;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
 }
 
 .icontekst p {
-    margin: auto;
-    text-align: left;
-    margin: 0px;
-    padding-left: 15px;
-    padding-right: 0px;
-    font-size: 14px;
-    padding-top: 0px;
+  margin: auto;
+  text-align: left;
+  margin: 0px;
+  padding-left: 15px;
+  padding-right: 0px;
+  font-size: 14px;
+  padding-top: 0px;
 }
 
 .iconlink {
-    height: 90px;
-    text-decoration: none;
+  height: 90px;
+  text-decoration: none;
 }
 
 .telefoonlink {
-    color: white;
+  color: white;
 }
 
 .telefoonlink:hover {
-    color: lightgray;
+  color: lightgray;
 }
 
 .socialmediawrapper {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 50%;
-    overflow: hidden;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 50%;
+  overflow: hidden;
 }
 
 .namen p {
-    font-family: 'Rubik';
-    font-size: 30px;
-    -webkit-text-stroke: 0.5px black;
+  font-family: 'Rubik';
+  font-size: 30px;
+  -webkit-text-stroke: 0.5px black;
 }
 
 .lottestephanie{
@@ -330,25 +330,25 @@ form {
 }
 
 .stephanie {
-    top: 2%;
-    left: 50%;
+  top: 2%;
+  left: 50%;
 }
 
 .namen {
-    position: absolute;
-    color: rgb(84, 74, 255);
+  position: absolute;
+  color: rgb(84, 74, 255);
 }
 
 .kolom p {
-    width: 100%;
+  width: 100%;
 }
 
 .kolom img {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .grotefotocontainer img {
-    width: 100%;
+  width: 100%;
 }
 
 html,
@@ -399,7 +399,7 @@ h1 {
 }
 
 .slider .source {
-    font-family: 'rubik', 'sans serif';
+  font-family: 'rubik', 'sans serif';
   font-size: 20px;
   text-align: left;
   margin-left: 25px;
@@ -433,38 +433,46 @@ h1 {
   0% {
     top: 0px;
   }
+
   4% {
     top: 0px;
   }
+
   16% {
     top: 0px;
     opacity: 1;
     z-index: 0;
   }
+
   20% {
     top: 325px;
     opacity: 0;
     z-index: 0;
   }
+
   21% {
     top: -325px;
     opacity: 0;
     z-index: -1;
   }
+
   50% {
     top: -325px;
     opacity: 0;
     z-index: -1;
   }
+
   92% {
     top: -325px;
     opacity: 0;
     z-index: 0;
   }
+
   96% {
     top: -325px;
     opacity: 0;
   }
+
   100% {
     top: 0px;
     opacity: 1;
@@ -476,33 +484,40 @@ h1 {
     top: -325px;
     opacity: 0;
   }
+
   16% {
     top: -325px;
     opacity: 0;
   }
+
   20% {
     top: 0px;
     opacity: 1;
   }
+
   24% {
     top: 0px;
     opacity: 1;
   }
+
   36% {
     top: 0px;
     opacity: 1;
     z-index: 0;
   }
+
   40% {
     top: 325px;
     opacity: 0;
     z-index: 0;
   }
+
   41% {
     top: -325px;
     opacity: 0;
     z-index: -1;
   }
+
   100% {
     top: -325px;
     opacity: 0;
@@ -515,33 +530,40 @@ h1 {
     top: -325px;
     opacity: 0;
   }
+
   36% {
     top: -325px;
     opacity: 0;
   }
+
   40% {
     top: 0px;
     opacity: 1;
   }
+
   44% {
     top: 0px;
     opacity: 1;
   }
+
   56% {
     top: 0px;
     opacity: 1;
     z-index: 0;
   }
+
   60% {
     top: 325px;
     opacity: 0;
     z-index: 0;
   }
+
   61% {
     top: -325px;
     opacity: 0;
     z-index: -1;
   }
+
   100% {
     top: -325px;
     opacity: 0;
@@ -554,33 +576,40 @@ h1 {
     top: -325px;
     opacity: 0;
   }
+
   56% {
     top: -325px;
     opacity: 0;
   }
+
   60% {
     top: 0px;
     opacity: 1;
   }
+
   64% {
     top: 0px;
     opacity: 1;
   }
+
   76% {
     top: 0px;
     opacity: 1;
     z-index: 0;
   }
+
   80% {
     top: 325px;
     opacity: 0;
     z-index: 0;
   }
+
   81% {
     top: -325px;
     opacity: 0;
     z-index: -1;
   }
+
   100% {
     top: -325px;
     opacity: 0;
@@ -593,23 +622,28 @@ h1 {
     top: -325px;
     opacity: 0;
   }
+
   76% {
     top: -325px;
     opacity: 0;
   }
+
   80% {
     top: 0px;
     opacity: 1;
   }
+
   84% {
     top: 0px;
     opacity: 1;
   }
+
   96% {
     top: 0px;
     opacity: 1;
     z-index: 0;
   }
+
   100% {
     top: 325px;
     opacity: 0;
@@ -619,113 +653,113 @@ h1 {
 
 
 @media (min-width: 768px) {
-    nav>a {
-        margin: auto 20px;
-        display: inline-block;
-    }
+  nav>a {
+    margin: auto 20px;
+    display: inline-block;
+  }
 
-    .logowrapper {
-        text-align: left;
-        width: 30%;
-        margin-top: 10px;
-    }
+  .logowrapper {
+    text-align: left;
+    width: 30%;
+    margin-top: 10px;
+  }
 
-    #logo{
-        width: 40%;
-    }
+  #logo {
+    width: 40%;
+  }
 
-    .breed {
-        width: 80%;
-    }
+  .breed {
+    width: 80%;
+  }
 
-    .klein {
-        width: 20%;
-    }
+  .klein {
+    width: 20%;
+  }
 
-    .breed2 {
-        width: 60%;
-    }
+  .breed2 {
+    width: 60%;
+  }
 
-    .klein2 {
-        width: 40%;
-    }
+  .klein2 {
+    width: 40%;
+  }
 
-    .bovenstuk {
-        flex-wrap: nowrap;
-    }
+  .bovenstuk {
+    flex-wrap: nowrap;
+  }
 
-    section {
-        flex-wrap: nowrap;
-    }
+  section {
+    flex-wrap: nowrap;
+  }
 
-    .fotoshome {
-        display: flex;
-        justify-content: center;
-    }
+  .fotoshome {
+    display: flex;
+    justify-content: center;
+  }
 
-    .fotocontainer {
-        height: 157px;
-        width: 30%;
-        padding: 10px;
-    }
+  .fotocontainer {
+    height: 157px;
+    width: 30%;
+    padding: 10px;
+  }
 
-    .contact {
-        margin: auto;
-    }
+  .contact {
+    margin: auto;
+  }
 
-    .lottestephanie {
-        position: relative;
-        left: 5%;
-    }
+  .lottestephanie {
+    position: relative;
+    left: 5%;
+  }
 
-    .titel h1{
-        text-align: left;
-    }
+  .titel h1 {
+    text-align: left;
+  }
 
-    .titel h2 {
-        text-align: left;
-        margin-left: 25px;
-    }
+  .titel h2 {
+    text-align: left;
+    margin-left: 25px;
+  }
 
-    .wrapper {
-        margin: 15px 0px;
-    }
+  .wrapper {
+    margin: 15px 0px;
+  }
 
-    p {
-        text-align: left;
-    }
+  p {
+    text-align: left;
+  }
 
-    .kolom img {
-        padding-top: 0px;
-    }
+  .kolom img {
+    padding-top: 0px;
+  }
 
-    .stephanie {
-        top: -5%;
-    }
+  .stephanie {
+    top: -5%;
+  }
 
-    .grotefotocontainer {
-        position: relative;
-        z-index: 2;
-        width: 80%;
-    }
+  .grotefotocontainer {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+  }
 
-    .boven {
-        left: 20%;
-        padding-top: 50px;
-    }
+  .boven {
+    left: 20%;
+    padding-top: 50px;
+  }
 
-    .onder {
-        left: 50%;
-        padding-top: 20px;
-        padding-bottom: 50px;
-    }
+  .onder {
+    left: 50%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
 
 }
 
 @media (min-width: 1200px) {
-    .wrapper {
-        width: 1200px;
-        margin: auto;
-    }
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+  }
 
 }
