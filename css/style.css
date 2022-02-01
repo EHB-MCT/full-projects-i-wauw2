@@ -341,6 +341,11 @@ form {
 
 .socialmediawrapper {
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50%;
+    overflow: hidden;
 }
 
 .namen p {
