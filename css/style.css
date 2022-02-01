@@ -64,7 +64,7 @@ p {
   border-bottom: 5px solid rgb(84, 74, 255);
 }
 
-nav{
+nav {
   align-items: center;
 }
 
@@ -406,7 +406,7 @@ h1 {
 
 .slider .quote {
   font-family: 'rubik', 'sans serif';
-  font-size: 40px;
+  font-size: 65px;
 }
 
 .slider .source {
@@ -696,7 +696,7 @@ h1 {
   }
 
 
-  .bovenstuk{
+  .bovenstuk {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -769,7 +769,7 @@ h1 {
     padding-bottom: 50px;
   }
 
-  .navigationenbutton{
+  .navigationenbutton {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;

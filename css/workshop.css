@@ -607,6 +607,14 @@ CAROUSEL PARTICIPATIE {}
         margin-top: 35px;
     }
 
+    .navwrapper {
+        display: inline-block;
+    }
+
+    .outer-menu {
+        display: none;
+    }
+
     h2 {
         font-size: 55px;
         margin-top: 30px;
@@ -620,7 +628,7 @@ CAROUSEL PARTICIPATIE {}
     }
 
     .kids {
-        width: 1280px;
+        width: 1200px;
         display: flex;
         margin: auto;
     }
@@ -662,7 +670,7 @@ CAROUSEL PARTICIPATIE {}
     }
 
     .adults {
-        width: 1280px;
+        width: 1200px;
         display: flex;
         margin: auto;
     }
@@ -705,7 +713,7 @@ CAROUSEL PARTICIPATIE {}
     }
 
     .part {
-        width: 1280px;
+        width: 1200px;
         display: flex;
         margin: auto;
     }
