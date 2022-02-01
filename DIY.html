@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/DIY.css" />
     <link rel="icon" type="image/x-icon" href="images/Logo_final.png">
+    <script src="js/premiumvids.js"></script>
     <script src="js/index.js" type="module"></script>
     <title>WAUW - DIY</title>
     <style>
@@ -22,10 +23,10 @@
         <div class='outerwrapper'>
             <div class='wrapper'>
                 <section class='bovenstuk'>
-                    <div class='breed logoennav'>
-                        <div class='logowrapper'>
-                            <a href='homepage.html'><img id='logo' src='images/Logo_final.png'></a>
-                        </div>
+                    <div class='logowrapper'>
+                        <a href='homepage.html'><img id='logo' src='images/Logo_final.png'></a>
+                    </div>
+                    <div class='navigationenbutton'>
                         <div class='navwrapper'>
                             <nav>
                                 <a class='homenav' href='homepage.html'>WAUW</a>
@@ -35,11 +36,11 @@
                                 <a class='diynav' href='DIY.html'>DIY</a>
                             </nav>
                         </div>
+                        <div>
+                            <a href='contact.html' class='contact knopwit'>CONTACTEER ONS</a>
+                        </div>
                     </div>
-                    <div class='klein'>
-                        <a href='contact.html' class='contact knopwit'>CONTACTEER ONS</a>
-                    </div>
-                </section>
+            </section>
             </div>
         </div>
     </header>
@@ -143,8 +144,21 @@
                             <p>Volg het stappenplan en maak zelf een simpele figuur.</p>
 
                             <p>Ben je overtuigd? Schrijf je dan <a class='telefoonlink' href=agenda.html>hier</a> in
-                                voor onze workshops!</p><br>
-                            <div class="contactformulier">
+                                voor onze workshops!</p>
+
+                            <h2>Wil jij nog meer projectjes vanuit je knus huisje maken?</h2>
+                            <p>Bekijk dan zeker onze premium video's</p>
+                            <p>Deze zijn alleen beschikbaar voor onze premium users dus contacteer ons zeker als jij dit
+                                ook wil.</p>
+                            <div class="premiumvid">
+                                <input type="text" id="premium">
+                                <input type="text" id="ww">
+                                <button onclick="log();" class="premiumvid">Premium videos</button>
+                                <a href="#" id="vid1">Locked</a>
+                                <a href="#" id="vid2">Locked</a>
+                                <a href="#" id="vid3">Locked</a>
+                                <a href="#" id="vid4">Locked</a>
+                                <a href="#" id="vid5">Locked</a>
                             </div>
                         </div>
                     </div>
