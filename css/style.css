@@ -320,13 +320,13 @@ form {
   -webkit-text-stroke: 0.5px black;
 }
 
-.lottestephanie{
+.lottestephanie {
   width: 100%;
 }
 
 .lotte {
-    top: 60%;
-    left: 5%;
+  top: 60%;
+  left: 5%;
 }
 
 .stephanie {
@@ -337,10 +337,6 @@ form {
 .namen {
   position: absolute;
   color: rgb(84, 74, 255);
-}
-
-.kolom p {
-  width: 100%;
 }
 
 .kolom img {
