@@ -995,10 +995,18 @@ h1 {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .wrapper {
     width: 1200px;
     margin: auto;
+  }
+
+  .navwrapper {
+    display: inline-block;
+  }
+
+  .outer-menu {
+    display: none;
   }
 
 }
