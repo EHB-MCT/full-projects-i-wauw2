@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
 .body {
     margin: auto;
 }
@@ -47,9 +44,21 @@
 .data1 {
     display: flex;
     width: 100%;
-    margin-bottom: 75px;
-    margin-top: 55px;
-    margin-right: 100px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-right: 10px;
+    padding-left: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.data1wit {
+    display: flex;
+    width: 100%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-right: 10px;
+    padding-left: auto;
     position: relative;
     z-index: 2;
 }
@@ -69,10 +78,6 @@
 
 }
 
-#logo {
-    width: 100%;
-}
-
 .left {
     margin-left: 50px;
     width: 20%;
@@ -80,6 +85,8 @@
 
 .center {
     width: 50%;
+    /*line-height: 23px;
+    */
 }
 
 .right {
@@ -162,7 +169,6 @@ form {
     width: 55%;
     margin: 0;
     box-sizing: border-box;
-    align-self: center;
 }
 
 .form-control {
@@ -190,11 +196,6 @@ form {
     width: 14px;
 }
 
-/*.onderstukgrijs {
-    width: 60%;
-    align-self: center;
-}*/
-
 @media (max-width: 768px) {
     .background4 {
         width: 450px;
@@ -202,10 +203,6 @@ form {
         top: -60px;
         right: 130px;
         z-index: -1;
-    }
-
-    .onderstukgrijs {
-        background-color: #333333;
     }
 
     .head {
@@ -217,6 +214,22 @@ form {
     }
 
     .data1 {
+        padding-right: 0px;
+        padding-left: 0px;
+
+        color: black;
+    }
+
+    .data1wit {
         color: white;
+        padding-left: 0;
+    }
+
+    .grijskleur {
+        background-color: #333333;
+    }
+
+    .onderstuk {
+        margin-left: 0px;
     }
 }

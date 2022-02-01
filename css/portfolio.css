@@ -38,10 +38,6 @@
 
 }
 
-#logo {
-    width: 100%;
-}
-
 .left {
     margin-left: 50px;
     width: 20%;
@@ -106,23 +102,19 @@ h2 {
     font-weight: lighter;
 }
 
-h3,
-h4,
 h5 {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     text-align: center;
     font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 35px;
 
 }
 
-h4 {
-    margin-bottom: 60px;
-    margin-top: -12px;
-}
-
-h4 {
-    margin-bottom: 60px;
+.h5margin {
+    margin-bottom: 40px;
+    margin-top: -34px;
 }
 
 /*-------------------------[popup]--------------------------*/
@@ -144,8 +136,6 @@ h4 {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
@@ -163,12 +153,17 @@ h4 {
     margin: auto;
     display: block;
     max-width: 700px;
-    width: 60%;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
+}
+
+.modal-img img {
+    height: 400px;
+    width: 400px;
+    margin: auto auto auto auto;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */

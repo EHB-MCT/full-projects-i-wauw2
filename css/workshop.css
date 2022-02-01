@@ -15,8 +15,7 @@ main {
     border: 2px #333333 solid;
     display: inline-block;
     margin-top: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 40%;
 }
 
 .knopzwartwit:hover {
@@ -266,6 +265,7 @@ TEKST PARTICIPATIE {}
 }
 
 .part-text {
+    order: 1;
     font-family: 'Rubik';
     font-weight: 400;
     background-color: #333333;
@@ -389,10 +389,19 @@ CAROUSEL PARTICIPATIE {}
         width: 1280px;
         display: flex;
         margin: auto;
-        margin-bottom: 100px;
+    }
+
+    .kids-text {
+        order: 2;
+        width: 50%;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .carousel {
+        order: 1;
         width: 50%;
         height: 580px;
     }
@@ -407,23 +416,20 @@ CAROUSEL PARTICIPATIE {}
         width: 40px;
     }
 
-    .kids-text {
-        width: 50%;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+    .downK {
+        width: 40px;
+        margin-left: 47%;
+        margin-bottom: 100px;
     }
-
 
     .adults {
         width: 1280px;
         display: flex;
         margin: auto;
-        margin-bottom: 100px;
     }
 
     .adults-text {
+        order: 1;
         width: 50%;
         margin-left: 50px;
         margin-right: 50px;
@@ -432,6 +438,7 @@ CAROUSEL PARTICIPATIE {}
     }
 
     .carousel2 {
+        order: 2;
         width: 50%;
         height: 580px;
     }
@@ -446,6 +453,12 @@ CAROUSEL PARTICIPATIE {}
         width: 40px;
     }
 
+    .downV {
+        width: 40px;
+        margin-left: 50%;
+        margin-bottom: 100px;
+    }
+
     .part {
         width: 1280px;
         display: flex;
@@ -454,6 +467,7 @@ CAROUSEL PARTICIPATIE {}
     }
 
     .part-text {
+        order: 2;
         width: 50%;
         margin-left: 50px;
         margin-right: 50px;
@@ -462,6 +476,7 @@ CAROUSEL PARTICIPATIE {}
     }
 
     .carousel3 {
+        order: 1;
         width: 50%;
         height: 580px;
     }
