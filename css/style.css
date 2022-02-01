@@ -425,9 +425,8 @@ form {
 .phonecontainer {
   display: flex;
   justify-content: center;
-  width: 40px;
-  height: 50px;
-  padding: 16px 20px;
+  width: 70px;
+  height: 70px;
   font-size: 40px;
   color: white;
   text-decoration: none;
@@ -515,7 +514,6 @@ form {
   justify-content: center;
   flex-wrap: wrap;
   height: 50%;
-  overflow: hidden;
 }
 
 .namen p {
