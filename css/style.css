@@ -100,7 +100,7 @@ section {
 }
 
 #logo {
-    width: 50%;
+    width: 100%;
 }
 
 .kolom {
@@ -626,8 +626,8 @@ h1 {
         margin-top: 10px;
     }
 
-    .logo{
-        width: 100%;
+    #logo{
+        width: 40%;
     }
 
     .breed {
