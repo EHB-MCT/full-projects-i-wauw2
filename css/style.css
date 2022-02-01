@@ -5,6 +5,9 @@ h2 {
   font-weight: 400;
   text-align: center;
   font-size: 36px;
+  padding: 0px 15%;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 .scrollmenu {
@@ -61,6 +64,10 @@ p {
   border-bottom: 5px solid rgb(84, 74, 255);
 }
 
+nav{
+  align-items: center;
+}
+
 .knopzwart,
 .knopwit {
   font-family: 'rubik';
@@ -72,6 +79,7 @@ p {
   background-color: rgb(84, 74, 255);
   border: 2px #333333 solid;
   display: inline-block;
+  margin: auto;
 }
 
 .knopzwart:hover,
@@ -687,8 +695,11 @@ h1 {
     width: 40%;
   }
 
-  .bovenstuk {
-    flex-wrap: nowrap;
+
+  .bovenstuk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   section {
@@ -756,6 +767,12 @@ h1 {
     left: 50%;
     padding-top: 20px;
     padding-bottom: 50px;
+  }
+
+  .navigationenbutton{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
   }
 
 }
