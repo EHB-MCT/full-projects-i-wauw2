@@ -302,7 +302,7 @@ nav {
 }
 
 .knopwit:hover {
-  color: rgb(84, 74, 255);
+  color: rgb(84, 74, 255) !important;
   border: 2px rgb(84, 74, 255) solid;
   background-color: white;
 }
