@@ -57,7 +57,6 @@ li {
     padding: 0;
 }
 
-
 .bodytext h2 {
     font-size: 36px;
     font-weight: lighter;
@@ -75,10 +74,7 @@ ul {
     padding: 0;
 }
 
-.lijstpt1 {
-    display: inline-block;
-}
-
+.lijstpt1,
 .lijstpt2 {
     display: inline-block;
 }
@@ -88,55 +84,7 @@ ul {
     margin-left: 50px
 }
 
-.stap1 {
-    display: flex;
-}
-
-.stap2 {
-    display: flex;
-}
-
-.foto2 {
-    display: flex;
-}
-
-.stap3 {
-    display: flex;
-}
-
-.stap4 {
-    display: flex;
-}
-
-.stap5 {
-    display: flex;
-}
-
-.stap6 {
-    display: flex;
-}
-
-.stap7 {
-    display: flex;
-}
-
-.stap8 {
-    display: flex;
-}
-
-.stap9 {
-    display: flex;
-}
-
-.stap10 {
-    display: flex;
-}
-
-.stap11 {
-    display: flex;
-}
-
-.stap12 {
+.stap {
     display: flex;
 }
 
@@ -148,4 +96,62 @@ ul {
 
 .stappenplan p {
     width: 70%;
+}
+
+.grijsdeel {
+    width: 80%;
+    padding: 0px 15%;
+}
+
+.premiumvid {
+    padding: 0px 15%;
+}
+
+#premium {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#ww {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+
+.premiumlink {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.premiumlink:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .kolom {
+        width: 100%;
+    }
+
+    .kolom p {
+        width: 80%;
+        padding: 0px 10%;
+    }
+
+    .head {
+        width: 80%;
+    }
+
+    .stap {
+        flex-direction: row-reverse;
+    }
+
+    .stap p {
+        text-align: left;
+    }
+
+    .grijstext {
+        align-content: center;
+    }
 }
