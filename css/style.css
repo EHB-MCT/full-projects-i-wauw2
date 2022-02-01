@@ -30,7 +30,7 @@ body {
 p {
   font-family: 'rubik';
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   padding: 0px 15%;
   padding-top: 15px;
   line-height: 20px;
@@ -46,7 +46,7 @@ p {
 .navwrapper a {
   font-family: 'rubik';
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   color: black;
 }
@@ -58,7 +58,7 @@ p {
 .knopzwart,
 .knopwit {
   font-family: 'rubik';
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: white;
   text-decoration: none;
@@ -704,8 +704,9 @@ h1 {
   }
 
   .lottestephanie {
+    width: 80%;
     position: relative;
-    left: 5%;
+    left: 25%;
   }
 
   .titel h1 {
