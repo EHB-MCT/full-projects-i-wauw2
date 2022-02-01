@@ -389,7 +389,6 @@ CAROUSEL PARTICIPATIE {}
         width: 1280px;
         display: flex;
         margin: auto;
-        margin-bottom: 100px;
     }
 
     .kids-text {
@@ -417,11 +416,16 @@ CAROUSEL PARTICIPATIE {}
         width: 40px;
     }
 
+    .downK {
+        width: 40px;
+        margin-left: 47%;
+        margin-bottom: 100px;
+    }
+
     .adults {
         width: 1280px;
         display: flex;
         margin: auto;
-        margin-bottom: 100px;
     }
 
     .adults-text {
@@ -447,6 +451,12 @@ CAROUSEL PARTICIPATIE {}
 
     .carousel_button2 img {
         width: 40px;
+    }
+
+    .downV {
+        width: 40px;
+        margin-left: 50%;
+        margin-bottom: 100px;
     }
 
     .part {
