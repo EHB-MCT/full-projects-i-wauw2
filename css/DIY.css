@@ -88,55 +88,7 @@ ul {
     margin-left: 50px
 }
 
-.stap1 {
-    display: flex;
-}
-
-.stap2 {
-    display: flex;
-}
-
-.foto2 {
-    display: flex;
-}
-
-.stap3 {
-    display: flex;
-}
-
-.stap4 {
-    display: flex;
-}
-
-.stap5 {
-    display: flex;
-}
-
-.stap6 {
-    display: flex;
-}
-
-.stap7 {
-    display: flex;
-}
-
-.stap8 {
-    display: flex;
-}
-
-.stap9 {
-    display: flex;
-}
-
-.stap10 {
-    display: flex;
-}
-
-.stap11 {
-    display: flex;
-}
-
-.stap12 {
+.stap {
     display: flex;
 }
 
@@ -156,11 +108,19 @@ ul {
     }
 
     .kolom p {
-        width: 90%;
-        padding: 0px 5%;
+        width: 80%;
+        padding: 0px 10%;
     }
 
     .head {
-        width: 90%;
+        width: 80%;
+    }
+
+    .stap {
+        flex-direction: row-reverse;
+    }
+
+    .stap p {
+        text-align: left;
     }
 }
