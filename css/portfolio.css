@@ -209,6 +209,10 @@ h5 {
     .head {
         width: 60%;
     }
+
+    #caption {
+        text-align: left;
+    }
 }
 
 @media (min-width: 1200px) {
