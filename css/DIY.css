@@ -149,3 +149,18 @@ ul {
 .stappenplan p {
     width: 70%;
 }
+
+@media (max-width: 768px) {
+    .kolom {
+        width: 100%;
+    }
+
+    .kolom p {
+        width: 90%;
+        padding: 0px 5%;
+    }
+
+    .head {
+        width: 90%;
+    }
+}
