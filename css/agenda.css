@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
 .body {
     margin: auto;
 }
@@ -55,6 +52,17 @@
     z-index: 2;
 }
 
+.data1wit {
+    display: flex;
+    width: 100%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-right: 10px;
+    padding-left: auto;
+    position: relative;
+    z-index: 2;
+}
+
 .background5 {
     width: 570px;
     position: absolute;
@@ -81,6 +89,8 @@
 
 .center {
     width: 50%;
+    /*line-height: 23px;
+    */
 }
 
 .right {
@@ -211,7 +221,12 @@ form {
         padding-right: 0px;
         padding-left: 0px;
 
+        color: black;
+    }
+
+    .data1wit {
         color: white;
+        padding-left: 0;
     }
 
     .grijskleur {
