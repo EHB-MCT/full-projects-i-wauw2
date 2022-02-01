@@ -9,8 +9,6 @@
     margin-bottom: 100px;
 }
 
-
-
 .grotewoorden {
     padding-bottom: 1px;
     width: 100vw;
@@ -22,6 +20,7 @@
     font-size: 15vw;
     margin-left: 10px;
     width: 100%;
+    text-align: left;
 }
 
 body {
