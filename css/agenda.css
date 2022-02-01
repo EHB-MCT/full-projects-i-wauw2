@@ -66,8 +66,8 @@
 .background5 {
     width: 570px;
     position: absolute;
-    top: 155px;
-    right: 85px;
+    top: 190px;
+    right: 90px;
     z-index: -1;
 }
 
@@ -235,5 +235,23 @@ form {
 
     .onderstuk {
         margin-left: 0px;
+    }
+
+    .background5 {
+        display: none;
+    }
+
+    .kolom.klein2.donkergrijs {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .container {
+        margin-left: 215px;
+        margin-right: auto;
     }
 }
