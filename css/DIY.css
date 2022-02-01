@@ -74,10 +74,7 @@ ul {
     padding: 0;
 }
 
-.lijstpt1 {
-    display: inline-block;
-}
-
+.lijstpt1,
 .lijstpt2 {
     display: inline-block;
 }
