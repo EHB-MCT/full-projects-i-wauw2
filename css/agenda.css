@@ -47,9 +47,10 @@
 .data1 {
     display: flex;
     width: 100%;
-    margin-bottom: 75px;
-    margin-top: 55px;
-    margin-right: 100px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-right: 10px;
+    padding-left: auto;
     position: relative;
     z-index: 2;
 }
@@ -162,7 +163,6 @@ form {
     width: 55%;
     margin: 0;
     box-sizing: border-box;
-    align-self: center;
 }
 
 .form-control {
@@ -190,11 +190,6 @@ form {
     width: 14px;
 }
 
-/*.onderstukgrijs {
-    width: 60%;
-    align-self: center;
-}*/
-
 @media (max-width: 768px) {
     .background4 {
         width: 450px;
@@ -202,10 +197,6 @@ form {
         top: -60px;
         right: 130px;
         z-index: -1;
-    }
-
-    .onderstukgrijs {
-        background-color: #333333;
     }
 
     .head {
@@ -217,6 +208,17 @@ form {
     }
 
     .data1 {
+        padding-right: 0px;
+        padding-left: 0px;
+
         color: white;
+    }
+
+    .grijskleur {
+        background-color: #333333;
+    }
+
+    .onderstuk {
+        margin-left: 0px;
     }
 }
