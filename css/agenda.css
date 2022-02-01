@@ -243,11 +243,10 @@ form {
     }
 
     .form {
-        width: 100%;
+        width: 80%;
     }
 
     .container {
-        margin-left: 215px;
-        margin-right: auto;
+        margin-right: -50px;
     }
 }
