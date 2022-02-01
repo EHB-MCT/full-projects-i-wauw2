@@ -672,11 +672,10 @@ h1 {
 
     .lottestephanie {
         position: relative;
-        right: 20%;
-        top: 6%;
+        left: 5%;
     }
 
-    .titel h1 {
+    .titel h1{
         text-align: left;
     }
 
