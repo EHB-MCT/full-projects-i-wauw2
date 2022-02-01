@@ -214,6 +214,9 @@ h1 {
     transition: width 0.4s ease;
 }
 
+.navwrapper {
+    display: none;
+}
 
 main {
     margin-top: 50px;
@@ -496,6 +499,7 @@ TEKST PARTICIPATIE {}
     margin-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    overflow: hidden;
 }
 
 
