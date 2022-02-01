@@ -98,6 +98,38 @@ ul {
     width: 70%;
 }
 
+.grijsdeel {
+    width: 80%;
+    padding: 0px 15%;
+}
+
+.premiumvid {
+    padding: 0px 15%;
+}
+
+#premium {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#ww {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.premiumlink {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.premiumlink:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .kolom {
         width: 100%;
@@ -118,11 +150,5 @@ ul {
 
     .stap p {
         text-align: left;
-    }
-}
-
-@media (min-width: 768px) {
-    img {
-        margin-left: 40px;
     }
 }

@@ -226,6 +226,7 @@ h2 {
   padding: 0px 15%;
   margin-bottom: 0px;
   margin-top: 10px;
+  margin: auto;
 }
 
 .scrollmenu {
@@ -265,55 +266,25 @@ p {
 }
 
 
-.navwrapper {
-  margin: auto;
-  display: flex;
-}
-
-.navwrapper a {
-  font-family: 'rubik';
-  font-weight: 400;
-  font-size: 16px;
-  text-decoration: none;
-  color: black;
-}
-
-.navwrapper a:hover {
-  border-bottom: 5px solid rgb(84, 74, 255);
-}
-
-nav {
-  align-items: center;
-}
-
 .knopzwart,
 .knopwit {
   font-family: 'rubik';
   font-size: 16px;
   font-weight: 400;
-  color: white;
+  color: white !important;
   text-decoration: none;
   padding: 10px;
   background-color: rgb(84, 74, 255);
   border: 2px #333333 solid;
   display: inline-block;
   margin: auto;
-}
-
-.knopzwart:hover,
-.knopwit:hover {
-  color: rgb(84, 74, 255);
-  background-color: #333333;
-  border: 2px rgb(84, 74, 255) solid;
-}
-
-.knopwit {
   border: 2px solid white;
 }
 
 .knopwit:hover {
+  color: rgb(84, 74, 255) !important;
+  border: 2px rgb(84, 74, 255) solid;
   background-color: white;
-  border-color: rgb(84, 74, 255);
 }
 
 section {
@@ -993,16 +964,38 @@ h1 {
     align-items: center;
   }
 
+  h2 {
+    text-align: left;
+    margin: 0px;
+  }
+
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .wrapper {
     width: 1200px;
     margin: auto;
   }
 
   .navwrapper {
-    display: inline-block;
+    margin: auto;
+    display: flex;
+  }
+
+  .navwrapper a {
+    font-family: 'rubik';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .navwrapper a:hover {
+    border-bottom: 5px solid rgb(84, 74, 255);
+  }
+
+  nav {
+    align-items: center;
   }
 
   .outer-menu {
