@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
-.body {
-    margin: auto;
-}
-
-.klein {
-    display: flex;
-    justify-content: center;
-}
-
-.kolom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.donkergrijs {
-    background-color: #333333;
-    color: white;
-}
-
 .head {
     width: 100%;
 }
@@ -30,12 +10,6 @@
     top: -30px;
     right: 100px;
     z-index: -1;
-}
-
-.breed {
-    display: flex;
-    flex-wrap: wrap;
-
 }
 
 .left {
