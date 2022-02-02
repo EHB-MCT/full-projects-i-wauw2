@@ -1,7 +1,7 @@
 function log() {
     var naamEen = document.getElementById("premium").value;
     var wachtwoord = document.getElementById("ww").value;
-    if (naamEen == "Test" && wachtwoord == "Test123" || naamEen == "Ilhan" && wachtwoord == "vrijdag") {
+    if (naamEen == "Test" && wachtwoord == "Test123" || naamEen == "Jelle" && wachtwoord == "Ditiseentest") {
         document.getElementById("vid1").href = "https://www.andleuven.com/en/video-1-wat-het-nieuwe-goud";
         document.getElementById("vid1").innerHTML = "https://www.andleuven.com/en/video-1-wat-het-nieuwe-goud";
         document.getElementById("vid2").href = "https://www.andleuven.com/en/video-2-gerecycleerd-karton-papier";
@@ -14,3 +14,6 @@ function log() {
         document.getElementById("vid5").innerHTML = "https://www.andleuven.com/en/video-5-algen-gietporselein";
     }
 }
+
+
+/*original code by WAUW01 */
