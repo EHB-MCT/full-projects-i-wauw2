@@ -109,6 +109,7 @@
     display: flex;
     flex-wrap: nowrap;
     margin-right: 40px;
+
     font-family: 'Rubik', sans-serif;
     text-align: center;
     color: white;
@@ -134,6 +135,7 @@
 
 .inschrijf {
     color: white;
+    margin-bottom: 20px;
 }
 
 .inschrijfknop {
@@ -141,6 +143,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: 11pt;
     margin-right: 80px;
+
     padding: 5px;
     border: 2px white solid;
     text-align: center;
@@ -213,7 +216,7 @@ form {
     }
 
     .inschrijfknop {
-        margin-right: 60px;
+        position: relative;
     }
 
     .data1 {
@@ -242,7 +245,6 @@ form {
 
     .kolom.klein2.donkergrijs {
         width: 100%;
-        justify-content: center;
     }
 
     .form {
@@ -265,9 +267,18 @@ form {
         margin-left: 0px;
     }
 
+    .form-control {
+        width: 260px;
+    }
+
     .center {
         margin-right: -80px;
     }
+
+    .right {
+        margin-bottom: 10px;
+    }
+
 }
 
 @media (min-width: 320px) {
