@@ -40,7 +40,11 @@ p {
 
 
 
-TEKST KINDEREN {}
+/*TEKST KINDEREN*/
+
+.kids {
+    margin: auto;
+}
 
 .kids-text {
     font-family: 'Rubik';
@@ -51,12 +55,13 @@ TEKST KINDEREN {}
     margin-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    overflow: hidden;
 }
 
 
 
 
-CAROUSEL KINDEREN {}
+/*CAROUSEL KINDEREN*/
 
 .carousel {
     position: relative;
@@ -147,13 +152,18 @@ CAROUSEL KINDEREN {}
     width: 0px;
 }
 
+.lijn1 {
+    width: 80%;
+    margin: auto;
+}
 
 
 
-TEKST VOLWASSENEN {}
+
+/*TEKST VOLWASSENEN*/
 
 .adults {
-    margin-top: 120px;
+    margin-top: 30px;
 }
 
 .adults-text {
@@ -165,12 +175,13 @@ TEKST VOLWASSENEN {}
     margin-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    overflow: hidden;
 }
 
 
 
 
-CAROUSEL VOLWASSENEN {}
+/*CAROUSEL VOLWASSENEN*/
 
 .carousel2 {
     position: relative;
@@ -262,13 +273,18 @@ CAROUSEL VOLWASSENEN {}
     width: 0px;
 }
 
+.lijn2 {
+    width: 80%;
+    margin: auto;
+}
 
 
 
-TEKST PARTICIPATIE {}
+
+/*TEKST PARTICIPATIE*/
 
 .part {
-    margin-top: 120px;
+    margin-top: 30px;
 }
 
 .part-text {
@@ -287,7 +303,7 @@ TEKST PARTICIPATIE {}
 
 
 
-CAROUSEL PARTICIPATIE {}
+/*CAROUSEL PARTICIPATIE*/
 
 .carousel3 {
     position: relative;
@@ -382,7 +398,163 @@ CAROUSEL PARTICIPATIE {}
 }
 
 
+@media (min-width: 400px) {
+    .kids {
+        width: 350px;
+        margin: auto;
+    }
 
+    .adults {
+        width: 350px;
+        margin: auto;
+    }
+
+    .part {
+        width: 350px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .kids {
+        margin-left: 20%;
+        margin-right: 40%;
+    }
+
+    .kids-text {
+        width: 500px;
+    }
+
+    .carousel {
+        width: 500px;
+        height: 500px;
+    }
+
+    .adults {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .adults-text {
+        width: 500px;
+    }
+
+    .carousel2 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .part {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .part-text {
+        width: 500px;
+    }
+
+    .carousel3 {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .kids {
+        width: 1000px;
+        display: flex;
+        margin: auto;
+    }
+
+    .kids-text {
+        order: 2;
+        width: 50%;
+        margin-left: 20px;
+        margin-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .carousel {
+        order: 1;
+        width: 50%;
+        height: 400px;
+        margin-left: 40px;
+    }
+
+    .downK {
+        width: 40px;
+        margin-left: 47%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    .lijn1 {
+        margin-bottom: 50px;
+    }
+
+    .adults {
+        width: 1000px;
+        display: flex;
+        margin: auto;
+    }
+
+    .adults-text {
+        order: 1;
+        width: 50%;
+        margin-left: 40px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .downV {
+        width: 40px;
+        margin-left: 47%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    .lijn2 {
+        margin-bottom: 50px;
+    }
+
+    .carousel2 {
+        order: 2;
+        width: 50%;
+        height: 400px;
+        margin-right: 40px;
+    }
+
+    .part {
+        width: 1000px;
+        display: flex;
+        margin: auto;
+    }
+
+    .part-text {
+        order: 2;
+        width: 50%;
+        margin-left: 20px;
+        margin-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .carousel3 {
+        order: 1;
+        width: 50%;
+        height: 400px;
+        margin-left: 40px;
+    }
+
+    .up {
+        width: 40px;
+        margin-left: 47%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+}
 
 @media (min-width: 1280px) {
     main {
@@ -403,23 +575,15 @@ CAROUSEL PARTICIPATIE {}
 
     .kids {
         width: 1200px;
-        display: flex;
-        margin: auto;
     }
 
     .kids-text {
-        order: 2;
-        width: 50%;
         margin-left: 50px;
         margin-right: 50px;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 
     .carousel {
-        order: 1;
-        width: 50%;
-        height: 580px;
+        height: 520px;
     }
 
     .carousel_indicator {
@@ -433,8 +597,6 @@ CAROUSEL PARTICIPATIE {}
     }
 
     .downK {
-        width: 40px;
-        margin-left: 47%;
         margin-bottom: 100px;
         margin-top: 40px;
     }
@@ -445,23 +607,17 @@ CAROUSEL PARTICIPATIE {}
 
     .adults {
         width: 1200px;
-        display: flex;
-        margin: auto;
     }
 
     .adults-text {
-        order: 1;
-        width: 50%;
         margin-left: 0px;
         margin-right: 50px;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 
     .carousel2 {
         order: 2;
         width: 50%;
-        height: 580px;
+        height: 520px;
         margin-right: 30px;
     }
 
@@ -476,8 +632,6 @@ CAROUSEL PARTICIPATIE {}
     }
 
     .downV {
-        width: 40px;
-        margin-left: 47%;
         margin-bottom: 100px;
         margin-top: 40px;
     }
@@ -488,23 +642,15 @@ CAROUSEL PARTICIPATIE {}
 
     .part {
         width: 1200px;
-        display: flex;
-        margin: auto;
     }
 
     .part-text {
-        order: 2;
-        width: 50%;
         margin-left: 50px;
         margin-right: 50px;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 
     .carousel3 {
-        order: 1;
-        width: 50%;
-        height: 580px;
+        height: 520px;
     }
 
     .carousel_indicator3 {
@@ -517,15 +663,7 @@ CAROUSEL PARTICIPATIE {}
         width: 40px;
     }
 
-    .knopzwartwit {
-        font-size: 20px;
-        margin-left: 40%;
-        margin-right: 40%;
-    }
-
     .up {
-        width: 40px;
-        margin-left: 47%;
         margin-bottom: 100px;
         margin-top: 40px;
     }
