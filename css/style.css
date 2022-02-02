@@ -996,6 +996,15 @@ h1 {
   .outer-menu {
     display: none;
   }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+  }
+
+
 
 }
 
