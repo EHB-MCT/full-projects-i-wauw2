@@ -546,7 +546,7 @@ form {
 
 html,
 body {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 h1 {
@@ -555,16 +555,15 @@ h1 {
 }
 
 .content-slider {
-  width: 60%;
-  height: 360px;
+  width: 100%;
 }
 
 .slider {
-  height: 320px;
-  width: 680px;
+  width: 90%;
   margin: 40px auto 0;
   overflow: visible;
   position: relative;
+  margin-left: 5%;
 }
 
 .mask {
@@ -579,8 +578,7 @@ h1 {
 }
 
 .slider li {
-  width: 680px;
-  height: 320px;
+  width: 100%;
   position: absolute;
   top: -325px;
   list-style: none;
@@ -588,14 +586,15 @@ h1 {
 
 .slider .quote {
   font-family: 'rubik', 'sans serif';
-  font-size: 65px;
+  font-size: 200%;
+  text-align: left;
 }
 
 .slider .source {
   font-family: 'rubik', 'sans serif';
-  font-size: 20px;
+  font-size: 100%;
   text-align: left;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 .slider li.anim1 {
@@ -844,6 +843,21 @@ h1 {
   }
 }
 
+@media(min-width: 480px) {
+  .slider .quote {
+    font-family: 'rubik', 'sans serif';
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .slider .source {
+    font-family: 'rubik', 'sans serif';
+    font-size: 20px;
+    text-align: left;
+    margin-left: 18px;
+  }
+}
+
 /* FOOTER */
 .footer {
   background-color: lightgray;
@@ -935,6 +949,8 @@ h1 {
   }
 
   .logowrapper {
+    display: flex;
+    justify-content: center;
     text-align: left;
     width: 30%;
     margin-top: 10px;
@@ -1002,7 +1018,7 @@ h1 {
   }
 
   .wrapper {
-    margin: 15px 0px;
+    margin: 15px 15px;
   }
 
   p {
@@ -1057,6 +1073,19 @@ h1 {
     margin: 0px;
   }
 
+  .slider .quote {
+    font-family: 'rubik', 'sans serif';
+    font-size: 55px;
+    text-align: left;
+  }
+
+  .slider .source {
+    font-family: 'rubik', 'sans serif';
+    font-size: 20px;
+    text-align: left;
+    margin-left: 18px;
+  }
+
 }
 
 
@@ -1090,6 +1119,22 @@ h1 {
   #logo {
     width: 50%;
     margin: auto;
+  }
+
+  .namen {
+    color: blue;
+    position: absolute;
+    display: block;
+  }
+
+  .stephanie {
+    top: -9%;
+    left: 60%;
+  }
+
+  .lotte {
+    top: 60%;
+    left: 2%;
   }
 }
 
