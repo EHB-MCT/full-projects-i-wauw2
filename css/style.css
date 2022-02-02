@@ -849,7 +849,7 @@ h1 {
   }
 }
 
-
+/* Tablet */
 @media (min-width: 768px) {
   nav>a {
     margin: auto 20px;
@@ -969,6 +969,8 @@ h1 {
 
 }
 
+
+/* Desktop */
 @media (min-width: 1025px) {
   .navwrapper {
     margin: auto;
@@ -997,6 +999,7 @@ h1 {
 
 }
 
+/* Wrapper centreren bij grote desktop */
 @media (min-width: 1281px) {
   .wrapper {
     width: 1200px;
