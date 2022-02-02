@@ -132,6 +132,10 @@
     font-weight: bold;
 }
 
+.inschrijf {
+    color: white;
+}
+
 .inschrijfknop {
     background-color: rgb(84, 74, 255);
     font-family: 'Rubik', sans-serif;
@@ -141,7 +145,6 @@
     border: 2px white solid;
     text-align: center;
     text-decoration: none;
-    color: white;
 }
 
 
