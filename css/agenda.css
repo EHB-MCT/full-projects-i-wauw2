@@ -204,11 +204,10 @@ form {
 
 @media (min-width: 320px) {
     .inschrijfknop {
+        margin-right: 0 !important;
         position: relative;
-        right: 85%;
+        right: 100%;
         top: 60px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .maand1 {
