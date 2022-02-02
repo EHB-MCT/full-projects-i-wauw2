@@ -109,7 +109,6 @@
     display: flex;
     flex-wrap: nowrap;
     margin-right: 40px;
-
     font-family: 'Rubik', sans-serif;
     text-align: center;
     color: white;
@@ -320,5 +319,21 @@ form {
         top: 195px;
         right: 90px;
         z-index: -1;
+    }
+
+    .maand1 {
+        margin-left: -20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .maand {
+        margin-left: -20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
