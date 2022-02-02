@@ -935,6 +935,10 @@ h1 {
   justify-content: space-evenly;
 }
 
+.grotefotocontainer.onder {
+  display: none;
+}
+
 @media (min-width: 600px) {
   .description {
     flex-wrap: nowrap;
@@ -1090,6 +1094,11 @@ h1 {
 
 }
 
+@media (min-width: 950px) {
+  .grotefotocontainer.onder {
+    display: inline-block;
+  }
+}
 
 /* Desktop */
 @media (min-width: 1025px) {
