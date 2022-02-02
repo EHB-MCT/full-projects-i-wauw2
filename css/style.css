@@ -969,12 +969,7 @@ h1 {
 
 }
 
-@media (min-width: 1281px) {
-  .wrapper {
-    width: 1200px;
-    margin: auto;
-  }
-
+@media (min-width: 1025px) {
   .navwrapper {
     margin: auto;
     display: flex;
@@ -1000,4 +995,11 @@ h1 {
     display: none;
   }
 
+}
+
+@media (min-width: 1281px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+  }
 }
