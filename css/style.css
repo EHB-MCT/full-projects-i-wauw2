@@ -341,11 +341,11 @@ section {
   width: 100%;
 }
 
-.lotte{
+.lotte {
   display: none;
 }
 
-.stephanie{
+.stephanie {
   display: none;
 }
 
@@ -843,6 +843,89 @@ h1 {
   }
 }
 
+/* FOOTER */
+.footer {
+  background-color: lightgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.facebook,
+.instagram,
+.mail {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.facebook {
+  background-color: rgb(66, 103, 178);
+}
+
+.facebook:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(66, 103, 178);
+}
+
+.instagram {
+  background-color: #8a3ab9;
+}
+
+.instagram:hover {
+  background-color: white;
+  color: #8a3ab9;
+}
+
+.mail {
+  background-color: #D0312D;
+}
+
+.mail:hover {
+  background-color: white;
+  color: #D0312D;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-envelope {
+  margin: auto;
+  text-decoration: none;
+}
+
+.socialmedia {
+  width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.iconlink {
+  height: 40px;
+  text-decoration: none;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 600px) {
+  .description {
+    flex-wrap: nowrap;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   nav>a {
@@ -928,8 +1011,8 @@ h1 {
   .kolom img {
     padding-top: 0px;
   }
-  
-  .namen{
+
+  .namen {
     color: blue;
     position: absolute;
     display: block;
