@@ -583,7 +583,7 @@ p {
     }
 
     .carousel {
-        height: 580px;
+        height: 520px;
     }
 
     .carousel_indicator {
@@ -617,7 +617,7 @@ p {
     .carousel2 {
         order: 2;
         width: 50%;
-        height: 580px;
+        height: 520px;
         margin-right: 30px;
     }
 
@@ -650,7 +650,7 @@ p {
     }
 
     .carousel3 {
-        height: 580px;
+        height: 520px;
     }
 
     .carousel_indicator3 {
