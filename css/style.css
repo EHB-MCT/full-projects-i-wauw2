@@ -998,16 +998,6 @@ h1 {
   }
 }
 
-@media (min-width: 1200px) {
-  .wrapper {
-    width: 1200px;
-    margin: auto;
-  }
-
-
-
-}
-
 /* Wrapper centreren bij grote desktop HIER MOET NIKS ANDERS BIJKOMEN*/
 @media (min-width: 1281px) {
   .wrapper {
