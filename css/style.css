@@ -1008,7 +1008,7 @@ h1 {
 
 }
 
-/* Wrapper centreren bij grote desktop */
+/* Wrapper centreren bij grote desktop HIER MOET NIKS ANDERS BIJKOMEN*/
 @media (min-width: 1281px) {
   .wrapper {
     width: 1200px;
