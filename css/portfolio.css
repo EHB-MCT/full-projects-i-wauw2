@@ -96,32 +96,38 @@ h5 {
 
 /*--------------------------Filter----------------------------*/
 
-.colors2 {
-    margin: auto 43% auto 43%;
+span {
+    font-family: 'Rubik', sans-serif;
+    padding: 2px 5px;
+    margin-top: 5px;
 }
 
 .colors {
-    margin: auto 48% auto 48%;
+    text-align: center;
 }
 
 /*architecture*/
 .blue {
     color: rgb(84, 74, 255);
+    border: 2px solid rgb(84, 74, 255);
 }
 
 /*art*/
 .yellow {
     color: rgb(202, 178, 0);
+    border: 2px solid rgb(202, 178, 0);
 }
 
 /*urbanism*/
 .green {
     color: rgb(60, 186, 10);
+    border: 2px solid rgb(60, 186, 10);
 }
 
 /*utopism*/
 .orange {
     color: rgb(208, 108, 1);
+    border: 2px solid rgb(208, 108, 1);
 }
 
 /* The "show" class is added to the filtered elements */
@@ -271,7 +277,7 @@ h5 {
 
 @media (min-width: 768px) {
     .head {
-        width: 60%;
+        width: 70%;
     }
 
     #caption {
