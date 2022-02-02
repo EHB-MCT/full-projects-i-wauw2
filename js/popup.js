@@ -1,3 +1,5 @@
+//https://www.w3schools.com/howto/howto_css_modal_images.asp
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
