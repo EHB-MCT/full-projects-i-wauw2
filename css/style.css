@@ -304,8 +304,9 @@ section {
 }
 
 #logo {
-  width: 50%;
-  margin: auto;
+  width: 40%;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .kolom {
@@ -1084,6 +1085,11 @@ h1 {
 
   .outer-menu {
     display: none;
+  }
+
+  #logo {
+    width: 50%;
+    margin: auto;
   }
 }
 
