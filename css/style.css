@@ -291,6 +291,11 @@ p {
   border: 2px solid white;
 }
 
+.contact.knopwit {
+  width: 80%;
+  font-size: 10px;
+}
+
 .knopwit:hover {
   color: rgb(84, 74, 255) !important;
   border: 2px rgb(84, 74, 255) solid;
@@ -871,6 +876,11 @@ h1 {
   #logo {
     width: 40%;
   }
+
+  .contact.knopwit {
+    width: 80%;
+    font-size: 12px;
+  }
 }
 
 /* FOOTER */
@@ -956,11 +966,26 @@ h1 {
   #logo {
     width: 30%;
   }
+
+  .section.bovenstuk {
+    display: flex;
+  }
+
+  .contact.knopwit {
+    width: 100%;
+    font-size: 14px;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 600px) {
   #logo {
     width: 20%;
+  }
+
+  .contact.knopwit {
+    width: 100%;
+    font-size: 14px;
   }
 }
 
@@ -979,6 +1004,11 @@ h1 {
 
   #logo {
     width: 50%;
+  }
+
+  .contact.knopwit {
+    width: 100%;
+    font-size: 14px;
   }
 
   .breed {
@@ -1146,6 +1176,11 @@ h1 {
   #logo {
     width: 50%;
     margin: auto;
+  }
+
+  .contact.knopwit {
+    width: 100%;
+    font-size: 16px;
   }
 
   .namen {
