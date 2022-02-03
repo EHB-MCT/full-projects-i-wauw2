@@ -293,7 +293,6 @@ p {
 .contact.knopwit {
   width: 100%;
   font-size: 10px;
-  margin-top: 7px;
 }
 
 .knopwit:hover {
@@ -1172,6 +1171,7 @@ h1 {
   nav {
     align-items: center;
     margin: -2px;
+    margin-right: 20px;
   }
 
   .outer-menu {
