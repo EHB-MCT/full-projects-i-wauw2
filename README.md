@@ -2,7 +2,7 @@
 # full-projects-starter
 
 WAUW
-Op deze pagina
+Op deze pagina vinden we verschillende knoppen 
 
 WORKSHOP
 Op deze pagina
