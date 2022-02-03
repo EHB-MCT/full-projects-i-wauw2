@@ -858,6 +858,10 @@ h1 {
     text-align: left;
     margin-left: 18px;
   }
+
+  #logo {
+    width: 40%;
+  }
 }
 
 /* FOOTER */
@@ -939,11 +943,15 @@ h1 {
   display: none;
 }
 
+@media (min-width: 450px) {
+  #logo {
+    width: 30%;
+  }
+}
+
 @media (min-width: 600px) {
-  .description {
-    flex-wrap: nowrap;
-    margin-left: 20%;
-    margin-right: 20%;
+  #logo {
+    width: 20%;
   }
 }
 
@@ -956,14 +964,12 @@ h1 {
 
   .logowrapper {
     display: flex;
-    justify-content: center;
     text-align: left;
     width: 30%;
-    margin-top: 10px;
   }
 
   #logo {
-    width: 40%;
+    width: 50%;
   }
 
   .breed {
@@ -1101,7 +1107,7 @@ h1 {
 }
 
 /* Desktop */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .navwrapper {
     margin: auto;
     display: flex;
@@ -1121,6 +1127,7 @@ h1 {
 
   nav {
     align-items: center;
+    margin: -2px;
   }
 
   .outer-menu {
@@ -1150,9 +1157,13 @@ h1 {
 }
 
 /* Wrapper centreren bij grote desktop HIER MOET NIKS ANDERS BIJKOMEN*/
-@media (min-width: 1281px) {
+@media (min-width: 1280px) {
   .wrapper {
     width: 1200px;
     margin: auto;
+  }
+
+  #logo {
+    margin-top: 10px
   }
 }
