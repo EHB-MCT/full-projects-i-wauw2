@@ -113,6 +113,21 @@ ul {
     padding: 0px 15%;
 }
 
+.premiumvid button {
+    background-color: rgb(84, 74, 255);
+    padding: 10px 5px;
+    color: white;
+    border: none;
+}
+
+.premiumvid button:hover {
+    color: rgb(84, 74, 255);
+    background-color: white;
+    border: 2px rgb(84, 74, 255) solid;
+    font-size: 14px;
+}
+
+
 #premium {
     height: 30px;
     margin-bottom: 10px;
@@ -145,6 +160,23 @@ ul {
 .fotoondertitel {
     width: 75%;
     margin-top: 2%;
+}
+
+.telefoonlink {
+    background-color: rgb(84, 74, 255);
+    padding: 10px 5px;
+    line-height: 3;
+}
+
+.telefoonlink:hover {
+    color: rgb(84, 74, 255);
+    background-color: white;
+    border: 2px rgb(84, 74, 255) solid;
+    font-size: 14px;
+}
+
+.a {
+    line-height: 20;
 }
 
 @media (max-width: 768px) {
