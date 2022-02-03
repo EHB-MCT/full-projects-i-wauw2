@@ -2,13 +2,20 @@
 # full-projects-starter
 
 WAUW
-Op deze pagina vinden we verschillende knoppen 
+Op deze pagina vinden we de belangrijkste informatie terug. De pagina is opgedeeld in twee delen, 1 deel met 'WIE ZJN WIJ?' in de grijze balk, 1 deel met een foto van onze klanten en een carousel met de uitleg van waarvoor WAUW staat.
+Carousel is opgebouwd in een div met verschillende url's waardoor we een bewegend effect hebben tussen deze elementen adhv javascipt.
 
 WORKSHOP
-Op deze pagina
+Pagina is opgebouwd uit 3 grote div's met daarin telkens een tekst en een carousel die van links naar rechts slide.
+In de tekst div is er een knop (MEER INFO) die je naar de portfolio page doorstuurt. 
+Meer info kinderen -> portfolio page kinderen 
+Meer info volwassenen -> portfolio page volwassenen 
+Meer info participatie -> portfolio page gemixt. 
+onder elke div is er een knop (DOWNK, DOWNV en UP) die u telkens naar de volgende categorie doorstuurt (je moet niet meer scrollen).
 
 PORTFOLIO
-Op deze pagina
+We hebben een filter (MYBTNCONTAINER) gemaakt waar we de verschillende workshops kunnen filter tussen kinderen, volwassenen en gemixt.
+Als je op een foto klikt wordt de foto groter en komt er een tekst tevoorschijn adhv 'ALT' en een 'SRC';
 
 AGENDA
 Pagina opgedeeld in 2 delen, 1 deel met alle agenda punten, 1 deel met een contactformulier.
