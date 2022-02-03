@@ -276,8 +276,16 @@ form {
         width: 80%;
     }
 
-    .container {
-        margin-right: -50px;
+    form {
+        margin-left: -20%;
+    }
+
+    .form-control {
+        width: 50%;
+    }
+
+    .submit-button {
+        margin-left: 110%;
     }
 }
 
@@ -290,6 +298,14 @@ form {
     .form {
         width: 80%;
         margin-left: 0px;
+    }
+
+    form {
+        margin-left: -20%;
+    }
+
+    .submit-button {
+        margin-left: 110%;
     }
 
     .form-control {
