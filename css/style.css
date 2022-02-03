@@ -263,6 +263,7 @@ p {
   padding-top: 15px;
   line-height: 20px;
   text-align: center;
+  width: 100%;
 }
 
 
@@ -303,7 +304,9 @@ section {
 }
 
 #logo {
-  width: 100%;
+  width: 40%;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .kolom {
@@ -336,8 +339,15 @@ section {
 }
 
 .lottestephanie {
-  position: relative;
-  z-index: 2;
+  width: 100%;
+}
+
+.lotte {
+  display: none;
+}
+
+.stephanie {
+  display: none;
 }
 
 .onderstuk {
@@ -483,6 +493,8 @@ form {
   padding-top: 5px;
   padding-bottom: 5px;
   text-decoration: none;
+  height: 70px;
+  margin-bottom: 30px;
 }
 
 .icontekst p {
@@ -526,21 +538,6 @@ form {
   width: 100%;
 }
 
-.lotte {
-  top: 60%;
-  left: 5%;
-}
-
-.stephanie {
-  top: 2%;
-  left: 50%;
-}
-
-.namen {
-  position: absolute;
-  color: rgb(84, 74, 255);
-}
-
 .kolom img {
   padding-top: 30px;
 }
@@ -551,7 +548,7 @@ form {
 
 html,
 body {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 h1 {
@@ -560,16 +557,15 @@ h1 {
 }
 
 .content-slider {
-  width: 60%;
-  height: 360px;
+  width: 100%;
 }
 
 .slider {
-  height: 320px;
-  width: 680px;
+  width: 90%;
   margin: 40px auto 0;
   overflow: visible;
   position: relative;
+  margin-left: 5%;
 }
 
 .mask {
@@ -584,8 +580,7 @@ h1 {
 }
 
 .slider li {
-  width: 680px;
-  height: 320px;
+  width: 100%;
   position: absolute;
   top: -325px;
   list-style: none;
@@ -593,14 +588,15 @@ h1 {
 
 .slider .quote {
   font-family: 'rubik', 'sans serif';
-  font-size: 65px;
+  font-size: 200%;
+  text-align: left;
 }
 
 .slider .source {
   font-family: 'rubik', 'sans serif';
-  font-size: 20px;
+  font-size: 100%;
   text-align: left;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 .slider li.anim1 {
@@ -849,7 +845,109 @@ h1 {
   }
 }
 
+@media(min-width: 480px) {
+  .slider .quote {
+    font-family: 'rubik', 'sans serif';
+    font-size: 40px;
+    text-align: left;
+  }
 
+  .slider .source {
+    font-family: 'rubik', 'sans serif';
+    font-size: 20px;
+    text-align: left;
+    margin-left: 18px;
+  }
+}
+
+/* FOOTER */
+.footer {
+  background-color: lightgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.facebook,
+.instagram,
+.mail {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.facebook {
+  background-color: rgb(66, 103, 178);
+}
+
+.facebook:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(66, 103, 178);
+}
+
+.instagram {
+  background-color: #8a3ab9;
+}
+
+.instagram:hover {
+  background-color: white;
+  color: #8a3ab9;
+}
+
+.mail {
+  background-color: #D0312D;
+}
+
+.mail:hover {
+  background-color: white;
+  color: #D0312D;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-envelope {
+  margin: auto;
+  text-decoration: none;
+}
+
+.socialmedia {
+  width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.iconlink {
+  height: 40px;
+  text-decoration: none;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.grotefotocontainer.onder {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .description {
+    flex-wrap: nowrap;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+/* Tablet */
 @media (min-width: 768px) {
   nav>a {
     margin: auto 20px;
@@ -857,6 +955,8 @@ h1 {
   }
 
   .logowrapper {
+    display: flex;
+    justify-content: center;
     text-align: left;
     width: 30%;
     margin-top: 10px;
@@ -924,7 +1024,7 @@ h1 {
   }
 
   .wrapper {
-    margin: 15px 0px;
+    margin: 15px 15px;
   }
 
   p {
@@ -935,8 +1035,20 @@ h1 {
     padding-top: 0px;
   }
 
+  .namen {
+    color: blue;
+    position: absolute;
+    display: block;
+  }
+
   .stephanie {
-    top: -5%;
+    top: -9%;
+    left: 60%;
+  }
+
+  .lotte {
+    top: 60%;
+    left: 5%;
   }
 
   .grotefotocontainer {
@@ -967,14 +1079,29 @@ h1 {
     margin: 0px;
   }
 
-}
-
-@media (min-width: 1200px) {
-  .wrapper {
-    width: 1200px;
-    margin: auto;
+  .slider .quote {
+    font-family: 'rubik', 'sans serif';
+    font-size: 55px;
+    text-align: left;
   }
 
+  .slider .source {
+    font-family: 'rubik', 'sans serif';
+    font-size: 20px;
+    text-align: left;
+    margin-left: 18px;
+  }
+
+}
+
+@media (min-width: 950px) {
+  .grotefotocontainer.onder {
+    display: inline-block;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
   .navwrapper {
     margin: auto;
     display: flex;
@@ -1000,4 +1127,32 @@ h1 {
     display: none;
   }
 
+  #logo {
+    width: 50%;
+    margin: auto;
+  }
+
+  .namen {
+    color: blue;
+    position: absolute;
+    display: block;
+  }
+
+  .stephanie {
+    top: -9%;
+    left: 60%;
+  }
+
+  .lotte {
+    top: 60%;
+    left: 2%;
+  }
+}
+
+/* Wrapper centreren bij grote desktop HIER MOET NIKS ANDERS BIJKOMEN*/
+@media (min-width: 1281px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+  }
 }

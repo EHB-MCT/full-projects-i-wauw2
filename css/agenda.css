@@ -132,16 +132,21 @@
     font-weight: bold;
 }
 
+.inschrijf {
+    color: white;
+    margin-bottom: 20px;
+}
+
 .inschrijfknop {
     background-color: rgb(84, 74, 255);
     font-family: 'Rubik', sans-serif;
     font-size: 11pt;
     margin-right: 80px;
+
     padding: 5px;
     border: 2px white solid;
     text-align: center;
     text-decoration: none;
-    color: white;
 }
 
 
@@ -196,6 +201,31 @@ form {
     width: 14px;
 }
 
+@media (min-width: 320px) {
+    .inschrijfknop {
+        margin-right: 0 !important;
+        position: relative;
+        right: 100%;
+        top: 60px;
+    }
+
+    .maand1 {
+        margin-left: -20px;
+        padding-right: 70px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .maand {
+        margin-left: -20px;
+    }
+
+    .cijfer {
+        margin-left: -20px;
+    }
+}
+
 @media (max-width: 768px) {
     .background4 {
         width: 450px;
@@ -210,7 +240,7 @@ form {
     }
 
     .inschrijfknop {
-        margin-right: 60px;
+        position: relative;
     }
 
     .data1 {
@@ -239,7 +269,6 @@ form {
 
     .kolom.klein2.donkergrijs {
         width: 100%;
-        justify-content: center;
     }
 
     .form {
@@ -248,5 +277,63 @@ form {
 
     .container {
         margin-right: -50px;
+    }
+}
+
+@media (max-width: 974px) {
+
+    .inschrijfknop {
+        margin-right: 50px;
+    }
+
+    .form {
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .form-control {
+        width: 260px;
+    }
+
+    .center {
+        margin-right: -80px;
+    }
+
+    .right {
+        margin-bottom: 10px;
+    }
+
+    .background5 {
+        width: 570px;
+        position: absolute;
+        top: 210px;
+        right: 90px;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 974px) {
+    .background5 {
+        width: 570px;
+        position: absolute;
+        top: 195px;
+        right: 90px;
+        z-index: -1;
+    }
+
+    .maand1 {
+        margin-left: -20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .maand {
+        margin-left: -20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
