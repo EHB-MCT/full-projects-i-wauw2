@@ -1171,6 +1171,7 @@ h1 {
   nav {
     align-items: center;
     margin: -2px;
+    margin-right: 20px;
   }
 
   .outer-menu {
