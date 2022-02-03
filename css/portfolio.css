@@ -279,18 +279,18 @@ span {
     }
 
     #caption {
-        margin: -210px 10px auto 65%;
+        margin: -400px 10px auto 60%;
         width: 400px;
     }
 
     .modal {
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.8);
         height: 100%
     }
 
     .modal-img img {
-        width: 40%;
-        height: 40%;
+        width: 600px;
+        height: 600px;
         margin: auto 50% auto auto;
     }
 
