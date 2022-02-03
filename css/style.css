@@ -22,17 +22,26 @@ h1 {
   text-align: center;
 }
 
+.gotohomepage {
+  background-color: rgb(84, 74, 255);
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 95%;
+  width: 3%;
+}
+
 .outer-menu {
   position: fixed;
   top: 10vh;
-  left: 0;
+  right: 0;
   z-index: 3;
 }
 
 .outer-menu .checkbox-toggle {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 4;
   cursor: pointer;
   width: 60px;
@@ -80,7 +89,7 @@ h1 {
 .outer-menu .hamburger {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 3;
   width: 45px;
   height: 45px;
@@ -114,7 +123,7 @@ h1 {
   position: absolute;
   z-index: 3;
   top: -10px;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 2px;
   background: inherit;
@@ -128,7 +137,7 @@ h1 {
 .outer-menu .menu {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
@@ -207,7 +216,7 @@ h1 {
   position: absolute;
   z-index: 3;
   bottom: -0.15em;
-  left: 0;
+  right: 0;
   width: 0;
   height: 2px;
   background: #e5e5e5;
@@ -247,7 +256,6 @@ h2 {
   font-weight: 500;
   font-size: 15vw;
   margin-left: 10px;
-  width: 100%;
   text-align: left;
 }
 
@@ -282,16 +290,20 @@ p {
   border: 2px solid white;
 }
 
+.contact.knopwit {
+  width: 100%;
+  font-size: 10px;
+}
+
 .knopwit:hover {
   color: rgb(84, 74, 255) !important;
   border: 2px rgb(84, 74, 255) solid;
   background-color: white;
 }
 
-section {
+.wrapper section.bovenstuk {
   display: flex;
-  justify-content: end;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 img {
@@ -300,13 +312,16 @@ img {
 
 section {
   display: flex;
-  flex-wrap: nowrap;
 }
 
 #logo {
-  width: 40%;
+  width: 60%;
   margin-top: 5px;
   margin-left: 5px;
+}
+
+.logowrapper {
+  width: 50%;
 }
 
 .kolom {
@@ -858,6 +873,17 @@ h1 {
     text-align: left;
     margin-left: 18px;
   }
+
+
+
+  .section.bovenstuk {
+    justify-content: space-between;
+  }
+
+  .contact.knopwit {
+    width: 60%;
+    font-size: 12px;
+  }
 }
 
 /* FOOTER */
@@ -917,6 +943,7 @@ h1 {
   width: 300px;
   width: 100%;
   display: flex;
+  flex-basis: fit-content;
   justify-content: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -939,11 +966,30 @@ h1 {
   display: none;
 }
 
+@media (min-width: 450px) {
+  #logo {
+    width: 60%;
+  }
+
+  .section.bovenstuk {
+    display: flex;
+  }
+
+  .contact.knopwit {
+    width: 100%;
+    font-size: 14px;
+    justify-content: flex-end;
+  }
+}
+
 @media (min-width: 600px) {
-  .description {
-    flex-wrap: nowrap;
-    margin-left: 20%;
-    margin-right: 20%;
+  #logo {
+    width: 50%;
+  }
+
+  .contact.knopwit {
+    width: 100%;
+    font-size: 14px;
   }
 }
 
@@ -956,14 +1002,17 @@ h1 {
 
   .logowrapper {
     display: flex;
-    justify-content: center;
     text-align: left;
     width: 30%;
-    margin-top: 10px;
   }
 
   #logo {
-    width: 40%;
+    width: 50%;
+  }
+
+  .contact.knopwit {
+    width: 100%;
+    font-size: 14px;
   }
 
   .breed {
@@ -1101,7 +1150,7 @@ h1 {
 }
 
 /* Desktop */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .navwrapper {
     margin: auto;
     display: flex;
@@ -1121,6 +1170,8 @@ h1 {
 
   nav {
     align-items: center;
+    margin: -2px;
+    margin-right: 20px;
   }
 
   .outer-menu {
@@ -1130,6 +1181,11 @@ h1 {
   #logo {
     width: 50%;
     margin: auto;
+  }
+
+  .contact.knopwit {
+    width: 100%;
+    font-size: 16px;
   }
 
   .namen {
@@ -1150,9 +1206,13 @@ h1 {
 }
 
 /* Wrapper centreren bij grote desktop HIER MOET NIKS ANDERS BIJKOMEN*/
-@media (min-width: 1281px) {
+@media (min-width: 1280px) {
   .wrapper {
     width: 1200px;
     margin: auto;
+  }
+
+  #logo {
+    margin-top: 10px
   }
 }

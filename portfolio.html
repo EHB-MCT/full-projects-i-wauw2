@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="images/Logo_final.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/index.js" type="module"></script>
-    <script src="js/filter.js" type="module"></script>
-    <script src="js/popup.js" type="module"></script>
     <title>WAUW - Portfolio</title>
     <style>
         .portfolionav {
@@ -30,7 +27,7 @@
             <div class='wrapper'>
                 <section class='bovenstuk'>
                     <div class='logowrapper'>
-                        <a href='homepage.html'><img id='logo' src='images/Logo_final.png'></a>
+                        <a href='homepage.html'><img id='logo' src='images/Logo_final.png' alt="Logo WAUW"></a>
                     </div>
                     <div class='navigationenbutton'>
                         <div class='navwrapper'>
@@ -79,356 +76,352 @@
                             <button class="btn active" onclick="filterSelection('all')"> Show all</button>
                             <button class="btn" onclick="filterSelection('kids')"> Kinderen</button>
                             <button class="btn" onclick="filterSelection('adult')"> Volwassenen</button>
-                            <button class="btn" onclick="filterSelection('mix')"> Gemixed</button>
-                        </div>
-                        <div id="myBtnContainer">
-                            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-                            <button class="btn" onclick="filterSelection('archi')"> Architecture</button>
-                            <button class="btn" onclick="filterSelection('art')"> Art</button>
-                            <button class="btn" onclick="filterSelection('urban')"> Urbanism</button>
-                            <button class="btn" onclick="filterSelection('utop')"> Utopism</button>
+                            <button class="btn" onclick="filterSelection('mix')"> Gemixt</button>
                         </div>
 
-                        <h2 id="kinderen">Kinderen</h2>
+                        <div class="portfoliofotos">
+                            <div class="filterDiv kids">
+                                <img class="myImg"
+                                    alt="Kinderen hebben vandaag hun eigen architecturale kostuums gemaakt. Sommige jongens hebben een stoere kasteel gemaakt als kostuum. De meisjes hebben kostuums gemaakt van mooie prinsessen met mooie jurken."
+                                    src="images/portfolio images/architecturale kostuums2.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="yellow">Art</span>
+                                </div>
+                                <h5>Architecturale</h5>
+                                <h5 class="h5margin">kostuums</h5>
 
-                        <div class="row portfoliofotos">
-                            <div class="column kids">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Kinderen hebben vandaag hun eigen architecturale kostuums gemaakt. Sommige jongens hebben een stoere kasteel gemaakt als kostuum. De meisjes hebben kostuums gemaakt van mooie prinsessen met mooie jurken."
-                                        src="images/portfolio images/architecturale kostuums2.jpg">
-                                    <h5>Architecturale</h5>
-                                    <h5 class="h5margin">kostuums</h5>
-
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01"
-                                                src="images/portfolio images/architecturale kostuums2.jpg">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01"
+                                            src="images/portfolio images/architecturale kostuums2.jpg">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column kids">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag hebben de leerlingen van het derde leerjaar van de basis school De Kriebel een schooltraject gedaan. Ze hebben een toren gemaakt van Babel. De leerlingen uit Dilbeek hebben het voor CC De Westrand gemaakt. Het was voor de gelegenheid van het Bruegeljaar."
-                                        src="images/portfolio images/Toren Babel.jpg">
-                                    <h5>Toren van Babel</h5>
+                            <div class="filterDiv kids">
+                                <img class="myImg"
+                                    alt="Vandaag hebben de leerlingen van het derde leerjaar van de basis school De Kriebel een schooltraject gedaan. Ze hebben een toren gemaakt van Babel. De leerlingen uit Dilbeek hebben het voor CC De Westrand gemaakt. Het was voor de gelegenheid van het Bruegeljaar."
+                                    src="images/portfolio images/Toren Babel.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="blue">Architecture</span>
+                                    <span class="orange">Utopism</span>
+                                </div>
+                                <h5>Toren van Babel</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column kids">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag hebben we workshop en tentoonstelling georganiseerd voor de leerlingen van het derde leerjaar in de scholen aan de rand van Brussel en in de buurt. Elke leerlingen hebben eerst hun ideeën getekend en daarna hebben we samen een grote maquette gemaakt voor de gelegenheid van het Periferia festival. De opdrachtgever was van City 3."
-                                        src="images/portfolio images/WAUWtostrade.jpg">
-                                    <h5>WAUWtostrade</h5>
+                            <div class="filterDiv kids">
+                                <img class="myImg"
+                                    alt="Vandaag hebben we workshop en tentoonstelling georganiseerd voor de leerlingen van het derde leerjaar in de scholen aan de rand van Brussel en in de buurt. Elke leerlingen hebben eerst hun ideeën getekend en daarna hebben we samen een grote maquette gemaakt voor de gelegenheid van het Periferia festival. De opdrachtgever was van City 3."
+                                    src="images/portfolio images/WAUWtostrade.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="orange">Utopism</span>
+                                </div>
+                                <h5>WAUWtostrade</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column kids">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag hebben de leerlingen van het derde leerjaar van de Basisschool ’T keperke in Itterbeek hun schooltraject gekregen. De leerlingen moesten een plan maken van de omgeving van hun school. Het was voor de gelegenheid van het Master Caerenberg en Keperenberg en het was voor CCDe Westrand."
-                                        src="images/portfolio images/Het plan.jpg">
-                                    <h5>Het plan</h5>
+                            <div class="filterDiv kids">
+                                <img class="myImg"
+                                    alt="Vandaag hebben de leerlingen van het derde leerjaar van de Basisschool ’T keperke in Itterbeek hun schooltraject gekregen. De leerlingen moesten een plan maken van de omgeving van hun school. Het was voor de gelegenheid van het Master Caerenberg en Keperenberg en het was voor CCDe Westrand."
+                                    src="images/portfolio images/Het plan.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="green">Urbanism</span>
+                                </div>
+                                <h5>Het plan</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column kids">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag hebben de kinderen tussen 10 tot 26 jaar meegewerkt aan Summer School of Architecture & Urbanism. Het was de gelegenheid van het Festival Van Architectuur 2017 voor VAI, stad Antwerpen. Het vond zich plaats deSingle, Desguinlei 25 in Antwerpen."
-                                        src="images/portfolio images/SAUS.jpg">
-                                    <h5>SAUS</h5>
+                            <div class="filterDiv kids">
+                                <img class="myImg"
+                                    alt="Vandaag hebben de kinderen tussen 10 tot 26 jaar meegewerkt aan Summer School of Architecture & Urbanism. Het was de gelegenheid van het Festival Van Architectuur 2017 voor VAI, stad Antwerpen. Het vond zich plaats deSingle, Desguinlei 25 in Antwerpen."
+                                    src="images/portfolio images/SAUS.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="green">Urbanism</span>
+                                    <span class="orange">Utopism</span>
+                                </div>
+                                <h5>SAUS</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column kids">
-                                <div class="content">
-                                    <img class="myImg" alt="De leerlingen van het derde leerjaar van alle scholen van Jette hebben hun
+                            <div class="filterDiv kids">
+                                <img class="myImg" alt="De leerlingen van het derde leerjaar van alle scholen van Jette hebben hun
                                 schoolworkshops
                                 gedaan. Ze hebben vandaag nagedacht over hoe dat ze hun droomhuizen eruit willen
                                 zien. De
                                 workshops hebben plaats gevonden in het Gemeenschapscentrum van Essegem en ook in de
                                 bibliotheek van Jette." src="images/portfolio images/droomhuis.jpg">
-                                    <h5>Droomhuis</h5>
-
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
-                                    </div>
+                                <br>
+                                <div class="colors">
+                                    <span class="blue">Architecture</span>
+                                    <span class="green">Urbanism</span>
                                 </div>
-                            </div>
-                        </div>
-                        <h2 id="volwassen">Volwassenen</h2>
-                        <div class="portfoliofotos">
-                            <div class="column adult">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag was er de participatieworkshops van Creation furniture voor de gelegenheid van Citygate 2-project. De opdrachtgevers waren Osmos en KBS. De buurtbewoners en de betrokkenen hebben meegeholpen aan het maken van het project en het vond zich plaats in Anderlecht."
-                                        src="images/portfolio images/creation furniture.jpg">
-                                    <h5>creation furniture</h5>
+                                <h5>Droomhuis</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column adult">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="De door WAUW uitgeroepen LIGNE POINT CARRE is de middenberm die zich van de Ninoofse poort uitstrekt tot het Zuidstation voor vernieuwde infrastructuur voor fietsers, voetgangers en auto’s. Autoloze zondag was de ideale gelegenheid om aan mensen die liefhebbers van de openbareruimte, hun dromen over deze unieke zone ten midden van de stad te projecteren. Met behulp van een uitgebreide maquette hebben mensen hun dromen en ideeën er bij geplaatst. De opdracht werd door de BHG Brussel Mobiliteit gegeven en het bevond zich in Poincarrélaan in Brussel."
-                                        src="images/portfolio images/poincare.jpg">
-                                    <h5>poincare</h5>
+                            <div class="filterDiv kids adult mix">
+                                <img class="myImg"
+                                    alt="Vandaag was er de participatieworkshops van Creation furniture voor de gelegenheid van Citygate 2-project. De opdrachtgevers waren Osmos en KBS. De buurtbewoners en de betrokkenen hebben meegeholpen aan het maken van het project en het vond zich plaats in Anderlecht."
+                                    src="images/portfolio images/creation furniture.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="yellow">Art</span>
+                                </div>
+                                <h5>Creation furniture</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column adult">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag hebben we houtbewerkingen gedaan. We hebben alleen maar hout gebruikt en hebben heel veel gemaakt, vooral nieuwe accessoires voor de keuken zoals houten lepels."
-                                        src="images/portfolio images/houtbewerking.jpg">
-                                    <h5>Houtbewerking</h5>
-
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
-                                    </div>
+                            <div class="filterDiv kids adult mix">
+                                <img class="myImg"
+                                    alt="De door WAUW uitgeroepen LIGNE POINT CARRE is de middenberm die zich van de Ninoofse poort uitstrekt tot het Zuidstation voor vernieuwde infrastructuur voor fietsers, voetgangers en auto’s. Autoloze zondag was de ideale gelegenheid om aan mensen die liefhebbers van de openbareruimte, hun dromen over deze unieke zone ten midden van de stad te projecteren. Met behulp van een uitgebreide maquette hebben mensen hun dromen en ideeën er bij geplaatst. De opdracht werd door de BHG Brussel Mobiliteit gegeven en het bevond zich in Poincarrélaan in Brussel."
+                                    src="images/portfolio images/poincare.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="green">Urbanism</span>
                                 </div>
-                            </div>
-                        </div>
-                        <h2 id="mix">Mixed</h2>
-                        <div class="portfoliofotos">
-                            <div class="column mix">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag hebben we nieuwe huizen gemaakt voor onze huisdieren. De huizen werden gemaakt met heel sterk karton door kinderen en volwassen."
-                                        src="images/portfolio images/huisdieren.jpg">
-                                    <h5>Huisdieren</h5>
+                                <h5>Poincare</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column mix">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag was er de participatieworkshops au bord de l ’eau. De buurtbewoners zijn komen helpen om het lege terrein terug te openen die gesloten werd. Wauw vulde de wens voor participatie in met een reeks workshops op het terrein. We maakten allen gebruik van materialen die aanwezig waren in de buurt van de plek: zand, grind, zelf gemaakte beton en water van het kanaal die er naast was. Het was in Vergotedok in Brussel tijdens de zomer van 2016."
-                                        src="images/portfolio images/Au bord de l'eau.jpg">
-                                    <h5>Au bord de l'eau</h5>
+                            <div class="filterDiv adult">
+                                <img class="myImg"
+                                    alt="Vandaag hebben we houtbewerkingen gedaan. We hebben alleen maar hout gebruikt en hebben heel veel gemaakt, vooral nieuwe accessoires voor de keuken zoals houten lepels."
+                                    src="images/portfolio images/houtbewerking.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="yellow">Art</span>
+                                </div>
+                                <h5>Houtbewerking</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column mix">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag was het een scholenworkshop voor alle leerlingen leerkrachten van het derde leerjaar in Jette gedaan, ze hebben allemaal betonvormpjes gemaakt. Het bevondt zich in GC Essegem dankzij de gelegenheid van de scholenwerking GC Essegem."
-                                        src="images/portfolio images/betonvorm.jpg">
-                                    <h5>Betonvorm</h5>
+                            <div class="filterDiv kids adult mix">
+                                <img class="myImg"
+                                    alt="Vandaag hebben we nieuwe huizen gemaakt voor onze huisdieren. De huizen werden gemaakt met heel sterk karton door kinderen en volwassen."
+                                    src="images/portfolio images/huisdieren.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="blue">Architecture</span>
+                                </div>
+                                <h5>Huisdieren</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column mix">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag hebben we met een aantal leerlingen en buren een participatie gedaan van een aanleg voor een nieuw voorplein. We hebben eerste kleine maquettes gedaan van de omgeving en daarna hebben we gemeten hoe dat het in de werkelijkheid moest zijn. Het bevond zich in de Héliportlaan, in Brussel. Het was voor ACT en de stad Brussel."
-                                        src="images/portfolio images/klavertje vier.jpg">
-                                    <h5>Klavertje vier</h5>
+                            <div class="filterDiv kids adult mix">
+                                <img class="myImg"
+                                    alt="Vandaag was er de participatieworkshops au bord de l ’eau. De buurtbewoners zijn komen helpen om het lege terrein terug te openen die gesloten werd. Wauw vulde de wens voor participatie in met een reeks workshops op het terrein. We maakten allen gebruik van materialen die aanwezig waren in de buurt van de plek: zand, grind, zelf gemaakte beton en water van het kanaal die er naast was. Het was in Vergotedok in Brussel tijdens de zomer van 2016."
+                                    src="images/portfolio images/Au bord de l'eau.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="green">Urbanism</span>
+                                </div>
+                                <h5>Au bord de l'eau</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column mix">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag hebben we met heel wat mensen een participatieworkshop gedaan voor de gelegenheid voor Peri Feria Festival om het Viaduct van Vilvoorde in te spuiten met spuitbussen zodat de viaduct kleurrijker en aangenamer te maken. De opdrachtgevers waren City 3."
-                                        src="images/portfolio images/ruimte-illusie grafitie.jpg">
-                                    <h5>Ruimte-illusie Grafitie</h5>
+                            <div class="filterDiv kids adult mix">
+                                <img class="myImg"
+                                    alt="Vandaag was het een scholenworkshop voor alle leerlingen leerkrachten van het derde leerjaar in Jette gedaan, ze hebben allemaal betonvormpjes gemaakt. Het bevondt zich in GC Essegem dankzij de gelegenheid van de scholenwerking GC Essegem."
+                                    src="images/portfolio images/betonvorm.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="blue">Architecture</span>
+                                    <span class="yellow">Art</span>
+                                </div>
+                                <h5>Betonvorm</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
 
-                            <div class="column mix">
-                                <div class="content">
-                                    <img class="myImg"
-                                        alt="Vandaag hebben Osmos en KBS een teambulding opgestart voor de organitaties binnen Citygate om een indoor mini golf parcours te maken. De gelegenheid was voor de startvergadering van Citygate 2. De locatie bevond zich in Citygate 2, in Anderlecht."
-                                        src="images/portfolio images/urban minigolf.jpg">
-                                    <h5>Urban minigolf</h5>
+                            <div class="filterDiv kids adult mix">
+                                <img class="myImg"
+                                    alt="Vandaag hebben we met een aantal leerlingen en buren een participatie gedaan van een aanleg voor een nieuw voorplein. We hebben eerste kleine maquettes gedaan van de omgeving en daarna hebben we gemeten hoe dat het in de werkelijkheid moest zijn. Het bevond zich in de Héliportlaan, in Brussel. Het was voor ACT en de stad Brussel."
+                                    src="images/portfolio images/klavertje vier.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="green">Urbanism</span>
+                                </div>
+                                <h5>Klavertje vier</h5>
 
-                                    <div id="myModal" class="modal">
-                                        <!-- The Close Button -->
-                                        <span class="close"></span>
-                                        <!-- Modal Content (The Image) -->
-                                        <div class="modal-img">
-                                            <img class="modal-content" id="img01">
-                                        </div>
-                                        <!-- Modal Caption (Image Text) -->
-                                        <div id="caption"></div>
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
                                     </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
+                                </div>
+                            </div>
+
+                            <div class="filterDiv kids adult mix">
+                                <img class="myImg"
+                                    alt="Vandaag hebben we met heel wat mensen een participatieworkshop gedaan voor de gelegenheid voor Peri Feria Festival om het Viaduct van Vilvoorde in te spuiten met spuitbussen zodat de viaduct kleurrijker en aangenamer te maken. De opdrachtgevers waren City 3."
+                                    src="images/portfolio images/ruimte-illusie grafitie.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="orange">Utopism</span>
+                                </div>
+                                <h5>Ruimte-illusie graffiti</h5>
+
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
+                                    </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
+                                </div>
+                            </div>
+
+                            <div class="filterDiv kids adult mix">
+                                <img class="myImg"
+                                    alt="Vandaag hebben Osmos en KBS een teambulding opgestart voor de organitaties binnen Citygate om een indoor mini golf parcours te maken. De gelegenheid was voor de startvergadering van Citygate 2. De locatie bevond zich in Citygate 2, in Anderlecht."
+                                    src="images/portfolio images/urban minigolf.jpg">
+                                <br>
+                                <div class="colors">
+                                    <span class="blue">Architecture</span>
+                                    <span class="green">Urbanism</span>
+                                </div>
+                                <h5>Urban minigolf</h5>
+
+                                <div id="myModal" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close"></span>
+                                    <!-- Modal Content (The Image) -->
+                                    <div class="modal-img">
+                                        <img class="modal-content" id="img01">
+                                    </div>
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class='grijsdeel kolom klein2 donkergrijs'>
-                        <!--
-                            <div class="tekst">
-                            <H2>Droomhuis</H2>
-                            <p>De leerlingen van het derde leerjaar van alle scholen van Jette hebben hun
-                                schoolworkshops gedaan. Ze hebben vandaag nagedacht over hoe dat ze hun droomhuizen
-                                eruit willen zien. De workshops hebben plaats gevonden in het Gemeenschapscentrum
-                                van
-                                Essegem en ook in de bibliotheek van Jette.</p>
-                        </div>
-                        <div class="tekst2">
-                            <H2>Creation furniture</H2>
-                            <p>Vandaag was er de participatieworkshops van Creation furniture voor de gelegenheid van
-                                Citygate 2-project. De opdrachtgevers waren Osmos en KBS. De buurtbewoners en de
-                                betrokkenen hebben meegeholpen aan het maken van het project en het vond zich plaats in
-                                Anderlecht.</p>
-                        </div>
-                        <div class="tekst3">
-                            <H2>Urban Minigolf</H2>
-                            <p>Vandaag hebben Osmos en KBS een teambulding opgestart voor de organitaties binnen
-                                Citygate
-                                om een indoor mini golf parcours te maken. De gelegenheid was voor de
-                                startvergadering van Citygate 2. De locatie bevond zich in Citygate 2, in Anderlecht.
-                            </p>
-                        </div>
-                    -->
-                    </div>
+
                 </section>
             </div>
         </div>
@@ -466,6 +459,8 @@
         </div>
     </footer>
 
+    <script src="js/filter.js"></script>
+    <script src="js/popup.js" type="module"></script>
 </body>
 
 </html>

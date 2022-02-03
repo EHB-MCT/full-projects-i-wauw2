@@ -109,7 +109,6 @@
     display: flex;
     flex-wrap: nowrap;
     margin-right: 40px;
-
     font-family: 'Rubik', sans-serif;
     text-align: center;
     color: white;
@@ -141,9 +140,9 @@
 .inschrijfknop {
     background-color: rgb(84, 74, 255);
     font-family: 'Rubik', sans-serif;
-    font-size: 11pt;
+    font-size: 11pt !important;
+    color: white;
     margin-right: 80px;
-
     padding: 5px;
     border: 2px white solid;
     text-align: center;
@@ -152,9 +151,10 @@
 
 
 .inschrijfknop:hover {
+    font-family: 'Rubik', sans-serif;
     color: rgb(84, 74, 255) !important;
     background-color: white;
-    border-color: rgb(84, 74, 255);
+    border: 2px rgb(84, 74, 255) solid;
 }
 
 .form {
@@ -200,6 +200,31 @@ form {
 .icon {
     height: 14px;
     width: 14px;
+}
+
+@media (min-width: 320px) {
+    .inschrijfknop {
+        margin-right: 0 !important;
+        position: relative;
+        right: 100%;
+        top: 60px;
+    }
+
+    .maand1 {
+        margin-left: -20px;
+        padding-right: 70px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .maand {
+        margin-left: -20px;
+    }
+
+    .cijfer {
+        margin-left: -20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -251,8 +276,16 @@ form {
         width: 80%;
     }
 
-    .container {
-        margin-right: -50px;
+    form {
+        margin-left: -20%;
+    }
+
+    .form-control {
+        width: 50%;
+    }
+
+    .submit-button {
+        margin-left: 110%;
     }
 }
 
@@ -267,6 +300,14 @@ form {
         margin-left: 0px;
     }
 
+    form {
+        margin-left: -20%;
+    }
+
+    .submit-button {
+        margin-left: 110%;
+    }
+
     .form-control {
         width: 260px;
     }
@@ -279,30 +320,41 @@ form {
         margin-bottom: 10px;
     }
 
+    .background5 {
+        width: 570px;
+        position: absolute;
+        top: 210px;
+        right: 90px;
+        z-index: -1;
+    }
+
+    .form-group {
+        margin-left: 50%;
+    }
 }
 
-@media (min-width: 320px) {
-    .inschrijfknop {
-        position: relative;
-        right: 85%;
-        top: 45px;
-        margin-left: auto;
-        margin-right: auto;
+@media (min-width: 974px) {
+    .background5 {
+        width: 570px;
+        position: absolute;
+        top: 195px;
+        right: 90px;
+        z-index: -1;
     }
 
     .maand1 {
         margin-left: -20px;
-        padding-right: 70px;
-        padding-left: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
 
     .maand {
         margin-left: -20px;
-    }
-
-    .cijfer {
-        margin-left: -20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
