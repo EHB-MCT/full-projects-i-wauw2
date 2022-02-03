@@ -92,6 +92,7 @@ ul {
     width: 30%;
     margin-right: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .stappenplan p {
@@ -133,6 +134,7 @@ ul {
 
 .toelichting {
     margin-right: 5px;
+    width: 95%;
 }
 
 @media (max-width: 768px) {
