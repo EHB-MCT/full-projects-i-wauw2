@@ -53,6 +53,10 @@ li {
     font-family: 'Rubik', sans-serif;
 }
 
+p {
+    text-align: left;
+}
+
 .bodytext p {
     padding: 0;
 }
@@ -61,6 +65,7 @@ li {
     font-size: 36px;
     font-weight: lighter;
     margin-top: 55px;
+    margin-left: -30px;
 }
 
 .bodytext h3 {
@@ -137,6 +142,12 @@ ul {
     width: 95%;
 }
 
+.fotoondertitel {
+    width: 75%;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
 @media (max-width: 768px) {
     .kolom {
         width: 100%;
@@ -161,5 +172,31 @@ ul {
 
     .grijstext {
         align-content: center;
+    }
+}
+
+@media (min-width: 320px) {
+    .kolom p {
+        width: 100%;
+    }
+
+    .grijsdeel {
+        width: 100%;
+    }
+
+    .bodytekst p {
+        text-align: left;
+    }
+
+    .grijstext p {
+        text-align: center;
+    }
+
+    .grijstext h3 {
+        text-align: center;
+    }
+
+    .premiumvid {
+        justify-content: center;
     }
 }
