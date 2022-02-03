@@ -310,6 +310,10 @@ form {
         right: 90px;
         z-index: -1;
     }
+
+    .form-group {
+        margin-left: 50%;
+    }
 }
 
 @media (min-width: 974px) {
