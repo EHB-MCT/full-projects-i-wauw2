@@ -282,6 +282,7 @@ form {
 
     .form-control {
         width: 50%;
+        margin-left: 35%;
     }
 
     .submit-button {
@@ -332,6 +333,8 @@ form {
         margin-left: 50%;
     }
 }
+
+
 
 @media (min-width: 974px) {
     .background5 {
