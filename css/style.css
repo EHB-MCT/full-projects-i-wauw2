@@ -292,7 +292,7 @@ p {
 }
 
 .contact.knopwit {
-  width: 80%;
+  width: 100%;
   font-size: 10px;
 }
 
@@ -975,7 +975,7 @@ h1 {
   .contact.knopwit {
     width: 100%;
     font-size: 14px;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 }
 
