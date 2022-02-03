@@ -1,7 +1,7 @@
 function log() {
     var naamEen = document.getElementById("premium").value;
     var wachtwoord = document.getElementById("ww").value;
-    if (naamEen == "Test" && wachtwoord == "Test123" || naamEen == "Jelle" && wachtwoord == "Ditiseentest") {
+    if (naamEen == "Test" && wachtwoord == "Test123" || naamEen == "WAUW" && wachtwoord == "WAUW123") {
         document.getElementById("vid1").href = "https://www.andleuven.com/en/video-1-wat-het-nieuwe-goud";
         document.getElementById("vid1").innerHTML = "Video 1: Wat is het nieuwe goud?";
         document.getElementById("vid2").href = "https://www.andleuven.com/en/video-2-gerecycleerd-karton-papier";
