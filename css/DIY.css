@@ -110,11 +110,13 @@ ul {
 #premium {
     height: 30px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #ww {
     height: 30px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 
@@ -127,6 +129,10 @@ ul {
 
 .premiumlink:hover {
     text-decoration: underline;
+}
+
+.toelichting {
+    margin-right: 5px;
 }
 
 @media (max-width: 768px) {
